@@ -1,0 +1,1171 @@
+.header {
+color: #5eb9f9;
+margin: 1%;
+font-size: 21px;
+font-family: 'Open Sas' sans-serif !important;
+
+}
+
+.assetIconlabel
+{
+height: 115px;
+background-color:#8CC22E;
+background-image: url(/ApplicationImages/DashBoard/total_asset_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 65%;
+background-position-x: 50%;
+background-position-y: 40%;
+}
+
+@media screen and (device-width:1920px){
+	.assetIconlabel
+	{
+	height: 195px;
+	background-color:#8CC22E;
+	background-image: url(/ApplicationImages/DashBoard/total_asset_icon.png) !important;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	}
+}
+.noGPSiconlabel
+{
+height: 115px;
+background-color:#10C9A0;
+background-image: url(/ApplicationImages/DashBoard/no_gps_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 75%;
+background-position-x: 50%;
+background-position-y: 30%;
+}
+@media screen and (device-width:1920px){
+	.noGPSiconlabel
+{
+height: 195px;
+background-color:#10C9A0;
+background-image: url(/ApplicationImages/DashBoard/no_gps_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 70%;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+}
+.commiconlabel
+{
+height: 115px;
+background-color:#E7BD1B;
+background-image: url(/ApplicationImages/DashBoard/communication.png) !important;
+background-repeat: no-repeat;
+background-size: 65%;
+background-position-x: 50%;
+background-position-y: 40%;
+}
+@media screen and (device-width:1920px){
+	.commiconlabel
+{
+height: 195px;
+background-color:#E7BD1B;
+background-image: url(/ApplicationImages/DashBoard/communication.png) !important;
+background-repeat: no-repeat;
+background-size: 70%;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+}
+.noncommiconlabel{
+height: 115px;
+background-color:#D08452;
+background-image: url(/ApplicationImages/DashBoard/no_comm_l24.png) !important;
+background-repeat: no-repeat;
+background-size: 75%;
+background-position-x: 50%;
+background-position-y: 30%;
+}
+@media screen and (device-width:1920px){
+	.noncommiconlabel
+{
+height: 195px;
+background-color:#D08452;
+background-image: url(/ApplicationImages/DashBoard/no_comm_l24.png) !important;
+background-repeat: no-repeat;
+background-size: 70%;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+}
+.refueliconlabel{
+height: 115px;
+background-color:#C94224;
+background-image: url(/ApplicationImages/DashBoard/refuel_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 65%;
+background-position-x: 50%;
+background-position-y: 30%;
+}
+@media screen and (device-width:1920px){
+	.refueliconlabel
+{
+height: 195px;
+background-color:#C94224;
+background-image: url(/ApplicationImages/DashBoard/refuel_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 70%;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+}
+.vehicleonconlabel{
+height: 115px;
+background-color:#10A7CD;
+background-image: url(/ApplicationImages/DashBoard/satellite_count.png) !important;
+background-repeat: no-repeat;
+background-size: 60%;
+background-position-x: 50%;
+background-position-y: 40%;
+}
+@media screen and (device-width:1920px){
+	.vehicleonconlabel
+{
+height: 195px;
+background-color:#10A7CD;
+background-image: url(/ApplicationImages/DashBoard/satellite_count.png) !important;
+background-repeat: no-repeat;
+background-size: 70%;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+}
+.vehicleoffconlabel{
+height: 115px;
+background-color:#B8B85E;
+background-image: url(/ApplicationImages/DashBoard/vcl_offroad_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 75%;
+background-position-x: 50%;
+background-position-y: 30%;
+}
+@media screen and (device-width:1920px){
+	.vehicleoffconlabel
+{
+height: 195px;
+background-color:#B8B85E;
+background-image: url(/ApplicationImages/DashBoard/vcl_offroad_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 70%;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+}
+.dashboardCashVanHeaderLabelStyle {
+text-align: left !important;
+display: block !important;
+width: 100%;
+color: #746B6B;
+font-size: 165%;
+font-family: 'Open Sans', sans-serif;
+}
+
+.dashBoarderHearderDiv
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color: #9ED43E;
+color: #fff;
+font-size:48px;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.dashBoarderHearderDiv
+{
+height: 48px;
+padding-top: 36%;
+text-align: center;
+background-color: #9ED43E;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.noGPSHearderLabelDiv
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color:#1DDEB2;
+color: #fff;
+font-size:48px;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.noGPSHearderLabelDiv
+{
+height: 48px;
+padding-top: 36%;
+text-align: center;
+background-color: #1DDEB2;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.commHearderLabelDiv
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color:#F6CC2A;
+color: #fff;
+font-size:48px;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.commHearderLabelDiv
+{
+height: 48px;
+padding-top: 36%;
+text-align: center;
+background-color: #F6CC2A;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.noncommHearderLabelDiv
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color:#E1915C;
+color: #fff;
+font-size: 200%;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.noncommHearderLabelDiv
+{
+height: 48px;
+padding-top: 36%;
+text-align: center;
+background-color: #E1915C;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.refuelHearderLabelDiv
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color:#E0502E;
+color: #fff;
+font-size: 48px;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.refuelHearderLabelDiv
+{
+height: 60px;
+padding-top: 36%;
+text-align: center;
+background-color: #E0502E;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.vehicleonHearderLabelDiv
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color: #18B4DC;;
+color: #fff;
+font-size: 48px;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.vehicleonHearderLabelDiv
+{
+height: 48px;
+padding-top: 36%;
+text-align: center;
+background-color: #18B4DC;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.vehicleoffHearderLabelDiv
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color:#CACC6B;
+color: #fff;
+font-size: 48px;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.vehicleoffHearderLabelDiv
+{
+height: 48px;
+padding-top: 36%;
+text-align: center;
+background-color: #CACC6B;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.jobcardoffHearderLabelDiv
+{
+height: 80px;
+text-align: center;
+background-color:#C56952;
+color: #fff;
+font-size: 200%;
+}
+
+.dashBoarderHearderCountDiv
+{
+height: 50px;
+text-align: center;
+background-color: #9ED43E;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+}
+@media screen and (device-width:1920px){
+.dashBoarderHearderCountDiv
+{
+height: 136px;
+padding-top: 51px;
+text-align: center;
+background-color: #9ED43E;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+.noGPSCountDiv
+{
+height: 50px;
+text-align: center;
+background-color: #1DDEB2;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+}
+@media screen and (device-width:1920px){
+.noGPSCountDiv
+{
+height: 136px;
+padding-top: 51px;
+text-align: center;
+background-color: #1DDEB2;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+.commCountDiv
+{
+height: 50px;
+text-align: center;
+background-color: #F6CC2A;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+}
+@media screen and (device-width:1920px){
+.commCountDiv
+{
+height: 136px;
+padding-top: 51px;
+text-align: center;
+background-color: #F6CC2A;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+.noncommCountDiv
+{
+height:50px;
+text-align: center;
+background-color: #E1915C;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+}
+@media screen and (device-width:1920px){
+.noncommCountDiv
+{
+height: 136px;
+padding-top: 51px;
+text-align: center;
+background-color: #E1915C;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+.refuelCountDiv
+{
+height: 50px;
+text-align: center;
+background-color: #E0502E;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+}
+@media screen and (device-width:1920px){
+.refuelCountDiv
+{
+height: 125px;
+padding-top: 51px;
+text-align: center;
+background-color: #E0502E;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+.vehicleonCountDiv
+{
+height: 50px;
+text-align: center;
+background-color: #18B4DC;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+word-break: break-word !Important;
+word-wrap: break-word !Important;
+
+}
+@media screen and (device-width:1920px){
+.vehicleonCountDiv
+{
+height: 135px;
+padding-top: 51px;
+text-align: center;
+background-color: #18B4DC;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+word-break: break-word !Important;
+word-wrap: break-word !Important;
+}
+}
+
+.vehicleoffCountDiv
+{
+height: 50px;
+text-align: center;
+background-color: #CACC6B;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+}
+@media screen and (device-width:1920px){
+.vehicleoffCountDiv
+{
+height: 135px;
+padding-top: 51px;
+text-align: center;
+background-color: #CACC6B;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+
+.dashboardinnerpanelAssetsCashVanPannel {
+width: 95%;
+height: 120px;
+font-size: 100%;
+color: #FFFFFF;
+margin: 1%;
+text-align: center;
+border: 1px solid #48BE39;
+}
+@media screen and (device-width:1920px){
+	.dashboardinnerpanelAssetsCashVanPannel { 
+		width: 95%;
+		height: 202px;
+		font-size: 100%;
+		color: #FFFFFF;
+		margin: 1%;
+		text-align: center;
+		border: 1px solid #48BE39;
+	}
+}
+.dashboardCombostyle
+{
+width: 147px;
+height: 21px;
+border: solid 2px #3897C4;
+}
+/*.nogpsOnDeatilsNav
+{
+width: 10px;
+height: 115px;
+background-color: #1DDEB2 !important;	
+}*/
+nogpsDeatilsNav{
+width: 8% !important;
+height: 115px !important;
+background-color: #079B79 !important;
+}
+@media screen and (device-width:1920px){
+.nogpsDeatilsNav
+{
+width: 8% !important;
+height: 195px !important;
+background-color:#079B79 !important;	
+}
+}
+.nogpsDeatilsNavimage
+{
+background-color: #1DDEB2;
+top:96px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #079B79;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+@media screen and (device-width:1920px){
+.nogpsDeatilsNavimage
+{
+background-color: #1DDEB2;
+top:176px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #079B79;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+}
+.totalOnDeatilsNav
+{
+width: 10px;
+height: 115px;
+background-color: #9ED43E !important;	
+}
+.totaldetailsnav{
+
+height: 115px !important;
+background-color:#9ED43E !important;	
+}
+@media screen and (device-width:1920px){
+.totaldetailsnav
+{
+height: 195px !important;
+background-color:#9ED43E !important;	
+}
+}
+.totalDeatilsNavimage
+{
+background-color: #9ED43E;
+top:96px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #689C0A;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+@media screen and (device-width:1920px){
+.totalDeatilsNavimage
+{
+background-color: #9ED43E;
+top:176px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #689C0A;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+}
+.commDeatilsNav
+{
+
+height: 115px;
+background-color:#F6CC2A !important;	
+}
+@media screen and (device-width:1920px){
+.commDeatilsNav
+{
+
+height: 195px;
+background-color:#F6CC2A !important;	
+}
+}
+.commDeatilsNavimage
+{
+background-color:#F6CC2A;
+top:96px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #C49D0A;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+@media screen and (device-width:1920px){
+.commDeatilsNavimage
+{
+background-color: #F6CC2A;
+top:176px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #C49D0A;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+}
+.noncommDeatilsNav
+{
+width: 10px;
+height: 115px;
+background-color: #E1915C !important;	
+}
+@media screen and (device-width:1920px){
+.noncommDeatilsNav
+{
+width: 10px;
+height: 195px;
+background-color: #E1915C !important;	
+}
+}
+.noncommDeatilsNavimage
+{
+background-color: #E1915C;
+top:96px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #A84343;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+@media screen and (device-width:1920px){
+	.noncommDeatilsNavimage
+{
+background-color: #E1915C;
+top:176px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #A84343;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+}
+.refuelDeatilsNav
+{
+width: 10px;
+height: 115px;
+background-color: #E0502E !important;	
+}
+.refuelDeatilsNavimage
+{
+width: 2%;
+background-color: #E0502E;
+top:96px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #790505;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}	
+.vehicleOffRoadDeatilsNav
+{
+width: 10px;
+height: 115px;
+background-color: #CACC6B !important;	
+}
+@media screen and (device-width:1920px){
+	.vehicleOffRoadDeatilsNav
+{
+width: 10px;
+height: 195px;
+background-color: #CACC6B !important;	
+}
+}
+.vehicleOffRoadDeatilsNavimage
+{
+background-color: #CACC6B;
+top:96px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #856F2A;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+@media screen and (device-width:1920px){
+	.vehicleOffRoadDeatilsNavimage
+{
+background-color: #CACC6B;
+top:176px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #856F2A;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+}
+.vehicleOnRoadDeatilsNav
+{
+width: 10px;
+height: 115px;
+background-color: #CACC6B !important;	
+}
+
+@media screen and (device-width:1920px){
+.vehicleOnRoadDeatilsNav
+{
+width: 10px;
+height: 195px;
+background-color: #CACC6B !important;	
+}
+}
+.vehicleOnRoadDeatilsNavimage
+{
+background-color: #18B4DC;
+top:96px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #076A83;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+@media screen and (device-width:1920px){
+.vehicleOnRoadDeatilsNavimage
+{
+background-color: #18B4DC;
+top:176px;
+position: relative;
+right: 0%;
+border-top: 18px solid rgba(173, 72, 72, 0);
+border-right: 15px solid #076A83;
+cursor: pointer;
+z-index: 100;
+height: 15px;
+}
+}
+.headerbox 
+{
+padding: 6px 6px;
+background-color: #f8f8f8;
+height: 40px;
+border-top: 1px solid #bdbdbd;
+border-bottom: 1px solid #bdbdbd;
+box-shadow: 4px 0px 6px #bdbdbd;
+margin-bottom: 4px;
+display: block;
+font-size: 24px;
+color: #5eb9f9;
+padding: 2px 2px;
+font-weight: 300;
+
+}
+
+.vehicleoffconlabel1{
+height: 115px;
+background-color:#B8A78A;
+background-image: url(/ApplicationImages/DashBoard/vcl_onroad_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 75%;
+background-position-x: 50%;
+background-position-y: 30%;
+}
+@media screen and (device-width:1920px){
+   .vehicleoffconlabel1
+{
+height: 195px;
+background-color:#B8A78A;
+background-image: url(/ApplicationImages/DashBoard/vcl_onroad_icon.png) !important;
+background-repeat: no-repeat;
+background-size: 70%;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+}
+.vehicleoffHearderLabelDiv1
+{
+height: 65px;
+padding-top: 14%;
+text-align: center;
+background-color:#CCBA99;
+color: #fff;
+font-size: 48px;
+font-family: Open Sans, Light;
+}
+@media screen and (device-width:1920px){
+.vehicleoffHearderLabelDiv1
+{
+height: 48px;
+padding-top: 36%;
+text-align: center;
+background-color: #CCBA99;
+color: #fff;
+font-size:45px;
+font-family: Open Sans, Light;
+}
+}
+.vehicleoffCountDiv1
+{
+height: 50px;
+text-align: center;
+background-color: #CCBA99;
+color: #fff;
+font-size: 60%;
+font-family: 'Open Sans', sans-serif;
+}
+@media screen and (device-width:1920px){
+.vehicleoffCountDiv1
+{
+height: 125px;
+padding-top: 51px;
+text-align: center;
+background-color: #CCBA99;
+color: #fff;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}	
+.outerpaneldashboard{
+	 height:500px;
+	 max-height:100%;
+	 width:100%;	
+}
+@media screen and (device-width:1920px){
+	.outerpaneldashboard{
+	 height:828px;	
+	 max-height:100%; 
+	 width:100%;	
+	}
+}
+.htmltotaldetailsnav{	
+	 height:115px;
+	 max-height:100%;
+	 width:20px;	
+}
+@media screen and (device-width:1920px){
+.htmltotaldetailsnav {
+	 height:195px;	 
+	 width:30px;	
+	}
+}
+
+.innersecondmainpanneldashboard
+{
+height:485px;
+ max-height:100%;
+ width:100%;
+}
+@media screen and (device-width:1920px){
+.innersecondmainpanneldashboard
+{
+height:828px;
+width:100%;
+}
+}
+.preventivevehiclestatusmainpanel
+{
+width:100%;
+height:212px;
+}
+@media screen and (device-width:1920px){
+.preventivevehiclestatusmainpanel
+{
+height:350px;
+width:100%;
+}
+}	
+.barchartpannel{
+width:99%;
+height:290px;
+}
+@media screen and (device-width:1920px){
+	.barchartpannel{
+width:99%;
+height:650px;
+}
+}
+.dashboardpiechartheader{
+		 width:100%;
+		
+}
+@media screen and (device-width:1920px){
+	.dashboardpiechartheader{
+ width:100%;
+  height:457px;
+}
+}
+.vehiclelivestatusidcls{
+	width:100%;
+	height:222px;
+	}
+@media screen and (device-width:1920px){
+	.vehiclelivestatusidcls{
+	width:100%;
+	height:350px;
+	}
+}
+.preventivemaintainancestatusidcls{
+	width:100%;
+	height:222px;
+	}
+	@media screen and (device-width:1920px){
+	.preventivemaintainancestatusidcls{
+	width:100%;
+	height:350px;
+	}
+	}
+.commisionedpiepannelstatusidcls{
+	width:100%;
+	height:222px;
+}
+@media screen and (device-width:1920px){
+.commisionedpiepannelstatusidcls{
+	width:100%;
+	height:350px;
+	}
+}	
+.barchartddivstatusclass{
+	width:100%;
+	height:270px;
+	}
+@media screen and (device-width:1920px){
+	.barchartddivstatusclass{
+ width:100%;
+  height:457px;
+}
+}
+.VehiclLiveStatusPannel
+{
+	width:33%;
+	height:222px;
+}
+@media screen and (device-width:1920px){
+.VehiclLiveStatusPannel{
+	width:33%;
+	 height:350px;
+}
+}
+.vehiclelivedividcls{
+	width:100% !important;
+	height:215px !important;
+}
+
+@media screen and (device-width:1920px){
+.vehiclelivedividcls{
+	width:100% !important;
+	height:350px !important;
+}
+}
+.PreventiveMaintainancePannel{
+	width:33%;
+	height:222px;
+}
+@media screen and (device-width:1920px){
+.PreventiveMaintainancePannel{
+	width:33%;
+	 height:350px;
+}
+}
+.CommisionedDecommisionedPannel{
+	
+	width:33%;
+	height:222px;
+}
+@media screen and (device-width:1920px){
+.CommisionedDecommisionedPannel{
+	width:33%;
+	height:350px;
+}
+}
+.statutoryDetails{
+	height: 270px;
+}
+@media screen and (device-width:1920px){
+.statutoryDetails{
+	 height:458px;
+}
+}
+.preventivemaintainanceidcls{
+	width:100% !important;
+	height:215px !important;
+}
+
+@media screen and (device-width:1920px){
+.preventivemaintainanceidcls{
+	width:100% !important;
+	height:350px !important;
+}
+}
+.commisionedpiepannelidcls{
+	width:100% !important;
+	height:215px !important;
+}
+
+@media screen and (device-width:1920px){
+.commisionedpiepannelidcls{
+	width:100% !important;
+	height:350px !important;
+}
+}
+.barchartpiepannelidcls{
+	width:100% !important;
+	height:270px !important;
+}
+@media screen and (device-width:1920px){
+.barchartpiepannelidcls{
+	width:100% !important;
+	height:458px !important;
+}
+}
+
+.innersecondmainpannelfmsdashboard {
+    height: 495px;
+    max-height: 100%;
+    width: 100%;
+}
+@media screen and (device-width: 1920px) {
+    .innersecondmainpannelfmsdashboard {
+        height: 838px;
+        width: 100%;
+    }
+}
+.customerPannelcss {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.innermainpannelcss {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 20%;
+}
+.innermainpannelcssforall
+ {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+}
+.barchartfmspannel {
+    width: 99%;
+    height: 300px;
+}
+@media screen and (device-width: 1920px) {
+    .barchartfmspannel {
+        width: 99%;
+        height: 650px;
+    }
+}
+.barchartddivstatusfmsclass {
+    width: 100%;
+    height: 300px;
+}
+@media screen and (device-width: 1920px) {
+    .barchartddivstatusfmsclass {
+        width: 100%;
+        height: 457px;
+    }
+}
+.dashBoardlabelstyle{
+	 spacing:10px;
+	 height:20px;
+	 
+	 margin-bottom:5px !important;
+	 margin-left:10px !important;
+	 margin-left:10px !important;
+	 font-size:13px;
+	 font-family: sans-serif;	
+}
+.selectstylePerfectForFms {
+	height: 20px;
+	width: 110px !important;
+	listwidth: 110px !important;
+	max-listwidth: 110px !important;
+	min-listwidth: 110px !important;
+	margin: 0px 0px 5px 5px !important;
+}
+.barchartddivstatusclassforall{
+	width:100%;
+	height:300px;
+	}
+@media screen and (device-width:1920px){
+	.barchartddivstatusclassforall{
+ width:100%;
+  height:457px;
+}
+}
+.barchartfmspannelforall {
+    width: 99%;
+    height: 300px;
+}
+@media screen and (device-width: 1920px) {
+    .barchartfmspannelforall {
+        width: 99%;
+        height: 650px;
+    }
+}
+.barchartpiepannelidclsforall{
+	width:100%;
+	height:300px;
+}
+@media screen and (device-width:1920px){
+.barchartpiepannelidclsforall{
+	width:100% !important;
+	height:458px !important;
+}
+}
+.innerthirdmainpannelfmsdashboard {
+    height: 495px;
+    max-height: 100%;
+    width: 100%;
+}
+@media screen and (device-width: 1920px) {
+    .innerthirdmainpannelfmsdashboard {
+        height: 838px;
+        width: 100%;
+    }
+}
+
+.barchartddivstatusfmsclassforall {
+    width: 100%;
+    height: 300px;
+}
+@media screen and (device-width: 1920px) {
+    .barchartddivstatusfmsclassforall {
+        width: 100%;
+        height: 457px;
+    }
+}
+

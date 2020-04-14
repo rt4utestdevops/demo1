@@ -1,0 +1,380 @@
+#container {
+	background-color: #eee;
+	width: 100%;
+	height: 100%;
+}
+
+#seatLayoutMain {
+	margin: 20px 0 10px;
+	background-color: #eee;
+	width: 95%;
+	height: 34%;
+	display: none;
+}
+
+#seatLayoutBox {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+	.seatlayoutContainer {
+		width: 65% !Important;
+		margin-left: 10% !Important;
+		height: 90% !Important;
+		position: absolute !Important;
+	}
+}
+
+.seatlayoutContainer {
+	width: 60%;
+	margin-left: 10%;
+	height: 90%;
+	position: absolute;
+}
+
+.rightContent {
+	float: right;
+	width: 220px;
+	padding: 5px 10px 0;
+	margin: 15px 10px 5px;
+	min-height: 175px;
+}
+
+.leftContent {
+	float: left;
+}
+
+.seatLayoutHolder {
+	margin: 15px 0;
+	width: 100%;
+	height: 100%;
+}
+
+.lowerDeck,.upperDeck {
+	border: 1px solid #ccc;
+	float: left;
+	clear: both;
+	margin: 10px 0;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 95%;
+	height: 100%;
+}
+
+.deckLabel {
+	float: left;
+	margin: 10px;
+	margin-right: 25px;
+}
+
+.deckLabel .steeringWheel {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-bottom: 10px;
+	background: url(/ApplicationImages/ApplicationButtonIcons/steering.png)
+		no-repeat;
+}
+
+.tip {
+	font-size: 12px;
+	color: #989898;
+	display: block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.legend {
+	color: #333;
+	font-size: 12px;
+	border-bottom: 1px solid #eee;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.legend .seat.available {
+	background-position: 0 0;
+}
+
+.legend .bookedSeat {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/bookedSeats.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+.legend .avaliableSeat {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/seats.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+.legend .selectedSeat {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/selectedSeats.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+.legend label {
+	line-height: 25px;
+	display: block;
+	margin: 6px 0;
+}
+
+.fare {
+	font-size: 12px;
+	color: #333;
+	line-height: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.fare .amount,.fare .seatsSelected {
+	margin: 2px 0;
+	overflow-x:auto;
+}
+
+.fare label {
+	display: block;
+	float: left;
+	width: 95px;
+}
+
+.fare .fareval {
+	text-align: left;
+}
+
+.fare span {
+	font-size: 11px;
+	color: #e24648;
+	display: block;
+	float: right;
+	width: 125px;
+	margin-top: -13% !Important;
+	position: relative !Important;
+}
+
+.seatLayoutHolder ul.deck {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	float: left;
+	margin: 10px;
+	height: 90%;
+	width: 50%;
+}
+
+.seatLayoutHolder ul.deck li {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+#seatDeck .seating {
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/seats.png);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 24px;
+	display: block;
+	cursor: pointer;
+}
+
+#seatDeck .blank {
+	height: 24px;
+	width: 24px;
+	display: block;
+}
+
+#seatDeck .bookedSeat {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/bookedSeats.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+#seatDeck .avaliableSeat {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/seats.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+#seatDeck .selectedSeat {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/selectedSeats.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+.inputLabel {
+	font-weight: 600;
+	font-size: 13px;
+	font-family: 'Open Sas' sans-serif !important;
+}
+
+.input-id {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ccc;
+	font-family: 'Open Sas' sans-serif !important;
+	font-size: 11px;
+}
+
+.margin-div {
+	margin-right: 3px;
+}
+
+.search {
+	margin-top: 20px;
+	width: 66%;
+	height: 5%;
+	text-indent: 0;
+	padding: 5px 20px;
+	color: #fff;
+	background-color: #e24648;
+	border: 0;
+	border-radius: 9px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	font-family: 'Open Sas' sans-serif !important;
+}
+
+#image {
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/arrow.png) !important;
+	float: left;
+	background-position: -25px 7px;
+	width: 30px;
+	height: 30px;
+	margin: 21px 20px 0;
+	background-repeat: no-repeat;
+}
+
+#myDialogText {
+	font-size: 16 px;
+	font-family: 'Open Sas' sans-serif !important;
+}
+
+.ui-autocomplete {
+	height: 160px;
+	font-size: 11px !important;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 158px;
+}
+
+.calendar {
+	background-position: 99% -39px;
+	cursor: pointer;
+	background-image:
+		url(https://st.redbus.in/images/ImagesOpt/home_sprite3.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ccc;
+	font-family: 'Open Sas' sans-serif !important;
+	font-size: 11px;
+}
+
+.inputtd {
+	width: 18%;
+}
+
+.normaltd {
+	width: 0%;
+}
+
+input:focus {
+	box-shadow: 0 0 0 1px #505F64 !Important;
+}
+
+.rotate {
+	-webkit-transform: rotate(-90deg) !Important;
+	-moz-transform: rotate(-90deg) !Important;
+	-ms-transform: rotate(-90deg) !Important;
+	-o-transform: rotate(-90deg) !Important;
+	filter: progid :   DXImageTransform.Microsoft.BasicImage (   rotation =
+		  3 ) !Important;
+}
+
+.margin-image {
+	margin-left: -3%;
+}
+
+.margin-input {
+	margin-left: -3%;
+	margin-right: 2%;
+}
+
+.margin-terminal {
+	margin-right: 1%;
+}
+
+#default {
+	box-shadow: 0 0 0 1px #6495ED !Important;
+}
+
+.BPSelector {
+	width: 400px;
+}
+
+.view {
+	margin: 0px 0 0 143%;
+	float: left;
+	line-height: 1.4;
+	color: #fff;
+	background-color: #e24648;
+	border: 0;
+	border-radius: 2px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	font-family: 'Open Sas', sans-serif !important;
+	width: 80px;
+	height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+	.view {
+		margin: 0px 0 0 103% !Important;
+		float: left !Important;
+		line-height: 1.4 !Important;
+		color: #fff !Important;
+		background-color: #e24648 !Important;
+		border: 0 !Important;
+		border-radius: 2px !Important;
+		cursor: pointer !Important;
+		background-repeat: no-repeat !Important;
+		font-family: 'Open Sas', sans-serif !important;
+		width: 80px !Important;
+		height: 30px !Important;
+	}
+}

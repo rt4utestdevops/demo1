@@ -1,0 +1,157 @@
+@CHARSET "utf-8";
+.outerpanel{
+	 height:100%;
+	 max-height:100%;
+	 width:100%;	
+}
+.colorid{
+   color: white;
+
+}
+
+
+.clearfilterbuttonNew {
+width: 65%;
+height: 55%;
+background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/Filter.png) !important;
+background-repeat: no-repeat;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.reconfigurebuttonNew{
+width: 65%;
+height: 55%;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.cleargroupbuttonNew{
+width: 65%;
+height: 55%;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+.copybutton {
+	width: 65%;
+	height: 55%;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/Copy.png) !important;
+	background-repeat: no-repeat	
+}
+.capturebutton {
+	width: 65%;
+	height: 55%;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/capture.png) !important;
+	background-repeat: no-repeat;
+}
+.postponebutton {
+	width: 65%;
+	height: 55%;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/postpone.png) !important;
+	background-repeat: no-repeat	
+}
+
+
+.pdfbuttonNew
+{
+width:55%;
+height:45%;
+background-image: url(/ApplicationImages/ApplicationButtonIcons/PDF.png) !important;
+background-repeat: no-repeat;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.excelbuttonNew
+{
+width:55%;
+height:45%;
+background-image: url(/ApplicationImages/ApplicationButtonIcons/Excel.png) !important;
+background-repeat: no-repeat;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.clearbuttonNew {
+width: 65%;
+height: 55%;
+background-image:url(/ApplicationImages/ApplicationButtonIcons/Clear.png) !important;
+background-repeat: no-repeat;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.addbuttonNew {
+width: 65%;
+height: 55%;
+background-image: url(/ApplicationImages/ApplicationButtonIcons/Add.png)
+		!important;
+background-repeat: no-repeat;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.editbuttonNew {
+width: 65%;
+height: 55%;
+background-image:
+	url(/ApplicationImages/ApplicationButtonIcons/Edit.png) !important;
+background-repeat: no-repeat;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.deletebuttonNew {
+width: 65%;
+height: 55%;
+background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/Delete.png) !important;
+background-repeat: no-repeat;
+background-color: #5E697C !important;
+margin-bottom: -3px !important;
+color: #FFFFFF !important;
+}
+
+.printbutton {
+	width: 65%;
+	height: 55%;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/print.png) !important;
+	background-repeat: no-repeat
+}
+
+.associatebutton {
+	width: 65%;
+	height: 85%;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/associate.png) !important;
+	background-repeat: no-repeat
+}
+
+
+.dissociatebutton {
+	width: 65%;
+	height: 95%;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/dissociate.png) !important;
+	background-repeat: no-repeat
+}
+.cashBackbutton {
+	width: 65%;
+	height: 55%;
+	background-image:
+		url(/ApplicationImages/ApplicationButtonIcons/cash-icon.png) !important;
+	background-repeat: no-repeat
+}

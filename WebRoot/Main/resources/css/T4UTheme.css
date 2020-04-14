@@ -1,0 +1,312 @@
+ /**
+* Extjs Grid Row
+**/
+.x-grid3-row td, *.x-grid3-summary-row td {
+height: 20px;
+}
+/**
+* Extjs Grid Cell
+**/
+.ext-strict .x-grid3-cell-inner, .ext-strict .x-grid3-hd-inner {
+height: 18px;
+padding-top: 8px;
+}
+/**
+* Extjs Grid Row
+**/
+.x-grid3-hd-row td {
+border-left-color: #C9BEBD !important;
+border-right-color: #C9BEBD !important;
+}
+/**
+* Extjs Grid Row Border
+**/
+.x-grid3-row {
+border-color: #F3EAEA !important;
+border-top-color: #FFFFFF !important;
+}
+
+.x-grid3-body *.x-grid3-td-checker {
+background-image: none !important;
+}
+/**
+* Extjs Grid Header
+**/
+
+.x-grid3-header {
+background-color: #ffffff !important;
+border-color: black !important;
+background-image: none !important;
+background-color: rgb(225, 227, 230) !important;
+}
+/**
+* Extjs Pannel Header
+**/
+
+.x-panel-header {
+background-image: none !important;
+background-color: #5f6f81 !important;
+height: 20px !important;
+padding: 15px 0px 5px 5px !important;
+font-size: 14px !important;
+font-family: 'Open Sans', sans-serif !important;
+}
+
+.x-panel-tl, *.x-panel-tr {
+background-image: none !important;
+border-bottom-color: #FFFFFF;
+background-color: #C9BEBD !important;
+}
+
+
+/**
+* Extjs Window Side css
+**/
+
+.x-window-tc {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+
+.x-window-br {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+
+.x-window-bc {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+
+.x-window-bl {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+.x-window-tl {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+.x-window-tr {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+.x-window-ml {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+.x-window-mr {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+
+/**
+* Extjs Grid Rows
+**/
+
+.x-grid3-hd-row td {
+font-weight: normal;
+font-size: 12px !important;
+line-height: 1.36em;
+font-family: 'Open Sans', sans-serif !important;
+color: #000000;
+}
+
+/**
+* Extjs Grid Rows
+**/
+
+.x-grid3 table {
+table-layout: fixed;
+height: 32px;
+}
+
+.x-grid3-row td, *.x-grid3-summary-row td {
+font-size: 12px !important;
+font-family: 'Open Sans', sans-serif !important;
+}
+
+/**
+* Extjs Window Header
+**/
+
+
+.x-window-tl *.x-window-header {
+height: 25px;
+padding-top: 12px !important;
+font-size: 15px !important;
+font-family: 'Open Sas' sans-serif !important;
+}
+/**
+* Extjs Masking Background
+**/
+
+.ext-el-mask {
+background-color: #161410 !important;
+}
+
+/**
+* Extjs Table Layout
+**/
+
+.x-table-layout td {
+vertical-align: top;
+padding-right: 8px;
+border-color: #110404;
+width: auto;
+}
+
+/**
+* Extjs Button
+**/
+
+
+.x-btn-tl, *.x-btn-tr, *.x-btn-tc, *.x-btn-ml, *.x-btn-mr, *.x-btn-mc, *.x-btn-bl, *.x-btn-br, *.x-btn-bc {
+background-image: none !important;
+background-color: #C8D3DB;
+}
+
+/**
+* Extjs Button
+**/
+
+
+.x-btn button {
+font: 'Open Sans', sans-serif !important;
+font-size: 15;
+color: #504A4A;
+height: 24px !important;
+padding-right: 5px !important;
+}
+
+/**
+* Extjs Button Mouse Over
+**/
+
+.x-btn-over button {
+color: #FFFFFF;
+}
+
+.x-btn-over .x-btn-mc {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-mr {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-ml {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-bc {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-bl {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-br {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-tc {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-tl {
+background-color: #368ee0 !important;
+}
+.x-btn-over .x-btn-tr {
+background-color: #368ee0 !important;
+}
+
+
+/**
+* Grid Footer- Bottom(Add,Modify,Delete)
+**/
+
+.x-toolbar {
+background-image: none;
+background-color: white !important;
+}
+
+.x-toolbar *.xtb-sep {
+background-image: none;
+}
+
+/**
+* Grid Footer- Bottom(Add,Modify,Delete)
+**/
+
+.x-panel-noborder *.x-panel-bbar-noborder *.x-toolbar {
+border-top-color: white;
+}
+
+/**
+* Grid Header- Left Side(SL No)
+**/
+.x-grid3-body *.x-grid3-td-numberer {
+background-image: none !important;
+background-color:rgb(225, 227, 230) !important
+}
+
+/**
+* Text Field
+**/
+.x-form-text, textarea.x-form-field {
+background-color: #fefefe;
+background-image:none !important;
+border-color: #B3ABAE;
+color: #2e2323;
+}
+
+/**
+* ExtJs Calender Button
+**/
+.x-form-field-wrap *.x-form-date-trigger {
+background-image: url(../images/DeepBlue/form/date-trigger.gif);
+padding-top: 3px;
+}
+
+/**
+* ExtJs Check Box
+**/
+.x-menu-item-checked *.x-menu-item-icon {
+background-image: url(/ApplicationImages/ApplicationButtonIcons/checkedblue.png) !important;
+}
+
+.x-menu-check-item *.x-menu-item-icon {
+background-image: url(/ApplicationImages/ApplicationButtonIcons/uncheckedblue.png);
+}
+
+/**
+* ExtJs Tab
+**/
+
+ul.x-tab-strip-top {
+background-color: #C9BEBD !important;
+background-image: none;
+border-bottom-color: #C9BEBD !important;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 1px;
+}
+
+
+.x-tab-panel-header, *.x-tab-panel-footer {
+background-color: #fdffff;
+border-color: #FFFFFF;
+overflow: hidden;
+}
+
+.x-tab-strip-top .x-tab-right, .x-tab-strip-top .x-tab-left, .x-tab-strip-top .x-tab-strip-inner {
+background-image: none !important;
+background-color: #5f6f81 !important;
+}
+
+
+.x-tab-strip-active span.x-tab-strip-text {
+color: #FFFFFF;
+font-weight: bold;
+}
+
+/**
+* Radio Button
+**/
+.x-form-radio x-form-field{
+background-image:url(/ApplicationImages/ApplicationButtonIcons/uncheckedblue.png);
+}

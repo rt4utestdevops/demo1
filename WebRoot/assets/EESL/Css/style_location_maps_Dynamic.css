@@ -1,0 +1,9801 @@
+/*DELP DASHBOARD*/
+
+/* STATE MAP IMAGE NAME */
+.value_APD {
+    position: absolute;
+    left: 176px;
+    top: 347px;
+    /*z-index: 0;*/
+}
+
+.value_ASM {
+    position: absolute;
+    left: 356px;
+    top: 230px;
+    /*z-index: 0;*/
+}
+
+.value_BGL {
+    position: absolute;
+    left: 371px;
+    top: 387px;
+    /*z-index: 0;*/
+}
+
+.value_BHR {
+    position: absolute;
+    left: 356px;
+    top: 322px;
+    /*z-index: 0;*/
+}
+
+.value_CTG {
+    position: absolute;
+    left: 380px;
+    top: 130px;
+    /*z-index: 0;*/
+}
+
+/*.value_DL {
+    position: absolute;
+    left: 298px;
+    top: 512px;
+    z-index: 0;
+}*/
+
+.value_DNH {
+    position: absolute;
+    left: 265px;
+    top: 136px;
+    /*z-index: 0;*/
+}
+
+.value_GJT {
+    position: absolute;
+    left: 402px;
+    top: 180px;
+    /*z-index: 0;*/
+}
+
+.value_HPD {
+    position: absolute;
+    left: 390px;
+    top: 142px;
+    /*z-index: 0;*/
+}
+
+.value_HRN {
+    position: absolute;
+    left: 395px;
+    top: 268px;
+    /*z-index: 0;*/
+}
+
+.value_JRK {
+    position: absolute;
+    left: 352px;
+    top: 170px;
+    /*z-index: 0;*/
+}
+
+.value_KRT {
+    position: absolute;
+    left: 328px;
+    top: 289px;
+    /*z-index: 0;*/
+}
+
+.value_KRL {
+    position: absolute;
+    left: 443px;
+    top: 284px;
+    /*z-index: 0;*/
+}
+
+.value_LAD {
+    position: absolute;
+    left: 302px;
+    top: 181px;
+    /*z-index: 0;*/
+}
+
+.value_MAH {
+    position: absolute;
+    left: 250px;
+    top: 254px;
+    /*z-index: 0;*/
+}
+
+.value_MPD {
+    position: absolute;
+    left: 400px;
+    top: 378px;
+    /*z-index: 0;*/
+}
+
+.value_NGD {
+    position: absolute;
+    left: 427px;
+    top: 230px;
+    /*z-index: 0;*/
+}
+
+.value_ODI {
+    position: absolute;
+    left: 426px;
+    top: 135px;
+    /*z-index: 0;*/
+}
+
+.value_PNB {
+    position: absolute;
+    left: 431px;
+    top: 317px;
+    /*z-index: 0;*/
+}
+
+/*.value_PU {
+    position: absolute;
+    left: 298px;
+    top: 512px;
+    z-index: 0;
+}*/
+
+.value_RAJ {
+    position: absolute;
+    left: 400px;
+    top: 365px;
+    /*z-index: 0;*/
+}
+
+.value_TLG {
+    position: absolute;
+    left: 338px;
+    top: 258px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_UTK {
+    position: absolute;
+    left: 397px;
+    top: 225px;
+    /*z-index: 0;*/
+}
+
+.value_TML {
+    position: absolute;
+    left: 411px;
+    top: 229px;
+    /*z-index: 0;*/
+}
+
+.value_GOA {
+    position: absolute;
+    left: 411px;
+    top: 229px;
+    /*z-index: 0;*/
+}
+
+
+.value_TPA {
+    position: absolute;
+    left: 411px;
+    top: 229px;
+    /*z-index: 0;*/
+}
+
+.value_MGA {
+    position: absolute;
+    left: 310px;
+    top: 107px;
+    /*z-index: 0;*/
+}
+
+.value_ANI {
+    position: absolute;
+    left: 310px;
+    top: 230px;
+    /*z-index: 0;*/
+}
+
+.value_SKM {
+    position: absolute;
+    left: 393px;
+    top: 272px;
+    /*z-index: 0;*/
+}
+
+.value_MZM {
+    position: absolute;
+    left: 381px;
+    top: 224px;
+    /*z-index: 0;*/
+}
+
+
+/*Nutan:6-6-2017 chandigarh In style_location_maps_dynamics*/
+.value_CHG {
+    position: absolute;
+    left: 381px;
+    top: 224px;
+    /*z-index: 0;*/
+}
+
+
+
+/*Sadhana : 29th March, 2017 : Added for BULB Dashboard*/
+.value_DEL {
+    position: absolute;
+    left: 381px;
+    top: 224px;
+    /*z-index: 0;*/
+}
+/*STATE MAP IMAGE NAME CSS*/
+
+.state_display_name {
+    font-family: Raleway;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 20px;
+    /*color: #0189b7;*/
+    color: #006cb0;
+    /*color :#3C84C8;*/
+    text-transform: uppercase;
+}
+
+.state_display_name_new {
+    font-family: Raleway;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* STATE MAP IMAGE NAME ENDS*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*STATE WISE LOCATION CSS*/
+
+/*Sadhana : 29th March, 2017 : Added for BULB Dashboard*/
+
+/*DEL*/
+.value_DEL_DEL {
+    position: absolute;
+    left: 130px;
+    top: 181px;
+}
+
+.value_DEL_DEL_state {
+    position: absolute;
+    left: 92px;
+    top: 182px;
+    /*z-index: 0;*/
+}
+
+.value_DEL_DELI {
+    position: absolute;
+    left: 695px;
+    top: 217px;
+}
+
+.value_DEL_DELI_state {
+    position: absolute;
+    left: 611px;
+    top: 218px;
+    /*z-index: 0;*/
+}
+/*DEL ENDS*/
+
+/*UTK*/
+.value_UTK_DHU {
+    position: absolute;
+    left: 735px;
+    top: 98px;
+}
+
+.value_UTK_DHU_state {
+    position: absolute;
+    left: 627px;
+    top: 99px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_DHR {
+    position: absolute;
+    left: 150px;
+    top: 8px;
+}
+
+.value_UTK_DHR_state {
+    position: absolute;
+    left: 49px;
+    top: 9px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_HWI {
+    position: absolute;
+    left: 704px;
+    top: 376px;
+}
+
+.value_UTK_HWI_state {
+    position: absolute;
+    left: 641px;
+    top: 377px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_HWR {
+    position: absolute;
+    left: 108px;
+    top: 237px;
+}
+
+.value_UTK_HWR_state {
+    position: absolute;
+    left: 48px;
+    top: 238px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_KSH {
+    position: absolute;
+    left: 227px;
+    top: 353px;
+}
+
+.value_UTK_KSH_state {
+    position: absolute;
+    left: 168px;
+    top: 352px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_PTG {
+    position: absolute;
+    left: 747px;
+    top: 300px;
+}
+
+.value_UTK_PTG_state {
+    position: absolute;
+    left: 672px;
+    top: 301px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_RKT {
+    position: absolute;
+    left: 767px;
+    top: 236px;
+}
+
+.value_UTK_RKT_state {
+    position: absolute;
+    left: 707px;
+    top: 237px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_RRK {
+    position: absolute;
+    left: 99px;
+    top: 296px;
+}
+
+.value_UTK_RRK_state {
+    position: absolute;
+    left: 43px;
+    top: 297px;
+    /*z-index: 0;*/
+}
+
+
+.value_UTK_RDR {
+    position: absolute;
+    left: 284px;
+    top: 399px;
+}
+
+.value_UTK_RDR_state {
+    position: absolute;
+    left: 222px;
+    top: 400px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_SRN {
+    position: absolute;
+    left: 108px;
+    top: 198px;
+}
+
+.value_UTK_SRN_state {
+    position: absolute;
+    left: 53px;
+    top: 199px;
+    /*z-index: 0;*/
+}
+
+.value_UTK_THR {
+    position: absolute;
+    left: 759px;
+    top: 155px;
+}
+
+.value_UTK_THR_state {
+    position: absolute;
+    left: 722px;
+    top: 156px;
+    /*z-index: 0;*/
+}
+/*End UTK*/
+
+
+
+/*TML*/
+.value_TML_TML {
+    position: absolute;
+    left: 190px;
+    top: 286px;
+}
+
+.value_TML_TML_state {
+    position: absolute;
+    left: 130px;
+    top: 287px;
+    /*z-index: 0;*/
+}
+
+/*trupti 16 May 2017 */
+.value_TML_TVAL {
+    position: absolute;
+    left: 720px;
+    top: 0px;
+}
+
+.value_TML_TVAL_state {
+    position: absolute;
+    left: 653px;
+    top: 0px;
+    /*z-index: 0;*/
+}
+
+.value_TML_CHEN {
+    position: absolute;
+    left: 718px;
+    top: 25px;
+}
+
+.value_TML_CHEN_state {
+    position: absolute;
+    left: 660px;
+    top: 25px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_KANC {
+    position: absolute;
+    left: 720px;
+    top: 47px;
+}
+
+.value_TML_KANC_state {
+    position: absolute;
+    left: 635px;
+    top: 47px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_TVAN {
+    position: absolute;
+    left: 720px;
+    top: 82px;
+}
+
+.value_TML_TVAN_state {
+    position: absolute;
+    left: 620px;
+    top: 82px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_VILU {
+    position: absolute;
+    left: 695px;
+    top: 111px;
+}
+
+.value_TML_VILU_state {
+    position: absolute;
+    left: 620px;
+    top: 111px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_CUDD {
+    position: absolute;
+    left: 666px;
+    top: 137px;
+}
+
+.value_TML_CUDD_state {
+    position: absolute;
+    left: 599px;
+    top: 137px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_PERA {
+    position: absolute;
+    left: 671px;
+    top: 170px;
+}
+
+.value_TML_PERA_state {
+    position: absolute;
+    left: 596px;
+    top: 170px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_ARIY {
+    position: absolute;
+    left: 650px;
+    top: 201px;
+}
+
+.value_TML_ARIY_state {
+    position: absolute;
+    left: 596px;
+    top: 201px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_NGPT {
+    position: absolute;
+    left: 701px;
+    top: 225px;
+}
+
+.value_TML_NGPT_state {
+    position: absolute;
+    left: 610px;
+    top: 225px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_TCHI {
+    position: absolute;
+    left: 701px;
+    top: 249px;
+}
+
+.value_TML_TCHI_state {
+    position: absolute;
+    left: 610px;
+    top: 249px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_TVAR {
+    position: absolute;
+    left: 660px;
+    top: 312px;
+}
+
+.value_TML_TVAR_state {
+    position: absolute;
+    left: 600px;
+    top: 312px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_THAN {
+    position: absolute;
+    left: 660px;
+    top: 339px;
+}
+
+.value_TML_THAN_state {
+    position: absolute;
+    left: 595px;
+    top: 339px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_PADU {
+    position: absolute;
+    left: 620px;
+    top: 362px;
+}
+
+.value_TML_PADU_state {
+    position: absolute;
+    left: 540px;
+    top: 362px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_SIVA {
+    position: absolute;
+    left: 590px;
+    top: 387px;
+}
+
+.value_TML_SIVA_state {
+    position: absolute;
+    left: 520px;
+    top: 387px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_RAMA {
+    position: absolute;
+    left: 615px;
+    top: 425px;
+}
+
+.value_TML_RAMA_state {
+    position: absolute;
+    left: 503px;
+    top: 425px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_THOO {
+    position: absolute;
+    left: 519px;
+    top: 451px;
+}
+
+.value_TML_THOO_state {
+    position: absolute;
+    left: 435px;
+    top: 451px;
+    /*z-index: 0;*/
+}
+/*end trupti 16 May 2017 */
+
+
+.value_TML_VELL {
+    position: absolute;
+    left: 406px;
+    top: 11px;
+}
+
+.value_TML_VELL_state {
+    position: absolute;
+    left: 356px;
+    top: 11px;
+    /*z-index: 0;*/
+}
+
+.value_TML_KRIS {
+    position: absolute;
+    left: 329px;
+    top: 35px;
+}
+
+.value_TML_KRIS_state {
+    position: absolute;
+    left: 257px;
+    top: 35px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_DHRM {
+    position: absolute;
+    left: 279px;
+    top: 63px;
+}
+
+.value_TML_DHRM_state {
+    position: absolute;
+    left: 201px;
+    top: 63px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_SALE {
+    position: absolute;
+    left: 256px;
+    top: 91px;
+}
+
+.value_TML_SALE_state {
+    position: absolute;
+    left: 210px;
+    top: 91px;
+    /*z-index: 0;*/
+}
+
+.value_TML_NAMA {
+    position: absolute;
+    left: 269px;
+    top: 125px;
+}
+
+.value_TML_NAMA_state {
+    position: absolute;
+    left: 200px;
+    top: 125px;
+    /*z-index: 0;*/
+}
+
+.value_TML_EROD {
+    position: absolute;
+    left: 214px;
+    top: 152px;
+}
+
+.value_TML_EROD_state {
+    position: absolute;
+    left: 168px;
+    top: 152px;
+    /*z-index: 0;*/
+}
+
+
+/*.value_TML_TNIL {
+    position: absolute;
+    left: 178px;
+    top: 286px;
+}
+
+.value_TML_TNIL_state {
+    position: absolute;
+    left: 119px;
+    top: 287px;
+    z-index: 0;
+}*/
+
+.value_TML_TNIL {
+    position: absolute;
+    left: 167px;
+    top: 179px;
+}
+
+.value_TML_TNIL_state {
+    position: absolute;
+    left: 91px;
+    top: 180px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_KARU {
+    position: absolute;
+    left: 144px;
+    top: 203px;
+}
+
+.value_TML_KARU_state {
+    position: absolute;
+    left: 105px;
+    top: 204px;
+    /*z-index: 0;*/
+}
+
+.value_TML_COIM {
+    position: absolute;
+    left: 147px;
+    top: 231px;
+}
+
+.value_TML_COIM_state {
+    position: absolute;
+    left: 68px;
+    top: 232px;
+    /*z-index: 0;*/
+}
+
+.value_TML_TPPU {
+    position: absolute;
+    left: 174px;
+    top: 258px;
+}
+
+.value_TML_TPPU_state {
+    position: absolute;
+    left: 114px;
+    top: 259px;
+    /*z-index: 0;*/
+}
+
+.value_TML_DNDI {
+    position: absolute;
+    left: 196px;
+    top: 313px;
+}
+
+.value_TML_DNDI_state {
+    position: absolute;
+    left: 140px;
+    top: 314px;
+    /*z-index: 0;*/
+}
+
+.value_TML_THEN {
+    position: absolute;
+    left: 205px;
+    top: 336px;
+}
+
+.value_TML_THEN_state {
+    position: absolute;
+    left: 164px;
+    top: 337px;
+    /*z-index: 0;*/
+}
+
+.value_TML_VIRU {
+    position: absolute;
+    left: 227px;
+    top: 386px;
+}
+
+.value_TML_VIRU_state {
+    position: absolute;
+    left: 140px;
+    top: 386px;
+    /*z-index: 0;*/
+}
+
+
+.value_TML_TNEL {
+    position: absolute;
+    left: 220px;
+    top: 456px;
+}
+
+.value_TML_TNEL_state {
+    position: absolute;
+    left: 150px;
+    top: 456px;
+    /*z-index: 0;*/
+}
+
+.value_TML_KANN {
+    position: absolute;
+    left: 215px;
+    top: 500px;
+}
+
+.value_TML_KANN_state {
+    position: absolute;
+    left: 120px;
+    top: 500px;
+    /*z-index: 0;*/
+}
+
+.value_TML_MADU {
+    position: absolute;
+    left: 221px;
+    top: 359px;
+}
+
+.value_TML_MADU_state {
+    position: absolute;
+    left: 164px;
+    top: 360px;
+    /*z-index: 0;*/
+}
+
+/*TML Ends*/
+
+
+/*JRK*/
+.value_jharkhand {
+    position: absolute;
+    left: 648px;
+    top: 270px;
+}
+
+.value_jharkhand_state {
+    position: absolute;
+    left: 664px;
+    top: 289px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_RCH {
+    position: absolute;
+    left: 143px;
+    top: 198px;
+}
+
+.value_JRK_RCH_state {
+    position: absolute;
+    left: 97px;
+    top: 199px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_HZB {
+    position: absolute;
+    left: 781px;
+    top: 126px;
+}
+
+.value_JRK_HZB_state {
+    position: absolute;
+    left: 706px;
+    top: 127px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_DGH {
+    position: absolute;
+    left: 769px;
+    top: 7px;
+}
+
+.value_JRK_DGH_state {
+    position: absolute;
+    left: 707px;
+    top: 8px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_DUM {
+    position: absolute;
+    left: 781px;
+    top: 91px;
+}
+
+.value_JRK_DUM_state {
+    position: absolute;
+    left: 729px;
+    top: 92px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_RGH {
+    position: absolute;
+    left: 117px;
+    top: 167px;
+}
+
+.value_JRK_RGH_state {
+    position: absolute;
+    left: 51px;
+    top: 168px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_DHN {
+    position: absolute;
+    left: 788px;
+    top: 167px;
+}
+
+.value_JRK_DHN_state {
+    position: absolute;
+    left: 659px;
+    top: 168px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_DNB {
+    position: absolute;
+    left: 785px;
+    top: 191px;
+}
+
+.value_JRK_DNB_state {
+    position: absolute;
+    left: 723px;
+    top: 192px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_CHS {
+    position: absolute;
+    left: 616px;
+    top: 215px;
+}
+
+.value_JRK_CHS_state {
+    position: absolute;
+    left: 579px;
+    top: 216px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_JMS {
+    position: absolute;
+    left: 685px;
+    top: 262px;
+}
+
+.value_JRK_JMS_state {
+    position: absolute;
+    left: 602px;
+    top: 263px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_KOD {
+    position: absolute;
+    left: 315px;
+    top: 42px;
+}
+
+.value_JRK_KOD_state {
+    position: absolute;
+    left: 252px;
+    top: 44px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_MDG {
+    position: absolute;
+    left: 118px;
+    top: 57px;
+}
+
+.value_JRK_MDG_state {
+    position: absolute;
+    left: 34px;
+    top: 58px;
+    /*z-index: 0;*/
+}
+
+.value_JRK_GIR {
+    position: absolute;
+    left: 794px;
+    top: 45px;
+}
+
+.value_JRK_GIR_state {
+    position: absolute;
+    left: 747px;
+    top: 46px;
+    /*z-index: 0;*/
+}
+/*End JRK*/
+
+
+
+/*KRL*/
+.value_kerala {
+    position: absolute;
+    left: 121px;
+    top: 558px;
+}
+
+.value_kerala_state {
+    position: absolute;
+    left: 122px;
+    top: 584px;
+    /*z-index: 0;*/
+}
+
+.value_KRL_KRL {
+    position: absolute;
+    left: 356px;
+    top: 302px;
+}
+
+.value_KRL_KRL_state {
+    position: absolute;
+    left: 249px;
+    top: 303px;
+    /*z-index: 0;*/
+}
+/*KRL ENds*/
+
+
+
+/*KRT*/
+
+.value_KRT_MYS_state {
+    left: 612px;
+    top: 545px;
+    position: absolute;
+}
+
+.value_KRT_MYS {
+    left: 662px;
+    top: 544px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+
+.value_KRT_BLR_state {
+    left: 706px;
+    top: 448px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BLR {
+    left: 774px;
+    top: 448px;
+    position: absolute;
+}
+
+.value_KRT_GSC_state {
+    left: 594px;
+    top: 67px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_GSC {
+    left: 666px;
+    top: 66px;
+    position: absolute;
+}
+
+.value_KRT_HSC {
+    left: 145px;
+    top: 232px;
+    position: absolute;
+}
+
+.value_KRT_HSC_state {
+    left: 105px;
+    top: 232px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_MSC {
+    left: 152px;
+    top: 453px;
+    position: absolute;
+}
+
+.value_KRT_MSC_state {
+    left: 82px;
+    top: 453px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+
+.value_KRT_HASSN_state {
+    left: 133px;
+    top: 450px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_HASSN {
+    left: 183px;
+    top: 450px;
+    position: absolute;
+}
+
+.value_KRT_MNDYA_state {
+    left: 602px;
+    top: 493px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_MNDYA {
+    left: 660px;
+    top: 492px;
+    position: absolute;
+}
+
+.value_KRT_KODGU_state {
+    left: 150px;
+    top: 506px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_KODGU {
+    left: 203px;
+    top: 505px;
+    position: absolute;
+}
+
+.value_KRT_CHMRJ_state {
+    left: 556px;
+    top: 576px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_CHMRJ {
+    left: 666px;
+    top: 575px;
+    position: absolute;
+}
+
+.value_KRT_MYSRU_state {
+    left: 603px;
+    top: 546px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_MYSRU {
+    left: 655px;
+    top: 545px;
+    position: absolute;
+}
+
+.value_KRT_BGLRU_state {
+    left: 638px;
+    top: 449px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BGLRU {
+    left: 749px;
+    top: 448px;
+    position: absolute;
+}
+
+.value_KRT_DVNGR_state {
+    left: 557px;
+    top: 221px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_DVNGR {
+    left: 638px;
+    top: 220px;
+    position: absolute;
+}
+
+.value_KRT_KOLAR_state {
+    left: 656px;
+    top: 420px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_KOLAR {
+    left: 695px;
+    top: 419px;
+    position: absolute;
+}
+
+.value_KRT_BGLRR_state {
+    left: 638px;
+    top: 394px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BGLRR {
+    left: 743px;
+    top: 393px;
+    position: absolute;
+}
+
+.value_KRT_TUMKR_state {
+    left: 583px;
+    top: 319px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_TUMKR {
+    left: 639px;
+    top: 318px;
+    position: absolute;
+}
+
+.value_KRT_CHKBL_state {
+    left: 624px;
+    top: 352px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_CHKBL {
+    left: 729px;
+    top: 351px;
+    position: absolute;
+}
+
+.value_KRT_RMNGR_state {
+    left: 589px;
+    top: 519px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_RMNGR {
+    left: 669px;
+    top: 518px;
+    position: absolute;
+}
+
+.value_KRT_CHTDG_state {
+    left: 553px;
+    top: 289px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_CHTDG {
+    left: 633px;
+    top: 288px;
+    position: absolute;
+}
+
+.value_KRT_BGLKT_state {
+    left: 95px;
+    top: 170px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BGLKT {
+    left: 157px;
+    top: 169px;
+    position: absolute;
+}
+
+.value_KRT_BLGUM_state {
+    left: 88px;
+    top: 196px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BLGUM {
+    left: 152px;
+    top: 195px;
+    position: absolute;
+}
+
+.value_KRT_DHRWD_state {
+    left: 97px;
+    top: 232px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_DHRWD {
+    left: 160px;
+    top: 231px;
+    position: absolute;
+}
+
+.value_KRT_UTTKD_state {
+    left: 49px;
+    top: 309px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_UTTKD {
+    left: 148px;
+    top: 308px;
+    position: absolute;
+}
+
+.value_KRT_BJPUR_state {
+    left: 150px;
+    top: 109px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BJPUR {
+    left: 200px;
+    top: 108px;
+    position: absolute;
+}
+
+.value_KRT_GADAG_state {
+    left: 555px;
+    top: 145px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_GADAG {
+    left: 604px;
+    top: 144px;
+    position: absolute;
+}
+
+.value_KRT_SHMGA_state {
+    left: 116px;
+    top: 338px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_SHMGA {
+    left: 178px;
+    top: 337px;
+    position: absolute;
+}
+
+.value_KRT_DKSHK_state {
+    left: 93px;
+    top: 473px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_DKSHK {
+    left: 213px;
+    top: 472px;
+    position: absolute;
+}
+
+.value_KRT_UDUPI_state {
+    left: 102px;
+    top: 402px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_UDUPI {
+    left: 147px;
+    top: 401px;
+    position: absolute;
+}
+
+.value_KRT_CHKMG_state {
+    left: 68px;
+    top: 365px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_CHKMG {
+    left: 169px;
+    top: 364px;
+    position: absolute;
+}
+
+.value_KRT_HVRI_state {
+    left: 118px;
+    top: 266px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_HVRI {
+    left: 167px;
+    top: 265px;
+    position: absolute;
+}
+
+.value_KRT_BLLRI_state {
+    left: 551px;
+    top: 261px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BLLRI {
+    left: 599px;
+    top: 260px;
+    position: absolute;
+}
+
+.value_KRT_BIDAR_state {
+    left: 594px;
+    top: 18px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_BIDAR {
+    left: 636px;
+    top: 17px;
+    position: absolute;
+}
+
+.value_KRT_GLBRG_state {
+    left: 600px;
+    top: 67px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_GLBRG {
+    left: 664px;
+    top: 66px;
+    position: absolute;
+}
+
+.value_KRT_KOPPAL_state {
+    left: 567px;
+    top: 195px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_KOPPAL {
+    left: 619px;
+    top: 194px;
+    position: absolute;
+}
+
+.value_KRT_RACHR_state {
+    left: 580px;
+    top: 170px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_RACHR {
+    left: 635px;
+    top: 169px;
+    position: absolute;
+}
+
+.value_KRT_YDGIR_state {
+    left: 573px;
+    top: 117px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_KRT_YDGIR {
+    left: 619px;
+    top: 116px;
+    position: absolute;
+}
+/*KRT Ends*/
+
+
+
+/*PNB*/
+.value_PNB_PNB {
+    position: absolute;
+    left: 181px;
+    top: 267px;
+}
+
+.value_PNB_PNB_state {
+    position: absolute;
+    left: 121px;
+    top: 268px;
+    /*z-index: 0;*/
+}
+
+
+.value_PNB_BARN {
+    position: absolute;
+    left: 760px;
+    top: 407px;
+}
+
+.value_PNB_BARN_state {
+    position: absolute;
+    left: 710px;
+    top: 407px;
+    /*z-index: 0;*/
+}
+
+
+.value_PNB_AMRT {
+    position: absolute;
+    left: 190px;
+    top: 146px;
+}
+
+.value_PNB_AMRT_state {
+    position: absolute;
+    left: 132px;
+    top: 146px;
+    /*z-index: 0;*/
+}
+
+
+.value_PNB_FIRO {
+    position: absolute;
+    left: 178px;
+    top: 294px;
+}
+
+.value_PNB_FIRO_state {
+    position: absolute;
+    left: 120px;
+    top: 294px;
+    /*z-index: 0;*/
+}
+
+
+.value_PNB_BTND {
+    position: absolute;
+    left: 95px;
+    top: 435px;
+}
+
+.value_PNB_BTND_state {
+    position: absolute;
+    left: 35px;
+    top: 435px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_FATE {
+    position: absolute;
+    left: 135px;
+    top: 352px;
+}
+
+.value_PNB_FATE_state {
+    position: absolute;
+    left: 33px;
+    top: 352px;
+    /*z-index: 0;*/
+}
+
+
+
+
+
+.value_PNB_FAZI {
+    position: absolute;
+    left: 80px;
+    top: 408px;
+}
+
+.value_PNB_FAZI_state {
+    position: absolute;
+    left: 35px;
+    top: 408px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_GURD {
+    position: absolute;
+    left: 250px;
+    top: 68px;
+}
+
+.value_PNB_GURD_state {
+    position: absolute;
+    left: 183px;
+    top: 68px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_FARI {
+    position: absolute;
+    left: 150px;
+    top: 320px;
+}
+
+.value_PNB_FARI_state {
+    position: absolute;
+    left: 95px;
+    top: 320px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_JALN {
+    position: absolute;
+    left: 715px;
+    top: 211px;
+}
+
+.value_PNB_JALN_state {
+    position: absolute;
+    left: 650px;
+    top: 211px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_HOSP {
+    position: absolute;
+    left: 640px;
+    top: 170px;
+}
+
+.value_PNB_HOSP_state {
+    position: absolute;
+    left: 565px;
+    top: 170px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_LUDH {
+    position: absolute;
+    left: 766px;
+    top: 330px;
+}
+
+.value_PNB_LUDH_state {
+    position: absolute;
+    left: 705px;
+    top: 330px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_KAPR {
+    position: absolute;
+    left: 200px;
+    top: 210px;
+}
+
+.value_PNB_KAPR_state {
+    position: absolute;
+    left: 128px;
+    top: 210px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_MOGA {
+    position: absolute;
+    left: 190px;
+    top: 237px;
+}
+
+.value_PNB_MOGA_state {
+    position: absolute;
+    left: 148px;
+    top: 237px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_MANS {
+    position: absolute;
+    left: 716px;
+    top: 567px;
+}
+
+.value_PNB_MANS_state {
+    position: absolute;
+    left: 670px;
+    top: 567px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_MUKT {
+    position: absolute;
+    left: 107px;
+    top: 377px;
+}
+
+.value_PNB_MUKT_state {
+    position: absolute;
+    left: 50px;
+    top: 377px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_MOHA {
+    position: absolute;
+    left: 756px;
+    top: 360px;
+}
+
+.value_PNB_MOHA_state {
+    position: absolute;
+    left: 710px;
+    top: 360px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_PATH {
+    position: absolute;
+    left: 590px;
+    top: 25px;
+}
+
+.value_PNB_PATH_state {
+    position: absolute;
+    left: 520px;
+    top: 25px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_PATL {
+    position: absolute;
+    left: 725px;
+    top: 432px;
+}
+
+.value_PNB_PATL_state {
+    position: absolute;
+    left: 680px;
+    top: 432px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_SANG {
+    position: absolute;
+    left: 725px;
+    top: 457px;
+}
+
+.value_PNB_SANG_state {
+    position: absolute;
+    left: 675px;
+    top: 457px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_RUPN {
+    position: absolute;
+    left: 717px;
+    top: 240px;
+}
+
+.value_PNB_RUPN_state {
+    position: absolute;
+    left: 654px;
+    top: 240px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_TARN {
+    position: absolute;
+    left: 190px;
+    top: 180px;
+}
+
+.value_PNB_TARN_state {
+    position: absolute;
+    left: 120px;
+    top: 180px;
+    /*z-index: 0;*/
+}
+
+
+
+.value_PNB_SBSN {
+    position: absolute;
+    left: 730px;
+    top: 265px;
+}
+
+.value_PNB_SBSN_state {
+    position: absolute;
+    left: 654px;
+    top: 265px;
+    /*z-index: 0;*/
+}
+
+
+/*PNB Ends*/
+
+
+
+/*BGL*/
+.value_BGL_BGL {
+    position: absolute;
+    left: 641px;
+    top: 328px;
+}
+
+.value_BGL_BGL_state {
+    position: absolute;
+    left: 581px;
+    top: 328px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_WDVC {
+    position: absolute;
+    left: 701px;
+    top: 352px;
+}
+
+.value_BGL_WDVC_state {
+    position: absolute;
+    left: 524px;
+    top: 352px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_KOL {
+    position: absolute;
+    left: 638px;
+    top: 406px;
+}
+
+.value_BGL_KOL_state {
+    position: absolute;
+    left: 585px;
+    top: 407px;
+    /*z-index: 0;*/
+}
+
+/*Sadhana ::Added 19 Locations on 07th Dec, 2016*/
+
+.value_BGL_ALIP {
+    position: absolute;
+    left: 728px;
+    top: 25px;
+}
+
+.value_BGL_ALIP_state {
+    position: absolute;
+    left: 658px;
+    top: 26px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_BNKR {
+    position: absolute;
+    left: 198px;
+    top: 426px;
+}
+
+.value_BGL_BNKR_state {
+    position: absolute;
+    left: 139px;
+    top: 427px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_BARD {
+    position: absolute;
+    left: 234px;
+    top: 310px;
+}
+
+.value_BGL_BARD_state {
+    position: absolute;
+    left: 155px;
+    top: 311px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_BIRB {
+    position: absolute;
+    left: 215px;
+    top: 263px;
+}
+
+.value_BGL_BIRB_state {
+    position: absolute;
+    left: 155px;
+    top: 264px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_COOC {
+    position: absolute;
+    left: 720px;
+    top: 61px;
+}
+
+.value_BGL_COOC_state {
+    position: absolute;
+    left: 635px;
+    top: 62px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_DARJ {
+    position: absolute;
+    left: 228px;
+    top: -8px;
+}
+
+.value_BGL_DARJ_state {
+    position: absolute;
+    left: 155px;
+    top: -7px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_EMID {
+    position: absolute;
+    left: 252px;
+    top: 508px;
+}
+
+.value_BGL_EMID_state {
+    position: absolute;
+    left: 149px;
+    top: 509px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_HOOG {
+    position: absolute;
+    left: 626px;
+    top: 380px;
+}
+
+.value_BGL_HOOG_state {
+    position: absolute;
+    left: 568px;
+    top: 381px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_HOWR {
+    position: absolute;
+    left: 670px;
+    top: 490px;
+}
+
+.value_BGL_HOWR_state {
+    position: absolute;
+    left: 613px;
+    top: 491px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_JALP {
+    position: absolute;
+    left: 726px;
+    top: -10px;
+}
+
+.value_BGL_JALP_state {
+    position: absolute;
+    left: 658px;
+    top: -9px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_MALD {
+    position: absolute;
+    left: 729px;
+    top: 184px;
+}
+
+.value_BGL_MALD_state {
+    position: absolute;
+    left: 684px;
+    top: 185px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_MURS {
+    position: absolute;
+    left: 662px;
+    top: 245px;
+}
+
+.value_BGL_MURS_state {
+    position: absolute;
+    left: 574px;
+    top: 246px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_NADI {
+    position: absolute;
+    left: 662px;
+    top: 290px;
+}
+
+.value_BGL_NADI_state {
+    position: absolute;
+    left: 618px;
+    top: 291px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_NPRG {
+    position: absolute;
+    left: 692px;
+    top: 462px;
+}
+
+.value_BGL_NPRG_state {
+    position: absolute;
+    left: 575px;
+    top: 463px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_NDIN {
+    position: absolute;
+    left: 242px;
+    top: 80px;
+}
+
+.value_BGL_NDIN_state {
+    position: absolute;
+    left: 144px;
+    top: 81px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_PURU {
+    position: absolute;
+    left: 188px;
+    top: 354px;
+}
+
+.value_BGL_PURU_state {
+    position: absolute;
+    left: 139px;
+    top: 355px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_SPRG {
+    position: absolute;
+    left: 698px;
+    top: 516px;
+}
+
+.value_BGL_SPRG_state {
+    position: absolute;
+    left: 578px;
+    top: 517px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_SDIN {
+    position: absolute;
+    left: 738px;
+    top: 146px;
+}
+
+.value_BGL_SDIN_state {
+    position: absolute;
+    left: 642px;
+    top: 147px;
+    /*z-index: 0;*/
+}
+
+.value_BGL_WMID {
+    position: absolute;
+    left: 256px;
+    top: 467px;
+}
+
+.value_BGL_WMID_state {
+    position: absolute;
+    left: 144px;
+    top: 468px;
+    /*z-index: 0;*/
+}
+/*BGL Ends*/
+
+
+
+/*BHR*/
+
+.value_BHR_PAT {
+    position: absolute;
+    left: 127px;
+    top: 286px;
+}
+
+.value_BHR_PAT_state {
+    position: absolute;
+    left: 84px;
+    top: 287px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_DBG {
+    position: absolute;
+    left: 535px;
+    top: 38px;
+}
+
+.value_BHR_DBG_state {
+    position: absolute;
+    left: 459px;
+    top: 37px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SPL {
+    position: absolute;
+    left: 730px;
+    top: 129px;
+}
+
+.value_BHR_SPL_state {
+    position: absolute;
+    left: 679px;
+    top: 130px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_BHS {
+    position: absolute;
+    left: 513px;
+    top: 614px;
+}
+
+.value_BHR_BHS_state {
+    position: absolute;
+    left: 437px;
+    top: 615px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SIT {
+    position: absolute;
+    left: 484px;
+    top: -7px;
+}
+
+.value_BHR_SIT_state {
+    position: absolute;
+    left: 415px;
+    top: -6px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SAS {
+    position: absolute;
+    left: 69px;
+    top: 541px;
+}
+
+.value_BHR_SAS_state {
+    position: absolute;
+    left: 6px;
+    top: 542px;
+    /*z-index: 0;*/
+}
+
+/*.value_BHR_ARA {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_ARA_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+/*.value_BHR_ARW {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_ARW_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+/*.value_BHR_AUR {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_AUR_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_BANK {
+    position: absolute;
+    left: 631px;
+    top: 470px;
+}
+
+.value_BHR_BANK_state {
+    position: absolute;
+    left: 588px;
+    top: 471px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_BEG {
+    position: absolute;
+    left: 579px;
+    top: 96px;
+}
+
+.value_BHR_BEG_state {
+    position: absolute;
+    left: 509px;
+    top: 97px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_BHG {
+    position: absolute;
+    left: 684px;
+    top: 444px;
+}
+
+.value_BHR_BHG_state {
+    position: absolute;
+    left: 614px;
+    top: 445px;
+    /*z-index: 0;*/
+}
+
+/*.value_BHR_BHO {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_BHO_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_BUXA {
+    position: absolute;
+    left: 48px;
+    top: 309px;
+}
+
+.value_BHR_BUXA_state {
+    position: absolute;
+    left: 3px;
+    top: 310px;
+    /*z-index: 0;*/
+}
+
+/*.value_BHR_GAY {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_GAY_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_GOP {
+    position: absolute;
+    left: 92px;
+    top: 142px;
+}
+
+.value_BHR_GOP_state {
+    position: absolute;
+    left: 22px;
+    top: 143px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_JAMU {
+    position: absolute;
+    left: 529px;
+    top: 544px;
+}
+
+.value_BHR_JAMU_state {
+    position: absolute;
+    left: 487px;
+    top: 545px;
+    /*z-index: 0;*/
+}
+
+/*.value_BHR_JEH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_JEH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+/*.value_BHR_KAI {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KAI_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+/*.value_BHR_KAT {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KAT_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+/*.value_BHR_KHA {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KHA_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+/*.value_BHR_KIS {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KIS_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_LAKH {
+    position: absolute;
+    left: 529px;
+    top: 567px;
+}
+
+.value_BHR_LAKH_state {
+    position: absolute;
+    left: 463px;
+    top: 568px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MAD {
+    position: absolute;
+    left: 633px;
+    top: 495px;
+}
+
+.value_BHR_MAD_state {
+    position: absolute;
+    left: 555px;
+    top: 496px;
+    /*z-index: 0;*/
+}
+/*
+.value_BHR_MDB {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_MDB_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_MUNG {
+    position: absolute;
+    left: 571px;
+    top: 519px;
+}
+
+.value_BHR_MUNG_state {
+    position: absolute;
+    left: 515px;
+    top: 520px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MUZ {
+    position: absolute;
+    left: 484px;
+    top: -31px;
+}
+
+.value_BHR_MUZ_state {
+    position: absolute;
+    left: 404px;
+    top: -30px;
+    /*z-index: 0;*/
+}
+/*
+.value_BHR_NAL {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_NAL_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_NAWD {
+    position: absolute;
+    left: 455px;
+    top: 637px;
+}
+
+.value_BHR_NAWD_state {
+    position: absolute;
+    left: 393px;
+    top: 638px;
+    /*z-index: 0;*/
+}
+
+/*.value_BHR_PAS {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_PAS_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}
+
+.value_BHR_PCH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_PCH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}
+*/
+.value_BHR_PRN {
+    position: absolute;
+    left: 704px;
+    top: 421px;
+}
+
+.value_BHR_PRN_state {
+    position: absolute;
+    left: 663px;
+    top: 422px;
+    /*z-index: 0;*/
+}
+/*
+.value_BHR_ROH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_ROH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}
+
+.value_BHR_SAH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_SAH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}
+    */
+.value_BHR_SAM {
+    position: absolute;
+    left: 529px;
+    top: 15px;
+}
+
+.value_BHR_SAM_state {
+    position: absolute;
+    left: 453px;
+    top: 16px;
+    /*z-index: 0;*/
+}
+/*
+.value_BHR_SAR {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_SAR_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_SHEI {
+    position: absolute;
+    left: 511px;
+    top: 591px;
+}
+
+.value_BHR_SHEI_state {
+    position: absolute;
+    left: 437px;
+    top: 592px;
+    /*z-index: 0;*/
+}
+
+/*.value_BHR_SHO {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_SHO_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}
+*/
+.value_BHR_SIW {
+    position: absolute;
+    left: 69px;
+    top: 215px;
+}
+
+.value_BHR_SIW_state {
+    position: absolute;
+    left: 23px;
+    top: 216px;
+    /*z-index: 0;*/
+}
+/*
+.value_BHR_VAI {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_VAI_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+}*/
+
+.value_BHR_ARRA {
+    position: absolute;
+    left: 48px;
+    top: 335px;
+}
+
+.value_BHR_ARRA_state {
+    position: absolute;
+    left: 4px;
+    top: 336px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_BET {
+    position: absolute;
+    left: 66px;
+    top: 96px;
+}
+
+.value_BHR_BET_state {
+    position: absolute;
+    left: 23px;
+    top: 97px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_CHP {
+    position: absolute;
+    left: 95px;
+    top: 262px;
+}
+
+.value_BHR_CHP_state {
+    position: absolute;
+    left: 44px;
+    top: 263px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_HAJ {
+    position: absolute;
+    left: 416px;
+    top: 683px;
+}
+
+.value_BHR_HAJ_state {
+    position: absolute;
+    left: 365px;
+    top: 684px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MOT {
+    position: absolute;
+    left: 185px;
+    top: 3px;
+}
+
+.value_BHR_MOT_state {
+    position: absolute;
+    left: 127px;
+    top: 4px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_BHAB {
+    position: absolute;
+    left: 69px;
+    top: 517px;
+}
+
+.value_BHR_BHAB_state {
+    position: absolute;
+    left: 4px;
+    top: 518px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_AURG {
+    position: absolute;
+    left: 108px;
+    top: 591px;
+}
+
+.value_BHR_AURG_state {
+    position: absolute;
+    left: 24px;
+    top: 592px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_JAHN {
+    position: absolute;
+    left: 170px;
+    top: 639px;
+}
+
+.value_BHR_JAHN_state {
+    position: absolute;
+    left: 95px;
+    top: 640px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_GAYA {
+    position: absolute;
+    left: 186px;
+    top: 661px;
+}
+
+.value_BHR_GAYA_state {
+    position: absolute;
+    left: 145px;
+    top: 662px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_JEH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_JEH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_KAI {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KAI_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_KAT {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KAT_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_KHA {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KHA_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_KIS {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_KIS_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_LAK {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_LAK_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MAD {
+    position: absolute;
+    left: 633px;
+    top: 495px;
+}
+
+.value_BHR_MAD_state {
+    position: absolute;
+    left: 555px;
+    top: 496px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MDB {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_MDB_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MNG {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_MNG_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MUZ {
+    position: absolute;
+    left: 484px;
+    top: -31px;
+}
+
+.value_BHR_MUZ_state {
+    position: absolute;
+    left: 404px;
+    top: -30px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_NAL {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_NAL_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_NAW {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_NAW_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_PAS {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_PAS_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_PCH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_PCH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_PRN {
+    position: absolute;
+    left: 704px;
+    top: 421px;
+}
+
+.value_BHR_PRN_state {
+    position: absolute;
+    left: 663px;
+    top: 422px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_ROH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_ROH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SAH {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_SAH_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SAM {
+    position: absolute;
+    left: 529px;
+    top: 15px;
+}
+
+.value_BHR_SAM_state {
+    position: absolute;
+    left: 453px;
+    top: 16px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SAR {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_SAR_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SHE {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_SHE_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SHO {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_SHO_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SIW {
+    position: absolute;
+    left: 69px;
+    top: 215px;
+}
+
+.value_BHR_SIW_state {
+    position: absolute;
+    left: 23px;
+    top: 216px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_VAI {
+    position: absolute;
+    left: 69px;
+    top: 472px;
+}
+
+.value_BHR_VAI_state {
+    position: absolute;
+    left: 8px;
+    top: 473px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SHHR {
+    position: absolute;
+    left: 221px;
+    top: -29px;
+}
+
+.value_BHR_SHHR_state {
+    position: absolute;
+    left: 163px;
+    top: -28px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_MDHB {
+    position: absolute;
+    left: 580px;
+    top: 67px;
+}
+
+.value_BHR_MDHB_state {
+    position: absolute;
+    left: 507px;
+    top: 68px;
+    /*z-index: 0;*/
+}
+
+/*Sadhana : 15th MAY, 2017 : Added 6 Locations for Bihar*/
+.value_BHR_KHAG {
+    position: absolute;
+    left: 583px;
+    top: 122px;
+}
+
+.value_BHR_KHAG_state {
+    position: absolute;
+    left: 521px;
+    top: 122px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_ARIA {
+    position: absolute;
+    left: 733px;
+    top: 151px;
+}
+
+.value_BHR_ARIA_state {
+    position: absolute;
+    left: 690px;
+    top: 152px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_KISA {
+    position: absolute;
+    left: 733px;
+    top: 177px;
+}
+
+.value_BHR_KISA_state {
+    position: absolute;
+    left: 659px;
+    top: 178px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_SAHA {
+    position: absolute;
+    left: 722px;
+    top: 262px;
+}
+
+.value_BHR_SAHA_state {
+    position: absolute;
+    left: 731px;
+    top: 238px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_KATI {
+    position: absolute;
+    left: 722px;
+    top: 390px;
+}
+
+.value_BHR_KATI_state {
+    position: absolute;
+    left: 673px;
+    top: 390px;
+    /*z-index: 0;*/
+}
+
+.value_BHR_ARWA {
+    position: absolute;
+    left: 69px;
+    top: 616px;
+}
+
+.value_BHR_ARWA_state {
+    position: absolute;
+    left: 25px;
+    top: 617px;
+    /*z-index: 0;*/
+}
+/*BHR Ends*/
+
+
+
+/*HRN*/
+.value_HRN_GGN {
+    position: absolute;
+    left: 677px;
+    top: 321px;
+}
+
+.value_HRN_GGN_state {
+    position: absolute;
+    left: 616px;
+    top: 322px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_FRD {
+    position: absolute;
+    left: 718px;
+    top: 356px;
+}
+
+.value_HRN_FRD_state {
+    position: absolute;
+    left: 649px;
+    top: 357px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_AMB {
+    position: absolute;
+    left: 705px;
+    top: 77px;
+}
+
+.value_HRN_AMB_state {
+    position: absolute;
+    left: 648px;
+    top: 78px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_HSR {
+    position: absolute;
+    left: 147px;
+    top: 217px;
+}
+
+.value_HRN_HSR_state {
+    left: 105px;
+    position: absolute;
+    top: 218px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_KRN {
+    position: absolute;
+    left: 650px;
+    top: 159px;
+}
+
+.value_HRN_KRN_state {
+    left: 602px;
+    position: absolute;
+    top: 160px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_BHI {
+    position: absolute;
+    left: 237px;
+    top: 289px;
+}
+
+.value_HRN_BHI_state {
+    left: 180px;
+    position: absolute;
+    top: 290px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_YMN {
+    position: absolute;
+    left: 727px;
+    top: 33px;
+}
+
+.value_HRN_YMN_state {
+    left: 633px;
+    position: absolute;
+    top: 34px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_KKS {
+    position: absolute;
+    left: 330px;
+    top: 83px;
+}
+
+.value_HRN_KKS_state {
+    left: 248px;
+    position: absolute;
+    top: 84px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_SNP {
+    position: absolute;
+    left: 655px;
+    top: 229px;
+}
+
+.value_HRN_SNP_state {
+    left: 599px;
+    position: absolute;
+    top: 230px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_PNP {
+    position: absolute;
+    left: 655px;
+    top: 196px;
+}
+
+.value_HRN_PNP_state {
+    left: 599px;
+    position: absolute;
+    top: 197px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_RWR {
+    position: absolute;
+    left: 259px;
+    top: 344px;
+}
+
+.value_HRN_RWR_state {
+    left: 206px;
+    position: absolute;
+    top: 345px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_NRN {
+    position: absolute;
+    left: 261px;
+    top: 404px;
+}
+
+.value_HRN_NRN_state {
+    left: 201px;
+    position: absolute;
+    top: 405px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_RHT {
+    position: absolute;
+    left: 652px;
+    top: 261px;
+}
+
+.value_HRN_RHT_state {
+    left: 601px;
+    position: absolute;
+    top: 262px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_JHJ {
+    position: absolute;
+    left: 652px;
+    top: 289px;
+}
+
+.value_HRN_JHJ_state {
+    left: 601px;
+    position: absolute;
+    top: 290px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_SIR {
+    position: absolute;
+    left: 100px;
+    top: 160px;
+}
+
+.value_HRN_SIR_state {
+    left: 61px;
+    position: absolute;
+    top: 161px;
+    /*z-index: 0;*/
+}
+
+
+.value_HRN_JND {
+    position: absolute;
+    left: 323px;
+    top: 111px;
+}
+
+.value_HRN_JND_state {
+    left: 288px;
+    position: absolute;
+    top: 112px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_KTH {
+    position: absolute;
+    left: 650px;
+    top: 117px;
+}
+
+.value_HRN_KTH_state {
+    left: 602px;
+    position: absolute;
+    top: 118px;
+    /*z-index: 0;*/
+}
+
+
+.value_HRN_PLW {
+    position: absolute;
+    left: 682px;
+    top: 389px;
+}
+
+.value_HRN_PLW_state {
+    left: 632px;
+    position: absolute;
+    top: 390px;
+    /*z-index: 0;*/
+}
+
+.value_HRN_FTBD {
+    position: absolute;
+    left: 134px;
+    top: 128px;
+}
+
+.value_HRN_FTBD_state {
+    left: 60px;
+    position: absolute;
+    top: 129px;
+    /*z-index: 0;*/
+}
+
+/*HRN Ends*/
+
+
+
+/*GJT*/
+.value_GJT_GJT {
+    position: absolute;
+    left: 746px;
+    top: 114px;
+}
+
+.value_GJT_GJT_state {
+    position: absolute;
+    left: 693px;
+    top: 115px;
+}
+
+/*Anand*/
+.value_GJT_AND {
+    position: absolute;
+    left: 724px;
+    top: 170px;
+}
+
+.value_GJT_AND_state {
+    position: absolute;
+    left: 675px;
+    top: 171px;
+}
+/*Kheda*/
+.value_GJT_KHE {
+    position: absolute;
+    left: 691px;
+    top: 89px;
+}
+
+.value_GJT_KHE_state {
+    position: absolute;
+    left: 643px;
+    top: 90px;
+}
+/*Panchmahal*/
+.value_GJT_PAN {
+    position: absolute;
+    left: 726px;
+    top: 115px;
+}
+
+.value_GJT_PAN_state {
+    position: absolute;
+    left: 643px;
+    top: 116px;
+}
+/*Dahod*/
+.value_GJT_DAH {
+    position: absolute;
+    left: 726px;
+    top: 146px;
+}
+
+.value_GJT_DAH_state {
+    position: absolute;
+    left: 676px;
+    top: 147px;
+}
+/*Gandhinagar*/
+.value_GJT_GNG {
+    position: absolute;
+    left: 700px;
+    top: 41px;
+}
+
+.value_GJT_GNG_state {
+    position: absolute;
+    left: 612px;
+    top: 42px;
+}
+/*Himmat Nagar*/
+.value_GJT_HIM {
+    position: absolute;
+    left: 690px;
+    top: 18px;
+}
+
+.value_GJT_HIM_state {
+    position: absolute;
+    left: 597px;
+    top: 19px;
+}
+/*Palanpur*/
+.value_GJT_PLN {
+    position: absolute;
+    left: 657px;
+    top: -4px;
+}
+
+.value_GJT_PLN_state {
+    position: absolute;
+    left: 591px;
+    top: -3px;
+}
+/*Vadodara*/
+.value_GJT_VAD {
+    position: absolute;
+    left: 726px;
+    top: 201px;
+}
+
+.value_GJT_VAD_state {
+    position: absolute;
+    left: 657px;
+    top: 202px;
+}
+/*Surat*/
+.value_GJT_SRT {
+    position: absolute;
+    left: 690px;
+    top: 277px;
+}
+
+.value_GJT_SRT_state {
+    position: absolute;
+    left: 644px;
+    top: 278px;
+}
+/*Valsad*/
+.value_GJT_VAL {
+    position: absolute;
+    left: 689px;
+    top: 327px;
+}
+
+.value_GJT_VAL_state {
+    position: absolute;
+    left: 638px;
+    top: 328px;
+}
+/*Bharuch*/
+.value_GJT_BRC {
+    position: absolute;
+    left: 386px;
+    top: 362px;
+}
+
+.value_GJT_BRC_state {
+    position: absolute;
+    left: 327px;
+    top: 363px;
+}
+/*Bhavnagar */
+.value_GJT_BHN {
+    position: absolute;
+    left: 329px;
+    top: 336px;
+}
+
+.value_GJT_BHN_state {
+    position: absolute;
+    left: 258px;
+    top: 337px;
+}
+/*Botad */
+.value_GJT_BOT {
+    position: absolute;
+    left: 238px;
+    top: 311px;
+}
+
+.value_GJT_BOT_state {
+    position: absolute;
+    left: 194px;
+    top: 312px;
+}
+/*Junagadh */
+.value_GJT_JUN {
+    position: absolute;
+    left: 190px;
+    top: 277px;
+}
+
+.value_GJT_JUN_state {
+    position: absolute;
+    left: 123px;
+    top: 278px;
+}
+/*Porbandar */
+.value_GJT_POR {
+    position: absolute;
+    left: 129px;
+    top: 242px;
+}
+
+.value_GJT_POR_state {
+    position: absolute;
+    left: 59px;
+    top: 243px;
+}
+
+/*Amreli*/
+.value_GJT_ARL {
+    position: absolute;
+    left: 123px;
+    top: 205px;
+}
+
+.value_GJT_ARL_state {
+    position: absolute;
+    left: 72px;
+    top: 206px;
+}
+
+/*Rajkot*/
+.value_GJT_RJK {
+    position: absolute;
+    left: 117px;
+    top: 174px;
+}
+
+.value_GJT_RJK_state {
+    position: absolute;
+    left: 63px;
+    top: 175px;
+}
+/*Jamnagar*/
+.value_GJT_JMN {
+    position: absolute;
+    left: 120px;
+    top: 147px;
+}
+
+.value_GJT_JMN_state {
+    position: absolute;
+    left: 49px;
+    top: 148px;
+}
+/*Morbi*/
+.value_GJT_MOR {
+    position: absolute;
+    left: 98px;
+    top: 124px;
+}
+
+.value_GJT_MOR_state {
+    position: absolute;
+    left: 51px;
+    top: 125px;
+}
+/*Surendernagar*/
+.value_GJT_SUR {
+    position: absolute;
+    left: 112px;
+    top: 42px;
+}
+
+.value_GJT_SUR_state {
+    position: absolute;
+    left: 15px;
+    top: 43px;
+}
+/*Ahmedabad*/
+.value_GJT_AHM {
+    position: absolute;
+    left: 282px;
+    top: 17px;
+}
+
+.value_GJT_AHM_state {
+    position: absolute;
+    left: 197px;
+    top: 18px;
+}
+
+/*Mehsana*/
+.value_GJT_MEH {
+    position: absolute;
+    left: 377px;
+    top: -30px;
+}
+
+.value_GJT_MEH_state {
+    position: absolute;
+    left: 313px;
+    top: -29px;
+}
+
+/*Mehsana*/
+.value_GJT_KUT {
+    position: absolute;
+    left: 62px;
+    top: 76px;
+}
+
+.value_GJT_KUT_state {
+    position: absolute;
+    left: 15px;
+    top: 78px;
+}
+
+/*Sabarmati*/
+.value_GJT_SAB {
+    position: absolute;
+    left: 365px;
+    top: -5px;
+}
+
+.value_GJT_SAB_state {
+    position: absolute;
+    left: 293px;
+    top: -4px;
+}
+
+/*Surat TPL*/
+.value_GJT_SRP {
+    position: absolute;
+    left: 717px;
+    top: 299px;
+}
+
+.value_GJT_SRP_state {
+    position: absolute;
+    left: 644px;
+    top: 300px;
+}
+/*GJT Ends*/
+
+
+
+/*DNH*/
+
+.value_DNH_DNH {
+    position: absolute;
+    left: 593px;
+    top: 137px;
+}
+
+.value_DNH_DNH_state {
+    position: absolute;
+    left: 553px;
+    top: 138px;
+}
+
+.value_DNH_DNHI {
+    position: absolute;
+    left: 589px;
+    top: 164px;
+}
+
+.value_DNH_DNHI_state {
+    position: absolute;
+    left: 522px;
+    top: 164px;
+}
+/*DNH Ends*/
+
+
+
+/*LAD*/
+
+.value_LAD_LAD {
+    position: absolute;
+    left: 577px;
+    top: 113px;
+}
+
+.value_LAD_LAD_state {
+    position: absolute;
+    left: 530px;
+    top: 114px;
+}
+/*LAD Ends*/
+
+
+
+/*NGD*/
+.value_NGD_NGD {
+    position: absolute;
+    left: 226px;
+    top: 227px;
+}
+
+.value_NGD_NGD_state {
+    position: absolute;
+    left: 184px;
+    top: 228px;
+}
+
+.value_NGD_NKDA {
+    position: absolute;
+    left: 277px;
+    top: 252px;
+}
+
+.value_NGD_NKDA_state {
+    position: absolute;
+    left: 92px;
+    top: 253px;
+}
+
+.value_NGD_NAG {
+    position: absolute;
+    left: 700px;
+    top: 240px;
+}
+
+.value_NGD_NAG_state {
+    position: absolute;
+    left: 384px;
+    top: 240px;
+}
+/*NGD Ends*/
+
+
+
+/*GOA*/
+.value_GOA_GSAN {
+    position: absolute;
+    left: 669px;
+    top: 264px;
+}
+
+.value_GOA_GSAN_state {
+    position: absolute;
+    left: 591px;
+    top: 265px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GMAP {
+    position: absolute;
+    left: 164px;
+    top: 92px;
+}
+
+.value_GOA_GMAP_state {
+    position: absolute;
+    left: 90px;
+    top: 93px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GMPS {
+    position: absolute;
+    left: 175px;
+    top: 116px;
+}
+
+.value_GOA_GMPS_state {
+    position: absolute;
+    left: 91px;
+    top: 117px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GMAR {
+    position: absolute;
+    left: 260px;
+    top: 281px;
+}
+
+.value_GOA_GMAR_state {
+    position: absolute;
+    left: 189px;
+    top: 281px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GMRG {
+    position: absolute;
+    left: 264px;
+    top: 258px;
+}
+
+.value_GOA_GMRG_state {
+    position: absolute;
+    left: 189px;
+    top: 259px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GPAN {
+    position: absolute;
+    left: 177px;
+    top: 141px;
+}
+
+.value_GOA_GPAN_state {
+    position: absolute;
+    left: 124px;
+    top: 142px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GPON {
+    position: absolute;
+    left: 199px;
+    top: 167px;
+}
+
+.value_GOA_GPON_state {
+    position: absolute;
+    left: 140px;
+    top: 168px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GVAS {
+    position: absolute;
+    left: 186px;
+    top: 194px;
+}
+
+.value_GOA_GVAS_state {
+    position: absolute;
+    left: 127px;
+    top: 195px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GVER {
+    position: absolute;
+    left: 213px;
+    top: 222px;
+}
+
+.value_GOA_GVER_state {
+    position: absolute;
+    left: 150px;
+    top: 223px;
+    /*z-index: 0;*/
+}
+
+.value_GOA_GBIC {
+    position: absolute;
+    left: 515px;
+    top: 32px;
+}
+
+.value_GOA_GBIC_state {
+    position: absolute;
+    left: 443px;
+    top: 33px;
+    /*z-index: 0;*/
+}
+/*GOA Ends*/
+
+
+
+/*MH*/
+.value_MAH_DHULE {
+    position: absolute;
+    left: 158px;
+    top: 38px;
+}
+
+.value_MAH_DHULE_state {
+    position: absolute;
+    left: 114px;
+    top: 39px;
+}
+
+.value_MAH_BDP {
+    position: absolute;
+    left: 71px;
+    top: 196px;
+}
+
+.value_MAH_BDP_state {
+    position: absolute;
+    left: 25px;
+    top: 197px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_BWI {
+    position: absolute;
+    left: 80px;
+    top: 165px;
+}
+
+.value_MAH_BWI_state {
+    position: absolute;
+    left: 17px;
+    top: 166px;
+}
+
+.value_MAH_VAS {
+    position: absolute;
+    left: 93px;
+    top: 135px;
+}
+
+.value_MAH_VAS_state {
+    position: absolute;
+    left: 53px;
+    top: 136px;
+}
+
+.value_MAH_MUM {
+    position: absolute;
+    left: 70px;
+    top: 230px;
+}
+
+.value_MAH_MUM_state {
+    position: absolute;
+    left: 14px;
+    top: 231px;
+}
+
+.value_MAH_RTN {
+    position: absolute;
+    left: 94px;
+    top: 402px;
+}
+
+.value_MAH_RTN_state {
+    position: absolute;
+    left: 32px;
+    top: 403px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_SND {
+    position: absolute;
+    left: 116px;
+    top: 436px;
+}
+
+.value_MAH_SND_state {
+    position: absolute;
+    left: 41px;
+    top: 437px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_NGP {
+    position: absolute;
+    left: 801px;
+    top: 29px;
+}
+
+.value_MAH_NGP_state {
+    position: absolute;
+    left: 748px;
+    top: 29px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_WRD {
+    position: absolute;
+    left: 786px;
+    top: 117px;
+}
+
+.value_MAH_WRD_state {
+    position: absolute;
+    left: 729px;
+    top: 118px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_KYN {
+    position: absolute;
+    left: 66px;
+    top: 269px;
+}
+
+.value_MAH_KYN_state {
+    position: absolute;
+    left: 17px;
+    top: 269px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_GDC {
+    position: absolute;
+    left: 804px;
+    top: 144px;
+}
+
+.value_MAH_GDC_state {
+    position: absolute;
+    left: 733px;
+    top: 145px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_AWB {
+    position: absolute;
+    left: 187px;
+    top: -8px;
+}
+
+.value_MAH_AWB_state {
+    position: absolute;
+    left: 103px;
+    top: -7px;
+}
+
+.value_MAH_GND {
+    position: absolute;
+    left: 815px;
+    top: 59px;
+}
+
+.value_MAH_GND_state {
+    position: absolute;
+    left: 763px;
+    top: 60px;
+}
+
+.value_MAH_BND {
+    position: absolute;
+    left: 804px;
+    top: 90px;
+}
+
+.value_MAH_BND_state {
+    position: absolute;
+    left: 736px;
+    top: 91px;
+}
+
+.value_MAH_NAN {
+    top: 302px;
+    left: 616px;
+    position: absolute;
+}
+
+.value_MAH_NAN_state {
+    position: absolute;
+    left: 560px;
+    top: 303px;
+}
+
+.value_MAH_AMR {
+    position: absolute;
+    left: 807px;
+    top: 202px;
+}
+
+
+.value_MAH_AMR_state {
+    position: absolute;
+    left: 743px;
+    top: 203px;
+}
+
+.value_MAH_CHD {
+    position: absolute;
+    left: 797px;
+    top: 173px;
+}
+
+.value_MAH_CHD_state {
+    position: absolute;
+    left: 719px;
+    top: 174px;
+}
+
+.value_MAH_PNU_state {
+    position: absolute;
+    left: 18px;
+    top: 301px;
+}
+
+.value_MAH_PNU {
+    left: 99px;
+    top: 300px;
+    position: absolute;
+}
+
+.value_MAH_PUR {
+    position: absolute;
+    left: 92px;
+    top: 322px;
+}
+
+.value_MAH_PUR_state {
+    position: absolute;
+    left: 18px;
+    top: 323px;
+}
+
+.value_MAH_JLG {
+    position: absolute;
+    left: 457px;
+    top: 0px;
+}
+
+.value_MAH_JLG_state {
+    position: absolute;
+    left: 398px;
+    top: 1px;
+}
+
+.value_MAH_AMD_state {
+    position: absolute;
+    left: 49px;
+    top: 76px;
+}
+
+.value_MAH_AMD {
+    position: absolute;
+    left: 136px;
+    top: 75px;
+}
+
+.value_MAH_BAR {
+    position: absolute;
+    left: 103px;
+    top: 375px;
+}
+
+.value_MAH_BAR_state {
+    left: 39px;
+    position: absolute;
+    top: 376px;
+}
+
+.value_MAH_KOL {
+    left: 105px;
+    position: absolute;
+    top: 469px;
+}
+
+.value_MAH_KOL_state {
+    position: absolute;
+    left: 46px;
+    top: 470px;
+}
+
+.value_MAH_SOL {
+    position: absolute;
+    left: 483px;
+    top: 430px;
+}
+
+.value_MAH_SOL_state {
+    position: absolute;
+    left: 428px;
+    top: 431px;
+}
+
+.value_MAH_SAT {
+    position: absolute;
+    left: 93px;
+    top: 349px;
+}
+
+.value_MAH_SAT_state {
+    position: absolute;
+    left: 46px;
+    top: 350px;
+}
+
+.value_MAH_SNG {
+    position: absolute;
+    left: 384px;
+    top: 481px;
+}
+
+.value_MAH_SNG_state {
+    position: absolute;
+    left: 338px;
+    top: 482px;
+}
+
+.value_MAH_OSM {
+    position: absolute;
+    left: 540px;
+    top: 407px;
+}
+
+.value_MAH_OSM_state {
+    position: absolute;
+    left: 465px;
+    top: 408px;
+}
+
+.value_MAH_JAL {
+    position: absolute;
+    left: 521px;
+    top: 381px;
+}
+
+.value_MAH_JAL_state {
+    position: absolute;
+    left: 480px;
+    top: 382px;
+}
+
+.value_MAH_LTR {
+    position: absolute;
+    left: 553px;
+    top: 354px;
+}
+
+.value_MAH_LTR_state {
+    position: absolute;
+    left: 513px;
+    top: 355px;
+}
+
+.value_MAH_AKL {
+    position: absolute;
+    left: 547px;
+    top: 56px;
+}
+
+.value_MAH_AKL_state {
+    position: absolute;
+    left: 506px;
+    top: 57px;
+    /*z-index: 0;*/
+}
+
+.value_MAH_NSK {
+    position: absolute;
+    left: 107px;
+    top: 102px;
+}
+
+.value_MAH_NSK_state {
+    position: absolute;
+    left: 65px;
+    top: 103px;
+    /*z-index: 0;*/
+}
+
+/*.value_MAH_NBR {
+    position: absolute;
+    left: 122px;
+    top: 47px;
+}
+
+.value_MAH_NBR_state {
+    position: absolute;
+    left: 50px;
+    top: 48px;
+}
+
+.value_MAH_DHL {
+    position: absolute;
+    left: 138px;
+    top: 18px;
+}
+
+.value_MAH_DHL_state {
+    position: absolute;
+    left: 93px;
+    top: 19px;
+}*/
+
+.value_MAH_BEE {
+    position: absolute;
+    left: 446px;
+    top: 455px;
+}
+
+.value_MAH_BEE_state {
+    position: absolute;
+    left: 405px;
+    top: 456px;
+}
+
+.value_MAH_BUL {
+    position: absolute;
+    left: 522px;
+    top: 28px;
+}
+
+.value_MAH_BUL_state {
+    position: absolute;
+    left: 455px;
+    top: 29px;
+}
+
+.value_MAH_YAV {
+    position: absolute;
+    left: 801px;
+    top: 227px;
+}
+
+.value_MAH_YAV_state {
+    position: absolute;
+    left: 737px;
+    top: 228px;
+}
+
+.value_MAH_WAS {
+    position: absolute;
+    left: 767px;
+    top: 250px;
+}
+
+.value_MAH_WAS_state {
+    position: absolute;
+    left: 708px;
+    top: 251px;
+}
+
+.value_MAH_HNG {
+    position: absolute;
+    left: 737px;
+    top: 275px;
+}
+
+.value_MAH_HNG_state {
+    position: absolute;
+    left: 686px;
+    top: 276px;
+}
+
+.value_MAH_PRB {
+    position: absolute;
+    left: 573px;
+    top: 327px;
+}
+
+.value_MAH_PRB_state {
+    position: absolute;
+    left: 512px;
+    top: 328px;
+}
+/*MH Ends*/
+
+
+
+/*AP*/
+.value_APD_GUN {
+    position: absolute;
+    left: 202px;
+    top: 192px;
+}
+
+.value_APD_GUN_state {
+    position: absolute;
+    left: 156px;
+    top: 192px;
+}
+
+.value_APD_ANT {
+    position: absolute;
+    left: 483px;
+    top: 354px;
+}
+
+.value_APD_ANT_state {
+    position: absolute;
+    left: 412px;
+    top: 355px;
+}
+
+.value_APD_SKLM {
+    position: absolute;
+    left: 505px;
+    top: 18px;
+}
+
+.value_APD_SKLM_state {
+    position: absolute;
+    left: 427px;
+    top: 18px;
+}
+
+.value_APD_WGD {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 690px;
+    top: 154px;
+}
+
+.value_APD_WGD_state {
+    position: absolute;
+    left: 590px;
+    top: 154px;
+}
+
+
+.value_APD_EGD {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 374px;
+    top: 127px;
+}
+
+.value_APD_EGD_state {
+    position: absolute;
+    left: 276px;
+    top: 127px;
+}
+
+
+.value_APD_KRS {
+    position: absolute;
+    left: 620px;
+    top: 200px;
+}
+
+.value_APD_KRS_state {
+    position: absolute;
+    left: 570px;
+    top: 200px;
+}
+
+.value_APD_VJY {
+    position: absolute;
+    left: 425px;
+    top: 61px;
+}
+
+.value_APD_VJY_state {
+    position: absolute;
+    left: 337px;
+    top: 62px;
+}
+
+.value_APD_VKP {
+    position: absolute;
+    left: 753px;
+    top: 95px;
+}
+
+.value_APD_VKP_state {
+    position: absolute;
+    left: 653px;
+    top: 95px;
+}
+
+.value_APD_CHR {
+    position: absolute;
+    left: 445px;
+    top: 478px;
+}
+
+.value_APD_CHR_state {
+    position: absolute;
+    left: 390px;
+    top: 478px;
+}
+
+.value_APD_APUKRS {
+    left: 619px;
+    position: absolute;
+    top: 225px;
+}
+
+.value_APD_APUKRS_state {
+    position: absolute;
+    left: 422px;
+    top: 395px;
+}
+
+.value_APD_NLR {
+    position: absolute;
+    left: 474px;
+    top: 394px;
+}
+
+.value_APD_NLR_state {
+    position: absolute;
+    left: 422px;
+    top: 395px;
+}
+
+.value_APD_KNL {
+    position: absolute;
+    left: 59px;
+    top: 231px;
+}
+
+.value_APD_KNL_state {
+    position: absolute;
+    left: 4px;
+    top: 232px;
+}
+
+.value_APD_KDP {
+    position: absolute;
+    left: 474px;
+    top: 435px;
+}
+
+.value_APD_KDP_state {
+    position: absolute;
+    left: 414px;
+    top: 436px;
+}
+
+.value_APD_PRK {
+    position: absolute;
+    left: 465px;
+    top: 294px;
+}
+
+.value_APD_PRK_state {
+    position: absolute;
+    left: 400px;
+    top: 294px;
+}
+/*AP Ends*/
+
+
+/*Sadhana : 29th March, 2017 : Commented for BULB Dashboard*/
+/*.value_DEL_DEL {
+    left: 95px;
+    top: 159px;
+    position: relative;
+    z-index: 0;
+}*/
+
+
+/*HP*/
+
+.value_HPD_SHM {
+    position: absolute;
+    left: 635px;
+    top: 348px;
+}
+
+.value_HPD_SHM_state {
+    position: absolute;
+    left: 589px;
+    top: 348px;
+    /*z-index: 0;*/
+}
+
+.value_HPD_BPR {
+    position: absolute;
+    left: 215px;
+    top: 288px;
+}
+
+.value_HPD_BPR_state {
+    position: absolute;
+    left: 159px;
+    top: 288px;
+    /*z-index: 0;*/
+}
+
+.value_HPD_KUL {
+    position: absolute;
+    left: 724px;
+    top: 157px;
+}
+
+.value_HPD_KUL_state {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 684px;
+    top: 157px;
+}
+
+.value_HPD_MDI {
+    position: absolute;
+    left: 163px;
+    top: 146px;
+}
+
+.value_HPD_MDI_state {
+    position: absolute;
+    left: 119px;
+    top: 146px;
+    /*z-index: 0;*/
+}
+
+.value_HPD_RMP {
+    position: absolute;
+    left: 748px;
+    top: 202px;
+}
+
+.value_HPD_RMP_state {
+    position: absolute;
+    left: 693px;
+    top: 202px;
+    /*z-index: 0;*/
+}
+
+.value_HPD_ROU {
+    position: absolute;
+    left: 745px;
+    top: 260px;
+}
+
+.value_HPD_ROU_state {
+    position: absolute;
+    left: 701px;
+    top: 260px;
+    /*z-index: 0;*/
+}
+
+.value_HPD_SLN {
+    position: absolute;
+    left: 282px;
+    top: 351px;
+}
+
+.value_HPD_SLN_state {
+    position: absolute;
+    left: 242px;
+    top: 351px;
+    /*z-index: 0;*/
+}
+
+.value_HPD_UNA {
+    position: absolute;
+    left: 191px;
+    top: 250px;
+}
+
+.value_HPD_UNA_state {
+    position: absolute;
+    left: 161px;
+    top: 250px;
+    /*z-index: 0;*/
+}
+
+.value_HPD_DAL {
+    position: absolute;
+    left: 190px;
+    top: 76px;
+}
+
+.value_HPD_DAL_state {
+    position: absolute;
+    left: 123px;
+    top: 76px;
+}
+
+.value_HPD_KAN {
+    position: absolute;
+    left: 165px;
+    top: 182px;
+}
+
+.value_HPD_KAN_state {
+    position: absolute;
+    left: 116px;
+    top: 182px;
+}
+
+.value_HPD_HAM {
+    position: absolute;
+    left: 185px;
+    top: 216px;
+}
+
+.value_HPD_HAM_state {
+    position: absolute;
+    left: 124px;
+    top: 216px;
+}
+
+.value_HPD_NHN {
+    position: absolute;
+    left: 616px;
+    top: 405px;
+}
+
+.value_HPD_NHN_state {
+    position: absolute;
+    left: 572px;
+    top: 405px;
+}
+/*HP Ends*/
+
+
+
+/*PU*/
+.value_PU_PON {
+    left: 95px;
+    top: 159px;
+    position: relative;
+}
+/*PU Ends*/
+
+
+
+/*RJ*/
+.value_RAJ_AJM {
+    position: absolute;
+    left: 761px;
+    top: 373px;
+}
+
+.value_RAJ_AJM_state {
+    position: absolute;
+    left: 716px;
+    top: 374px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_BHW {
+    position: absolute;
+    left: 681px;
+    top: 635px;
+}
+
+.value_RAJ_BHW_state {
+    position: absolute;
+    left: 621px;
+    top: 636px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_NGR {
+    position: absolute;
+    left: 312px;
+    top: 103px;
+}
+
+.value_RAJ_NGR_state {
+    position: absolute;
+    left: 260px;
+    top: 104px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_UDA {
+    position: absolute;
+    left: 249px;
+    top: 613px;
+}
+
+.value_RAJ_UDA_state {
+    position: absolute;
+    left: 193px;
+    top: 614px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_BSW {
+    position: absolute;
+    left: 304px;
+    top: 699px;
+}
+
+.value_RAJ_BSW_state {
+    position: absolute;
+    left: 235px;
+    top: 700px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_DGP_state {
+    position: absolute;
+    left: 191px;
+    top: 662px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_DGP {
+    position: absolute;
+    left: 264px;
+    top: 661px;
+}
+
+.value_RAJ_JHN {
+    position: absolute;
+    left: 629px;
+    top: 63px;
+}
+
+.value_RAJ_JHN_state {
+    position: absolute;
+    left: 555px;
+    top: 64px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_RJS {
+    position: absolute;
+    left: 240px;
+    top: 577px;
+}
+
+.value_RAJ_RJS_state {
+    position: absolute;
+    left: 165px;
+    top: 578px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_SIK {
+    position: absolute;
+    left: 615px;
+    top: 100px;
+}
+
+.value_RAJ_SIK_state {
+    position: absolute;
+    left: 577px;
+    top: 101px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_KOT {
+    left: 662px;
+    top: 600px;
+    position: absolute;
+}
+
+.value_RAJ_KOT_state {
+    position: absolute;
+    left: 625px;
+    top: 601px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_BDI {
+    position: absolute;
+    left: 101px;
+    top: 364px;
+}
+
+.value_RAJ_BDI_state {
+    position: absolute;
+    left: 56px;
+    top: 365px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_BARAN {
+    position: absolute;
+    left: 741px;
+    top: 515px;
+}
+
+.value_RAJ_BARAN_state {
+    position: absolute;
+    left: 695px;
+    top: 516px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_JHW {
+    position: absolute;
+    left: 747px;
+    top: 559px;
+}
+
+.value_RAJ_JHW_state {
+    position: absolute;
+    left: 685px;
+    top: 560px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_RAJ {
+    position: absolute;
+    left: 747px;
+    top: 170px;
+}
+
+.value_RAJ_RAJ_state {
+    position: absolute;
+    left: 702px;
+    top: 171px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_AWR {
+    position: absolute;
+    left: 669px;
+    top: 132px;
+}
+
+.value_RAJ_AWR_state {
+    position: absolute;
+    left: 626px;
+    top: 133px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_BHA {
+    position: absolute;
+    left: 770px;
+    top: 248px;
+}
+
+.value_RAJ_BHA_state {
+    position: absolute;
+    left: 703px;
+    top: 249px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_DAU {
+    position: absolute;
+    left: 741px;
+    top: 213px;
+}
+
+.value_RAJ_DAU_state {
+    position: absolute;
+    left: 692px;
+    top: 214px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_KRI_state {
+    position: absolute;
+    left: 713px;
+    top: 296px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_KRI {
+    position: absolute;
+    left: 763px;
+    top: 295px;
+}
+
+.value_RAJ_SWM {
+    position: absolute;
+    left: 773px;
+    top: 417px;
+}
+
+.value_RAJ_SWM_state {
+    position: absolute;
+    left: 663px;
+    top: 418px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_JOD {
+    position: absolute;
+    left: 114px;
+    top: 257px;
+}
+
+.value_RAJ_JOD_state {
+    position: absolute;
+    left: 53px;
+    top: 258px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_BRM {
+    position: absolute;
+    left: 105px;
+    top: 398px;
+}
+
+.value_RAJ_BRM_state {
+    position: absolute;
+    left: 52px;
+    top: 399px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_BKR {
+    position: absolute;
+    left: 232px;
+    top: 215px;
+}
+
+.value_RAJ_BKR_state {
+    position: absolute;
+    left: 177px;
+    top: 216px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_CHU {
+    position: absolute;
+    left: 381px;
+    top: 53px;
+}
+
+.value_RAJ_CHU_state {
+    position: absolute;
+    left: 334px;
+    top: 54px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_JLR {
+    position: absolute;
+    left: 128px;
+    top: 455px;
+}
+
+.value_RAJ_JLR_state {
+    position: absolute;
+    left: 83px;
+    top: 456px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_HAN {
+    position: absolute;
+    left: 615px;
+    top: 8px;
+}
+
+.value_RAJ_HAN_state {
+    position: absolute;
+    left: 518px;
+    top: 9px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_JAI {
+    position: absolute;
+    left: 69px;
+    top: 307px;
+}
+
+.value_RAJ_JAI_state {
+    position: absolute;
+    left: 3px;
+    top: 308px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_PAL {
+    position: absolute;
+    left: 162px;
+    top: 494px;
+}
+
+.value_RAJ_PAL_state {
+    position: absolute;
+    left: 131px;
+    top: 495px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_SRH {
+    position: absolute;
+    left: 184px;
+    top: 536px;
+}
+
+.value_RAJ_SRH_state {
+    position: absolute;
+    left: 141px;
+    top: 537px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_GAN {
+    position: absolute;
+    left: 266px;
+    top: 148px;
+}
+
+.value_RAJ_GAN_state {
+    position: absolute;
+    left: 184px;
+    top: 149px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_TNK {
+    position: absolute;
+    left: 737px;
+    top: 462px;
+}
+
+.value_RAJ_TNK_state {
+    position: absolute;
+    left: 701px;
+    top: 463px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_PRT {
+    position: absolute;
+    left: 647px;
+    top: 704px;
+}
+
+.value_RAJ_PRT_state {
+    position: absolute;
+    left: 571px;
+    top: 705px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_CHT {
+    position: absolute;
+    left: 686px;
+    top: 669px;
+}
+
+.value_RAJ_CHT_state {
+    position: absolute;
+    left: 609px;
+    top: 670px;
+    /*z-index: 0;*/
+}
+
+.value_RAJ_DHP {
+    position: absolute;
+    left: 794px;
+    top: 328px;
+}
+
+.value_RAJ_DHP_state {
+    position: absolute;
+    left: 735px;
+    top: 329px;
+    /*z-index: 0;*/
+}
+/*RJ Ends*/
+
+/*Nutan:UP*/
+.value_UPD {
+    position: absolute;
+    left: 345px;
+    top: 334px;
+    /*z-index: 0;*/
+}
+
+/*Shamli*/
+.value_UPD_SHML {
+   position: absolute;
+    left: 45px;
+    top: 48px;
+}
+
+.value_UPD_SHML_state {
+    position: absolute;
+    left: 3px;
+    top: 48px;
+    /*z-index: 0;*/
+}
+
+/*Baghpat*/
+.value_UPD_BAPT {
+   position: absolute;
+    left: 57px;
+    top: 113px;
+}
+
+.value_UPD_BAPT_state {
+    position: absolute;
+    left: 3px;
+    top: 113px;
+    /*z-index: 0;*/
+}
+
+/*Hapur*/
+.value_UPD_HAPR{
+   position: absolute;
+    left: 39px;
+    top: 136px;
+}
+
+.value_UPD_HAPR_state {
+    position: absolute;
+    left: 1px;
+    top: 136px;
+    /*z-index: 0;*/
+}
+
+
+/*Bulandshahar*/
+
+.value_UPD_BULN {
+   position: absolute;
+    left: 87px;
+    top: 159px;
+}
+
+.value_UPD_BULN_state {
+    position: absolute;
+    left: 3px;
+    top: 159px;
+    /*z-index: 0;*/
+}
+
+/*Firozabad*/
+.value_UPD_FRBD{
+   position: absolute;
+    left: 65px;
+    top: 275px;
+}
+
+.value_UPD_FRBD_state {
+    position: absolute;
+    left: 3px;
+    top: 275px;
+    /*z-index: 0;*/
+}
+/*Mathura*/
+.value_UPD_MTHR{
+   position: absolute;
+    left: 55px;
+    top: 230px;
+}
+
+.value_UPD_MTHR_state {
+    position: absolute;
+    left: 3px;
+    top: 230px;
+    /*z-index: 0;*/
+}
+
+/*Mainpuri*/
+
+.value_UPD_MNPR{
+   position: absolute;
+    left: 58px;
+    top: 298px;
+}
+
+.value_UPD_MNPR_state {
+    position: absolute;
+    left: 3px;
+    top: 298px;
+    /*z-index: 0;*/
+}
+
+
+
+/*Farrukhabad*/
+.value_UPD_FARU {
+   position: absolute;
+    left: 81px;
+    top: 321px;
+}
+
+.value_UPD_FARU_state {
+    position: absolute;
+    left: 3px;
+    top: 321px;
+    /*z-index: 0;*/
+}
+
+/*Kasganj*/
+
+.value_UPD_KSGN {
+    position: absolute;
+    left: 174px;
+    top: 345px;
+}
+
+.value_UPD_KSGN_state {
+    position: absolute;
+    left: 125px;
+    top: 345px;
+    /*z-index: 0;*/
+}
+
+/*Hathras*/
+.value_UPD_HTRS{
+    position: absolute;
+    left: 48px;
+    top: 345px;
+}
+
+.value_UPD_HTRS_state {
+    position: absolute;
+    left: 1px;
+    top: 345px;
+    /*z-index: 0;*/
+}
+
+
+/*Jalaun*/
+.value_UPD_JALU{
+   position: absolute;
+    left: 44px;
+    top: 371px;
+}
+
+.value_UPD_JALU_state {
+    position: absolute;
+    left: 3px;
+    top: 371px;
+    /*z-index: 0;*/
+}
+
+/*Auraiya*/
+.value_UPD_AURY {
+   position: absolute;
+    left: 50px;
+    top: 397px;
+}
+
+.value_UPD_AURY_state {
+    position: absolute;
+    left: 3px;
+    top: 397px;
+    /*z-index: 0;*/
+}
+
+/*Lalitpur*/
+.value_UPD_LTPR{
+   position: absolute;
+    left: 96px;
+    top:426px;
+}
+
+.value_UPD_LTPR_state {
+    position: absolute;
+    left: 48px;
+    top: 426px;
+    /*z-index: 0;*/
+}
+
+
+/*Etawah*/
+.value_UPD_ETWH{
+   position: absolute;
+    left: 50px;
+    top: 456px;
+}
+
+.value_UPD_ETWH_state {
+    position: absolute;
+    left: 3px;
+    top: 456px;
+    /*z-index: 0;*/
+}
+
+/*Kannauj*/
+.value_UPD_KNUJ{
+   position: absolute;
+    left: 52px;
+    top: 479px;
+}
+
+.value_UPD_KNUJ_state {
+    position: absolute;
+    left: 3px;
+    top: 479px;
+    /*z-index: 0;*/
+}
+
+/*Hamirpur*/
+.value_UPD_HMPR{
+    position: absolute;
+    left: 241px;
+    top: 526px;
+}
+
+.value_UPD_HMPR_state {
+    position: absolute;
+    left: 184px;
+    top: 526px;
+    /*z-index: 0;*/
+}
+
+/*Mahoba*/
+.value_UPD_MAHO{
+    position: absolute;
+    left:72px;
+    top: 526px;
+}
+
+.value_UPD_MAHO_state {
+    position: absolute;
+    left: 19px;
+    top: 526px;
+    /*z-index: 0;*/
+}
+
+
+
+/*Chitrakoot*/
+.value_UPD_CHKT{
+   position: absolute;
+    left: 307px;
+    top: 568px;
+}
+
+.value_UPD_CHKT_state {
+    position: absolute;
+    left: 244px;
+    top: 568px;
+    /*z-index: 0;*/
+}
+
+/*Sambhal*/
+.value_UPD_SMBL {
+   position: absolute;
+    left: 331px;
+    top: -3px;
+}
+
+.value_UPD_SMBL_state {
+    position: absolute;
+    left: 276px;
+    top: -3px;
+    /*z-index: 0;*/
+}
+
+/*Amroha*/
+.value_UPD_AMRH{
+   position: absolute;
+    left: 180px;
+    top: -3px;
+}
+
+.value_UPD_AMRH_state {
+    position: absolute;
+    left: 130px;
+    top: -3px;
+    /*z-index: 0;*/
+}
+
+/*Muzaffarnagar*/
+.value_UPD_MUZA {
+   position: absolute;
+    left: 413px;
+    top: 17px;
+}
+
+.value_UPD_MUZA_state {
+    position: absolute;
+    left: 323px;
+    top: 17px;
+    /*z-index: 0;*/
+}
+/*Etah*/
+.value_UPD_ETH {
+   position: absolute;
+    left: 378px;
+    top: 147px;
+}
+
+.value_UPD_ETH_state {
+    position: absolute;
+    left: 349px;
+    top: 147px;
+    /*z-index: 0;*/
+}
+
+/*Rampur*/
+.value_UPD_RMPR {
+   position: absolute;
+    left: 439px;
+    top: 42px;
+}
+
+.value_UPD_RMPR_state {
+    position: absolute;
+    left: 388px;
+    top: 42px;
+    /*z-index: 0;*/
+}
+
+
+/*Bijnor*/
+.value_UPD_BJNR {
+   position: absolute;
+    left: 288px;
+    top: 65px;
+}
+
+.value_UPD_BJNR_state {
+    position: absolute;
+    left: 252px;
+    top: 65px;
+    /*z-index: 0;*/
+}
+
+/*Varanasi*/
+.value_UPD_VAR {
+    position: absolute;
+    left: 608px;
+    top: 501px;
+}
+
+.value_UPD_VAR_state {
+    position: absolute;
+    left: 552px;
+    top: 501px;
+    /*z-index: 0;*/
+}
+
+/*Kanpur*/
+.value_UPD_KPR {
+    position: absolute;
+    top: 501px;
+    left: 231px;
+}
+/*Kanpur dehat*/
+.value_UPD_KPR_state {
+    /*z-index: 0;*/
+    position: absolute;
+    top: 501px;
+    left: 184px;
+}
+
+.value_UPD_KPRDV {
+    position: absolute;
+    top: 503px;
+    left:126px;
+}
+/*Lucknow*/
+.value_UPD_LKO {
+    position: absolute;
+    left: 619px;
+    top: -2px;
+}
+
+.value_UPD_LKO_state {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 562px;
+    top: -2px;
+}
+
+/*Bahraich*/
+.value_UPD_BHR {
+    position: absolute;
+    left: 616px;
+    top: 22px;
+}
+
+.value_UPD_BHR_state {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 561px;
+    top: 24px;
+}
+
+/*Allahabad*/
+.value_UPD_ALD {
+    position: absolute;
+    left: 220px;
+    top: 617px;
+}
+
+.value_UPD_ALD_state {
+    position: absolute;
+    left: 153px;
+    top: 619px;
+    /*z-index: 0;*/
+}
+
+/*Hardoi*/
+.value_UPD_HRD {
+   position: absolute;
+    top: -2px;
+    left: 752px;
+}
+
+.value_UPD_HRD_state {
+    position: absolute;
+    top: -2px;
+    left: 710px;
+    /*z-index: 0;*/
+}
+/*Fatehpur*/
+.value_UPD_FTP {
+   position: absolute;
+    top: 596px;
+    left: 145px;
+}
+
+.value_UPD_FTP_state {
+    /*z-index: 0;*/
+    position: absolute;
+    top: 596px;
+    left: 87px;
+}
+
+/*Bareilly*/
+.value_UPD_BRL {
+   position: absolute;
+    top: -4px;
+    left: 46px;
+}
+
+.value_UPD_BRL_state {
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    /*z-index: 0;*/
+}
+
+/*Pratapgrah*/
+.value_UPD_PTP {
+    position: absolute;
+    top: 618px;
+    left: 382px;
+}
+
+.value_UPD_PTP_state {
+    position: absolute;
+    top: 619px;
+    left: 312px;
+    /*z-index: 0;*/
+}
+
+/*pilibhit*/
+.value_UPD_PLB {
+     position: absolute;
+    top: 84px;
+    left: 311px;
+}
+
+.value_UPD_PLB_state {
+    position: absolute;
+    top: 85px;
+    left: 268px;
+    /*z-index: 0;*/
+}
+
+/*Basti*/
+.value_UPD_BST {
+    position: absolute;
+    left: 689px;
+    top: 200px;
+}
+
+.value_UPD_BST_state {
+    position: absolute;
+    left: 657px;
+    top: 200px;
+    /*z-index: 0;*/
+}
+/*Ghazipur*/
+.value_UPD_GZP {
+    position: absolute;
+    left: 709px;
+    top: 446px;
+}
+
+.value_UPD_GZP_state {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 655px;
+    top: 446px;
+}
+/*Jaunpur*/
+.value_UPD_JNP {
+    position: absolute;
+    left: 712px;
+    top: 470px;
+}
+
+.value_UPD_JNP_state {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 659px;
+    top: 471px;
+}
+/*Kausambi*/
+.value_UPD_KSB {
+    position: absolute;
+    top: 595px;
+    left: 301px;
+}
+
+.value_UPD_KSB_state {
+    /*z-index: 0;*/
+    position: absolute;
+    top: 595px;
+    left: 231px;
+}
+
+/*Unnao*/
+.value_UPD_UNN {
+    position: absolute;
+    top: 548px;
+    left: 98px;
+}
+
+.value_UPD_UNN_state {
+    position: absolute;
+    top: 548px;
+    left: 54px;
+    /*z-index: 0;*/
+}
+
+/*Bhaddohi*/
+.value_UPD_BHD {
+     position: absolute;
+    left: 558px;
+    top: 585px;
+}
+
+.value_UPD_BHD_state {
+    position: absolute;
+    left: 505px;
+    top: 585px;
+    /*z-index: 0;*/
+}
+
+/*Khalilabad*/
+.value_UPD_KLB {
+    position: absolute;
+    left: 711px;
+    top: 250px;
+}
+
+.value_UPD_KLB_state {
+    position: absolute;
+    left: 646px;
+    top: 250px;
+    /*z-index: 0;*/
+}
+
+/*SiddhartNagar*/
+.value_UPD_SDD {
+    position: absolute;
+    left: 730px;
+    top: 175px;
+}
+
+
+.value_UPD_SDD_state {
+    position: absolute;
+    left: 636px;
+    top: 175px;
+    /*z-index: 0;*/
+}
+
+/*Badaun*/
+.value_UPD_BAD {
+    position: absolute;
+    left: 50px;
+    top: 26px;
+}
+
+.value_UPD_BAD_state {
+    position: absolute;
+    left: 2px;
+    top: 26px;
+    /*z-index: 0;*/
+}
+/*Deoria*/
+.value_UPD_DEO {
+    position: absolute;
+    left: 717px;
+    top: 330px;
+}
+
+.value_UPD_DEO_state {
+    position: absolute;
+    left: 673px;
+    top: 330px;
+    /*z-index: 0;*/
+}
+
+/*Azamgarh*/
+.value_UPD_AZM {
+    position: absolute;
+    left: 715px;
+    top: 418px;
+}
+
+.value_UPD_AZM_state {
+    position: absolute;
+    left: 651px;
+    top: 418px;
+    /*z-index: 0;*/
+}
+/*Mau*/
+.value_UPD_MAU {
+    position: absolute;
+    left: 705px;
+    top: 392px;
+}
+
+.value_UPD_MAU_state {
+    position: absolute;
+    left: 676px;
+    top: 392px;
+    /*z-index: 0;*/
+}
+/*Barabanki*/
+.value_UPD_BRB {
+    position: absolute;
+    left: 616px;
+    top: 47px;
+}
+
+.value_UPD_BRB_state {
+    position: absolute;
+    left: 554px;
+    top: 47px;
+    /*z-index: 0;*/
+}
+/*Sultanpur*/
+.value_UPD_SLP {
+     position: absolute;
+    left: 562px;
+    top: 620px;
+}
+
+.value_UPD_SLP_state {
+    position: absolute;
+    left: 500px;
+    top: 620px;
+    /*z-index: 0;*/
+}
+
+/*MaharajGanj*/
+.value_UPD_MGJ {
+    position: absolute;
+    left: 708px;
+    top: 225px;
+}
+
+.value_UPD_MGJ_state {
+    position: absolute;
+    left: 632px;
+    top: 225px;
+    /*z-index: 0;*/
+}
+
+/*Ballia*/
+.value_UPD_BLA {
+    position: absolute;
+    left: 711px;
+    top: 356px;
+}
+
+.value_UPD_BLA_state {
+    position: absolute;
+    left: 675px;
+    top: 356px;
+    /*z-index: 0;*/
+}
+/*Amedkarnagar*/
+.value_UPD_ABD {
+    position: absolute;
+    left: 750px;
+    top: 620px;
+}
+
+.value_UPD_ABD_state {
+    position: absolute;
+    left: 643px;
+    top: 620px;
+    /*z-index: 0;*/
+}
+
+/*LocationCode_Internal*/
+/*Gonda*/
+.value_UPD_GON {
+    position: absolute;
+    left: 637px;
+    top: 97px;
+}
+
+.value_UPD_GON_state {
+    position: absolute;
+    left: 595px;
+    top: 97px;
+    /*z-index: 0;*/
+}
+
+/*Kushinagar*/
+.value_UPD_KSN {
+    position: absolute;
+    left: 716px;
+    top: 278px;
+}
+
+.value_UPD_KSN_state {
+    position: absolute;
+    left: 647px;
+    top: 279px;
+    /*z-index: 0;*/
+}
+/*Raebareli*/
+.value_UPD_RBL {
+    position: absolute;
+    left: 296px;
+    top: 547px;
+}
+
+.value_UPD_RBL_state {
+    position: absolute;
+    left: 236px;
+    top: 548px;
+    /*z-index: 0;*/
+}
+
+.value_UPD_GLA {
+    position: absolute;
+    left: 58px;
+    top: 2px;
+}
+
+.value_UPD_GLA_state {
+    position: absolute;
+    left: 21px;
+    top: 3px;
+    /*z-index: 0;*/
+}
+
+/*Lakhimpur*/
+.value_UPD_LKM {
+    position: absolute;
+    left: 369px;
+    top: 127px;
+}
+
+.value_UPD_LKM_state {
+    position: absolute;
+    left: 303px;
+    top: 127px;
+    /*z-index: 0;*/
+}
+/*Shravasti*/
+.value_UPD_SVT {
+    position: absolute;
+    left: 636px;
+    top: 71px;
+}
+
+.value_UPD_SVT_state {
+    position: absolute;
+    left: 579px;
+    top: 71px;
+    /*z-index: 0;*/
+}
+/*SonBhadra*/
+.value_UPD_SON {
+    position: absolute;
+    left: 748px;
+    top: 534px;
+}
+
+.value_UPD_SON_state {
+    position: absolute;
+    left: 678px;
+    top: 534px;
+    /*z-index: 0;*/
+}
+
+/*DVVNL*/
+.value_UPD_TWO {
+    position: absolute;
+    left: 580px;
+    top: 640px;
+}
+
+.value_UPD_TWO_state {
+    position: absolute;
+    left: 529px;
+    top: 640px;
+    /*z-index: 0;*/
+}
+
+.value_UPD_TND {
+    position: absolute;
+    left: 687px;
+    top: 431px;
+}
+
+.value_UPD_TND_state {
+    position: absolute;
+    left: 642px;
+    top: 432px;
+    /*z-index: 0;*/
+}
+
+.value_UPD_BBR {
+    position: absolute;
+    left: 687px;
+    top: 71px;
+}
+
+.value_UPD_BPR_state {
+    position: absolute;
+    left: 616px;
+    top: 72px;
+    /*z-index: 0;*/
+}
+
+/*Amethi*/
+.value_UPD_AMT {
+    position: absolute;
+    left: 741px;
+    top: 46px;
+}
+
+.value_UPD_AMT_state {
+    position: absolute;
+    left:695px;
+    top: 47px;
+    /*z-index: 0;*/
+}
+
+/*Chandauli*/
+.value_UPD_CHN {
+    position: absolute;
+    left: 755px;
+    top: 501px;
+}
+
+.value_UPD_CHN_state {
+    position: absolute;
+    left: 692px;
+    top: 501px;
+    /*z-index: 0;*/
+}
+/*Shahjanpur*/
+.value_UPD_SJP {
+    position: absolute;
+    left: 356px;
+    top: 106px;
+}
+
+.value_UPD_SJP_state {
+    position: absolute;
+    left: 271px;
+    top: 106px;
+    /*z-index: 0;*/
+}
+/*sitapur*/
+.value_UPD_STP {
+    position: absolute;
+    left: 739px;
+    top: 22px;
+}
+
+.value_UPD_STP_state {
+    position: absolute;
+    left: 695px;
+    top: 22px;
+    /*z-index: 0;*/
+}
+
+/*Gautam Budh nagar*/
+.value_UPD_GBD_state {
+    position: absolute;
+    left: 1px;
+    top: 184px;
+    /*z-index: 0;*/
+}
+
+.value_UPD_GBD {
+    position: absolute;
+    left: 31px;
+    top: 184px;
+}
+/*Faizabad*/
+.value_UPD_FZB {
+    position: absolute;
+    left: 683px;
+    top: 150px;
+}
+
+.value_UPD_FZB_state {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 627px;
+    top: 150px;
+}
+
+/*Gorakhpur*/
+.value_UPD_GKP {
+    position: absolute;
+    left: 735px;
+    top: 302px;
+}
+
+.value_UPD_GKP_state {
+    /*z-index: 0;*/
+    position: absolute;
+    left: 670px;
+    top: 302px;
+}
+
+/*Mirzapur*/
+.value_UPD_MZP {
+    position: absolute;
+    left: 583px;
+    top: 534px;
+}
+
+.value_UPD_MZP_state {
+    position: absolute;
+    left: 528px;
+    top: 534px;
+    /*z-index: 0;*/
+}
+
+/*PVVNL*/
+.value_UPD_ONE {
+    position: absolute;
+    left: 205px;
+    top: 640px;
+}
+
+.value_UPD_ONE_state {
+    position: absolute;
+    left: 157px;
+    top: 640px;
+    /*z-index: 0;*/
+}
+
+/*Balrampur*/
+.value_UPD_BRP {
+    position: absolute;
+    left: 681px;
+    top: 123px;
+}
+
+.value_UPD_BRP_state {
+    position: absolute;
+    left: 616px;
+    top: 123px;
+    /*z-index: 0;*/
+}
+
+/*Moradabad*/
+.value_UPD_MORA {
+    position: absolute;
+    left: 275px;
+    top: 43px;
+}
+
+.value_UPD_MORA_state {
+    position: absolute;
+    left: 204px;
+    top: 43px;
+    /*z-index: 0;*/
+}
+
+/*Aligarh*/
+.value_UPD_ALIG {
+   position: absolute;
+    left: 46px;
+    top: 206px;
+}
+
+.value_UPD_ALIG_state {
+    position: absolute;
+    left: 2px;
+    top: 207px;
+    /*z-index: 0;*/
+}
+
+/*Jhansi*/
+.value_UPD_JHAN {
+    position: absolute;
+    left: 163px;
+    top: 370px;
+}
+
+.value_UPD_JHAN_state {
+    position: absolute;
+    left: 122px;
+    top: 370px;
+    /*z-index: 0;*/
+}
+
+/*Banda*/
+.value_UPD_BNDA {
+    position: absolute;
+    left: 112px;
+    top: 569px;
+}
+
+.value_UPD_BNDA_state {
+    position: absolute;
+    left: 69px;
+    top: 569px;
+    /*z-index: 0;*/
+}
+
+/*Meerut*/
+.value_UPD_MEER {
+    position: absolute;
+    left: 47px;
+    top: 70px;
+}
+
+.value_UPD_MEER_state {
+    position: absolute;
+    left: 1px;
+    top: 70px;
+    /*z-index: 0;*/
+}
+
+/*Ghaziabad*/
+.value_UPD_GHAZ {
+    position: absolute;
+    left: 67px;
+    top: 93px;
+}
+
+.value_UPD_GHAZ_state {
+    position: absolute;
+    left: 1px;
+    top: 93px;
+    /*z-index: 0;*/
+}
+/*Agra*/
+.value_UPD_AGRA {
+    position: absolute;
+    left: 36px;
+    top: 251px;
+}
+
+.value_UPD_AGRA_state {
+    position: absolute;
+    left: 1px;
+    top: 251px;
+    /*z-index: 0;*/
+}
+
+/*Saharanpur*/
+.value_UPD_SAHR {
+    position: absolute;
+    left: 208px;
+    top: 17px;
+}
+
+.value_UPD_SAHR_state {
+    position: absolute;
+    left: 137px;
+    top: 17px;
+    /*z-index: 0;*/
+}
+
+.value_UPD_UPIN {
+    position: absolute;
+    left: 688px;
+    top: 583px;
+}
+
+.value_UPD_UPIN_state {
+    position: absolute;
+    left: 618px;
+    top: 583px;
+    /*z-index: 0;*/
+}
+
+
+/*PUVVNL*/
+.value_UPD_THREE {
+     position: absolute;
+    left: 377px;
+    top: 639px;
+}
+
+.value_UPD_THREE_state {
+    position: absolute;
+    left: 320px;
+    top: 639px;
+    /*z-index: 0;*/
+}
+
+/*MVVNL*/
+.value_UPD_FOUR {
+    position: absolute;
+    left: 750px;
+    top: 639px;
+}
+
+.value_UPD_FOUR_state {
+    position: absolute;
+    left: 700px;
+    top: 639px;
+    /*z-index: 0;*/
+}
+/*UP Ends*/
+
+
+
+/*TLG*/
+.value_TLG_TLG {
+    left: 64px;
+    top: 299px;
+    position: absolute;
+}
+
+.value_TLG_TLG_state {
+    left: 4px;
+    top: 299px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_TLN {
+    left: 64px;
+    top: 322px;
+    position: absolute;
+}
+
+.value_TLG_TLN_state {
+    left: 4px;
+    top: 323px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_TIS {
+    left: 83px;
+    top: 264px;
+    position: absolute;
+}
+
+.value_TLG_TIS_state {
+    left: 5px;
+    top: 264px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_KARM {
+    left: 634px;
+    top: 143px;
+    position: absolute;
+}
+
+.value_TLG_KARM_state {
+    left: 557px;
+    top: 143px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_WARA {
+    left: 702px;
+    top: 197px;
+    position: absolute;
+}
+
+.value_TLG_WARA_state {
+    left: 637px;
+    top: 198px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_KHAM {
+    left: 689px;
+    top: 257px;
+    position: absolute;
+}
+
+.value_TLG_KHAM_state {
+    left: 614px;
+    top: 258px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_NALG {
+    left: 644px;
+    top: 300px;
+    position: absolute;
+}
+
+.value_TLG_NALG_state {
+    left: 575px;
+    top: 301px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_MAHB {
+    left: 462px;
+    top: 415px;
+    position: absolute;
+}
+
+.value_TLG_MAHB_state {
+    left: 368px;
+    top: 415px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_ADIL {
+    left: 168px;
+    top: -2px;
+    position: absolute;
+}
+
+.value_TLG_ADIL_state {
+    left: 104px;
+    top: -2px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_NIZA {
+    left: 117px;
+    top: 109px;
+    position: absolute;
+}
+
+.value_TLG_NIZA_state {
+    left: 40px;
+    top: 110px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_MEDA {
+    left: 103px;
+    top: 173px;
+    position: absolute;
+}
+
+.value_TLG_MEDA_state {
+    left: 52px;
+    top: 174px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_TLG_RANG {
+    left: 85px;
+    top: 237px;
+    position: absolute;
+}
+
+.value_TLG_RANG_state {
+    left: 4px;
+    top: 238px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+/*TLG Ends*/
+
+
+
+/*ASM*/
+.value_ASM_ {
+    left: 610px;
+    top: 240px;
+    position: absolute;
+}
+
+.value_ASM__state {
+    left: 533px;
+    top: 241px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_ASM {
+    left: 610px;
+    top: 242px;
+    position: absolute;
+}
+
+.value_ASM_ASM_state {
+    left: 533px;
+    top: 242px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_ASA {
+    left: 606px;
+    top: 264px;
+    position: absolute;
+}
+
+.value_ASM_ASA_state {
+    left: 531px;
+    top: 264px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_DIBR {
+    left: 743px;
+    top: 119px;
+    position: absolute;
+}
+
+.value_ASM_DIBR_state {
+    left: 674px;
+    top: 120px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_TINS {
+    left: 717px;
+    top: 93px;
+    position: absolute;
+}
+
+.value_ASM_TINS_state {
+    left: 661px;
+    top: 94px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_BARP {
+    left: 45px;
+    top: 215px;
+    position: absolute;
+}
+
+.value_ASM_BARP_state {
+    left: -6px;
+    top: 216px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_BONG {
+    left: 70px;
+    top: 155px;
+    position: absolute;
+}
+
+.value_ASM_BONG_state {
+    left: -6px;
+    top: 156px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_CACH {
+    left: 532px;
+    top: 347px;
+    position: absolute;
+}
+
+.value_ASM_CACH_state {
+    left: 480px;
+    top: 348px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_DARR {
+    left: 63px;
+    top: 65px;
+    position: absolute;
+}
+
+.value_ASM_DARR_state {
+    left: 3px;
+    top: 66px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_DHEM {
+    left: 722px;
+    top: 68px;
+    position: absolute;
+}
+
+.value_ASM_DHEM_state {
+    left: 665px;
+    top: 69px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_DHUB {
+    left: 48px;
+    top: 291px;
+    position: absolute;
+}
+
+.value_ASM_DHUB_state {
+    left: 0px;
+    top: 292px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_GOAL {
+    left: 55px;
+    top: 239px;
+    position: absolute;
+}
+
+.value_ASM_GOAL_state {
+    left: -6px;
+    top: 240px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_GOLA {
+    left: 653px;
+    top: 194px;
+    position: absolute;
+}
+
+.value_ASM_GOLA_state {
+    left: 590px;
+    top: 195px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_HAIL {
+    left: 535px;
+    top: 377px;
+    position: absolute;
+}
+
+.value_ASM_HAIL_state {
+    left: 464px;
+    top: 378px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_JORH {
+    left: 657px;
+    top: 169px;
+    position: absolute;
+}
+
+.value_ASM_JORH_state {
+    left: 610px;
+    top: 170px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_KARB {
+    left: 655px;
+    top: 218px;
+    position: absolute;
+}
+
+.value_ASM_KARB_state {
+    left: 562px;
+    top: 219px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_KARI {
+    left: 166px;
+    top: 426px;
+    position: absolute;
+}
+
+.value_ASM_KARI_state {
+    left: 98px;
+    top: 427px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_DADM {
+    left: 215px;
+    top: 453px;
+    position: absolute;
+}
+
+.value_ASM_DADM_state {
+    left: 73px;
+    top: 452px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_KOKR {
+    left: 52px;
+    top: 185px;
+    position: absolute;
+}
+
+.value_ASM_KOKR_state {
+    left: -6px;
+    top: 186px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_LKHI {
+    left: 697px;
+    top: 44px;
+    position: absolute;
+}
+
+.value_ASM_LKHI_state {
+    left: 625px;
+    top: 45px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_MORI {
+    left: 70px;
+    top: 0px;
+    position: absolute;
+}
+
+.value_ASM_MORI_state {
+    left: 4px;
+    top: 1px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_NAGA {
+    left: 80px;
+    top: 400px;
+    position: absolute;
+}
+
+.value_ASM_NAGA_state {
+    left: 25px;
+    top: 401px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_DIMA {
+    left: 574px;
+    top: 315px;
+    position: absolute;
+}
+
+.value_ASM_DIMA_state {
+    left: 493px;
+    top: 316px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_SONI {
+    left: 367px;
+    top: 75px;
+    position: absolute;
+}
+
+.value_ASM_SONI_state {
+    left: 307px;
+    top: 76px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_KAMR {
+    left: 60px;
+    top: 373px;
+    position: absolute;
+}
+
+.value_ASM_KAMR_state {
+    left: 5px;
+    top: 373px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_KMRM {
+    left: 144px;
+    top: 350px;
+    position: absolute;
+}
+
+.value_ASM_KMRM_state {
+    left: 5px;
+    top: 350px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+
+.value_ASM_BAKS {
+    left: 50px;
+    top: 97px;
+    position: absolute;
+}
+
+.value_ASM_BAKS_state {
+    left: 4px;
+    top: 98px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_UDAL {
+    left: 65px;
+    top: 31px;
+    position: absolute;
+}
+
+.value_ASM_UDAL_state {
+    left: 4px;
+    top: 32px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_CHIR {
+    left: 59px;
+    top: 128px;
+    position: absolute;
+}
+
+.value_ASM_CHIR_state {
+    left: 4px;
+    top: 129px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_BISW {
+    left: 380px;
+    top: 41px;
+    position: absolute;
+}
+
+.value_ASM_BISW_state {
+    left: 307px;
+    top: 42px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_HOJA {
+    left: 610px;
+    top: 287px;
+    position: absolute;
+}
+
+.value_ASM_HOJA_state {
+    left: 569px;
+    top: 288px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_CHAR {
+    left: 700px;
+    top: 143px;
+    position: absolute;
+}
+
+.value_ASM_CHAR_state {
+    left: 629px;
+    top: 144px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_SSAL {
+    left: 123px;
+    top: 320px;
+    position: absolute;
+}
+
+.value_ASM_SSAL_state {
+    left: -9px;
+    top: 321px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_MAJU {
+    left: 684px;
+    top: -4px;
+    position: absolute;
+}
+
+.value_ASM_MAJU_state {
+    left: 640px;
+    top: -3px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+
+.value_ASM_SHIB {
+    left: 691px;
+    top: 20px;
+    position: absolute;
+}
+
+.value_ASM_SHIB_state {
+    left: 619px;
+    top: 21px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_NLBR {
+    left: 182px;
+    top: 376px;
+    position: absolute;
+}
+
+.value_ASM_NLBR_state {
+    left: 129px;
+    top: 376px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_WKAR {
+    left: 533px;
+    top: 414px;
+    position: absolute;
+}
+
+.value_ASM_WKAR_state {
+    left: 407px;
+    top: 414px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ASM_BINS {
+    left: 485px;
+    top: 440px;
+    position: absolute;
+}
+
+.value_ASM_BINS_state {
+    left: 407px;
+    top: 440px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+/*ASM Ends*/
+
+
+
+/*CTG*/
+/*Sadhana : 04th April, 2017 - for only Bulb Dashboard*/
+.value_CTG_CTG {
+    left: 544px;
+    top: 346px;
+    position: absolute;
+}
+
+.value_CTG_CTG_state {
+    left: 414px;
+    top: 347px;
+    position: absolute;
+}
+
+.value_CTG_RNG {
+    left: 109px;
+    top: 285px;
+    position: absolute;
+}
+
+.value_CTG_RNG_state {
+    left: 20px;
+    top: 286px;
+    position: absolute;
+}
+
+.value_CTG_RJN {
+    /*left: 540px;
+    top: 340px;
+    position: relative;*/
+    /*left: 540px;
+    top: 340px;*/
+    left: 135px;
+    top: 308px;
+    position: absolute;
+}
+
+.value_CTG_RJN_state {
+    /*left: 572px;
+    top: 363px;*/
+    left: 20px;
+    top: 309px;
+    position: absolute;
+}
+
+.value_CTG_MAH {
+    left: 585px;
+    top: 275px;
+    position: absolute;
+}
+
+.value_CTG_MAH_state {
+    left: 494px;
+    top: 276px;
+    position: absolute;
+}
+
+.value_CTG_BLD {
+    left: 131px;
+    top: 334px;
+    position: absolute;
+}
+
+.value_CTG_BLD_state {
+    left: 80px;
+    top: 335px;
+    position: absolute;
+}
+
+.value_CTG_BLB {
+    left: 614px;
+    top: 214px;
+    position: absolute;
+}
+
+.value_CTG_BLB_state {
+    left: 526px;
+    top: 215px;
+    position: absolute;
+}
+
+/*.value_CTG_Raigad {
+    left: 587px;
+    top: 184px;
+    position: absolute;
+}
+
+.value_CTG_Raigad_state {
+    left: 537px;
+    top: 185px;
+    position: absolute;
+}*/
+
+.value_CTG_DUR {
+    /*left: 540px;
+    top: 340px;
+    position: relative;*/
+    /*left: 540px;
+    top: 340px;*/
+    left: 100px;
+    position: absolute;
+    top: 229px;
+}
+
+.value_CTG_DUR_state {
+    /*left: 572px;
+    top: 363px;*/
+    left: 60px;
+    position: absolute;
+    top: 230px;
+}
+
+.value_CTG_BSP {
+    /*left: 540px;
+    top: 340px;
+    position: relative;*/
+    /*left: 540px;
+    top: 340px;*/
+    left: 136px;
+    position: absolute;
+    top: 253px;
+}
+
+.value_CTG_BSP_state {
+    /*left: 572px;
+    top: 363px;*/
+    left: 60px;
+    position: absolute;
+    top: 254px;
+}
+
+.value_CTG_KBD {
+    left: 158px;
+    position: absolute;
+    top: 160px;
+}
+
+.value_CTG_KBD_state {
+    left: 84px;
+    position: absolute;
+    top: 161px;
+}
+
+.value_CTG_RPR {
+    left: 585px;
+    top: 246px;
+    position: absolute;
+}
+
+.value_CTG_RPR_state {
+    left: 540px;
+    position: absolute;
+    top: 247px;
+}
+
+.value_CTG_KOR {
+    left: 664px;
+    top: 112px;
+    position: absolute;
+}
+
+.value_CTG_KOR_state {
+    left: 622px;
+    position: absolute;
+    top: 113px;
+}
+
+.value_CTG_BAL {
+    left: 664px;
+    top: 135px;
+    position: absolute;
+}
+
+.value_CTG_BAL_state {
+    left: 596px;
+    position: absolute;
+    top: 136px;
+}
+
+.value_CTG_MUN {
+    left: 202px;
+    top: 127px;
+    position: absolute;
+}
+
+.value_CTG_MUN_state {
+    left: 144px;
+    position: absolute;
+    top: 128px;
+}
+
+.value_CTG_BMT {
+    left: 165px;
+    top: 201px;
+    position: absolute;
+}
+
+.value_CTG_BMT_state {
+    left: 98px;
+    position: absolute;
+    top: 202px;
+}
+
+.value_CTG_BIL {
+    left: 217px;
+    top: 95px;
+    position: absolute;
+}
+
+.value_CTG_BIL_state {
+    left: 159px;
+    position: absolute;
+    top: 96px;
+}
+
+.value_CTG_DHMT {
+    left: 518px;
+    top: 299px;
+    position: absolute;
+}
+
+.value_CTG_DHMT_state {
+    left: 453px;
+    top: 300px;
+    position: absolute;
+}
+
+.value_CTG_KORI {
+    left: 235px;
+    top: 25px;
+    position: absolute;
+}
+
+.value_CTG_KORI_state {
+    left: 188px;
+    top: 26px;
+    position: absolute;
+}
+
+.value_CTG_SURA {
+    left: 264px;
+    top: 66px;
+    position: absolute;
+}
+
+.value_CTG_SURA_state {
+    left: 206px;
+    top: 67px;
+    position: absolute;
+}
+
+.value_CTG_BALR {
+    left: 676px;
+    top: 21px;
+    position: absolute;
+}
+
+.value_CTG_BALR_state {
+    left: 603px;
+    top: 22px;
+    position: absolute;
+}
+
+.value_CTG_SARG {
+    left: 666px;
+    top: 53px;
+    position: absolute;
+}
+
+.value_CTG_SARG_state {
+    left: 613px;
+    top: 54px;
+    position: absolute;
+}
+
+.value_CTG_GARI {
+    left: 528px;
+    top: 323px;
+    position: absolute;
+}
+
+.value_CTG_GARI_state {
+    left: 458px;
+    top: 324px;
+    position: absolute;
+}
+
+.value_CTG_CHAM {
+    left: 655px;
+    top: 156px;
+    position: absolute;
+}
+
+.value_CTG_CHAM_state {
+    left: 597px;
+    top: 157px;
+    position: absolute;
+}
+
+.value_CTG_JASH {
+    left: 710px;
+    top: 82px;
+    position: absolute;
+}
+
+.value_CTG_JASH_state {
+    left: 655px;
+    top: 83px;
+    position: absolute;
+}
+
+.value_CTG_RGH {
+    left: 651px;
+    top: 184px;
+    position: absolute;
+}
+
+.value_CTG_RGH_state {
+    left: 599px;
+    top: 185px;
+    position: absolute;
+}
+
+.value_CTG_BIJA {
+    left: 110px;
+    top: 480px;
+    position: absolute;
+}
+
+.value_CTG_BIJA_state {
+    left: 59px;
+    top: 481px;
+    position: absolute;
+}
+
+.value_CTG_DANT {
+    left: 490px;
+    top: 493px;
+    position: absolute;
+}
+
+.value_CTG_DANT_state {
+    left: 412px;
+    top: 494px;
+    position: absolute;
+}
+
+.value_CTG_JAGD {
+    left: 490px;
+    top: 460px;
+    position: absolute;
+}
+
+.value_CTG_JAGD_state {
+    left: 421px;
+    top: 461px;
+    position: absolute;
+}
+
+.value_CTG_KANK {
+    left: 120px;
+    top: 359px;
+    position: absolute;
+}
+
+.value_CTG_KANK_state {
+    left: 68px;
+    top: 360px;
+    position: absolute;
+}
+
+.value_CTG_KOND {
+    left: 509px;
+    top: 414px;
+    position: absolute;
+}
+
+.value_CTG_KOND_state {
+    left: 430px;
+    top: 415px;
+    position: absolute;
+}
+
+.value_CTG_SUKM {
+    left: 451px;
+    top: 520px;
+    position: absolute;
+}
+
+.value_CTG_SUKM_state {
+    left: 402px;
+    top: 521px;
+    position: absolute;
+}
+
+.value_CTG_NARA {
+    left: 128px;
+    top: 396px;
+    position: absolute;
+}
+
+.value_CTG_NARA_state {
+    left: 51px;
+    top: 397px;
+    position: absolute;
+}
+/*CTG Ends*/
+
+
+
+/*MPD*/
+.value_MPD_MPD {
+    /*position: absolute;
+    left: 97px;
+    top: 135px;*/
+    position: absolute;
+    left: 576px;
+    top: 578px;
+}
+
+.value_MPD_MPD_state {
+    /*position: absolute;
+    left: 43px;
+    top: 136px;*/
+    position: absolute;
+    left: 511px;
+    top: 579px;
+}
+
+.value_MPD_BHOP {
+    /*position: absolute;
+    left: 119px;
+    top: 157px;*/
+    position: absolute;
+    left: 213px;
+    top: 571px;
+}
+
+.value_MPD_BHOP_state {
+    /*position: absolute;
+    left: 66px;
+    top: 158px;*/
+    position: absolute;
+    left: 162px;
+    top: 572px;
+}
+
+.value_MPD_SHEO {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+
+.value_MPD_SHEO_state {
+    position: absolute;
+    left: 142px;
+    top: 41px;
+}
+
+.value_MPD_BHIN {
+    position: absolute;
+    left: 556px;
+    top: 95px;
+}
+
+.value_MPD_BHIN_state {
+    position: absolute;
+    left: 510px;
+    top: 96px;
+}
+
+.value_MPD_GWAL {
+    position: absolute;
+    left: 547px;
+    top: 48px;
+}
+
+.value_MPD_GWAL_state {
+    position: absolute;
+    left: 491px;
+    top: 49px;
+}
+
+.value_MPD_INDO {
+    position: absolute;
+    left: 61px;
+    top: 312px;
+}
+
+.value_MPD_INDO_state {
+    position: absolute;
+    left: 13px;
+    top: 313px;
+}
+
+.value_MPD_DHAR {
+    position: absolute;
+    left: 52px;
+    top: 334px;
+}
+
+.value_MPD_DHAR_state {
+    position: absolute;
+    left: 13px;
+    top: 335px;
+}
+
+.value_MPD_JHAB {
+    position: absolute;
+    left: 64px;
+    top: 357px;
+}
+
+.value_MPD_JHAB_state {
+    position: absolute;
+    left: 6px;
+    top: 358px;
+}
+
+.value_MPD_UJJA {
+    position: absolute;
+    left: 57px;
+    top: 240px;
+}
+
+.value_MPD_UJJA_state {
+    position: absolute;
+    left: 12px;
+    top: 241px;
+}
+
+.value_MPD_RATL {
+    position: absolute;
+    left: 66px;
+    top: 289px;
+}
+
+.value_MPD_RATL_state {
+    position: absolute;
+    left: 12px;
+    top: 290px;
+}
+
+.value_MPD_JABA {
+    position: absolute;
+    left: 663px;
+    top: 479px;
+}
+
+.value_MPD_JABA_state {
+    position: absolute;
+    left: 602px;
+    top: 480px;
+}
+
+.value_MPD_MNDL {
+    position: absolute;
+    left: 685px;
+    top: 432px;
+}
+
+.value_MPD_MNDL_state {
+    position: absolute;
+    left: 631px;
+    top: 433px;
+}
+
+.value_MPD_REWA {
+    position: absolute;
+    left: 695px;
+    top: 213px;
+}
+
+.value_MPD_REWA_state {
+    position: absolute;
+    left: 653px;
+    top: 214px;
+}
+
+.value_MPD_PANN {
+    position: absolute;
+    left: 639px;
+    top: 166px;
+}
+
+.value_MPD_PANN_state {
+    position: absolute;
+    left: 592px;
+    top: 167px;
+}
+
+
+.value_MPD_RAJG {
+    position: absolute;
+    left: 129px;
+    top: 114px;
+}
+
+.value_MPD_RAJG_state {
+    position: absolute;
+    left: 73px;
+    top: 115px;
+}
+
+.value_MPD_SEHO {
+    position: absolute;
+    left: 122px;
+    top: 140px;
+}
+
+.value_MPD_SEHO_state {
+    position: absolute;
+    left: 70px;
+    top: 141px;
+}
+
+.value_MPD_BETU {
+    position: absolute;
+    left: 266px;
+    top: 621px;
+}
+
+.value_MPD_BETU_state {
+    position: absolute;
+    left: 222px;
+    top: 622px;
+    /*z-index: 0;*/
+}
+
+.value_MPD_DEWA {
+    position: absolute;
+    left: 102px;
+    top: 457px;
+}
+
+.value_MPD_DEWA_state {
+    position: absolute;
+    left: 51px;
+    top: 458px;
+}
+
+
+.value_MPD_HOSH {
+    position: absolute;
+    left: 236px;
+    top: 596px;
+}
+
+.value_MPD_HOSH_state {
+    position: absolute;
+    left: 140px;
+    top: 597px;
+}
+
+.value_MPD_MAND {
+    position: absolute;
+    left: 78px;
+    top: 217px;
+}
+
+.value_MPD_MAND_state {
+    position: absolute;
+    left: 8px;
+    top: 218px;
+}
+
+.value_MPD_NEEM {
+    position: absolute;
+    left: 77px;
+    top: 190px;
+}
+
+.value_MPD_NEEM_state {
+    position: absolute;
+    left: 7px;
+    top: 191px;
+}
+
+.value_MPD_CHHI {
+    position: absolute;
+    left: 616px;
+    top: 553px;
+}
+
+.value_MPD_CHHI_state {
+    position: absolute;
+    left: 530px;
+    top: 554px;
+}
+
+.value_MPD_RAIS {
+    position: absolute;
+    left: 140px;
+    top: 90px;
+}
+
+.value_MPD_RAIS_state {
+    position: absolute;
+    left: 91px;
+    top: 91px;
+}
+
+.value_MPD_SHAJ {
+    position: absolute;
+    left: 148px;
+    top: 479px;
+}
+
+.value_MPD_SHAJ_state {
+    position: absolute;
+    left: 86px;
+    top: 480px;
+}
+
+.value_MPD_VIDI {
+    position: absolute;
+    left: 153px;
+    top: 66px;
+}
+
+.value_MPD_VIDI_state {
+    position: absolute;
+    left: 100px;
+    top: 67px;
+}
+
+.value_MPD_UMAR {
+    position: absolute;
+    left: 750px;
+    top: 324px;
+}
+
+.value_MPD_UMAR_state {
+    position: absolute;
+    left: 698px;
+    top: 325px;
+    /*z-index: 0;*/
+}
+
+.value_MPD_AGAR {
+    position: absolute;
+    left: 96px;
+    top: 164px;
+}
+
+.value_MPD_AGAR_state {
+    position: absolute;
+    left: 57px;
+    top: 165px;
+}
+
+.value_MPD_ASHO {
+    position: absolute;
+    left: 233px;
+    top: -11px;
+}
+
+.value_MPD_ASHO_state {
+    position: absolute;
+    left: 152px;
+    top: -9px;
+}
+
+.value_MPD_GUNA {
+    position: absolute;
+    left: 218px;
+    top: 14px;
+}
+
+.value_MPD_GUNA_state {
+    position: absolute;
+    left: 174px;
+    top: 15px;
+}
+
+.value_MPD_BADN {
+    position: absolute;
+    left: 70px;
+    top: 264px;
+}
+
+.value_MPD_BADN_state {
+    position: absolute;
+    left: 5px;
+    top: 265px;
+}
+
+.value_MPD_ALIR {
+    position: absolute;
+    left: 68px;
+    top: 381px;
+}
+
+.value_MPD_ALIR_state {
+    position: absolute;
+    left: 5px;
+    top: 382px;
+}
+
+.value_MPD_BRWN {
+    position: absolute;
+    left: 60px;
+    top: 404px;
+}
+
+.value_MPD_BRWN_state {
+    position: absolute;
+    left: 3px;
+    top: 405px;
+}
+
+.value_MPD_KHAR {
+    position: absolute;
+    left: 70px;
+    top: 430px;
+}
+
+.value_MPD_KHAR_state {
+    position: absolute;
+    left: 3px;
+    top: 431px;
+}
+
+.value_MPD_KHAN {
+    position: absolute;
+    left: 153px;
+    top: 501px;
+}
+
+.value_MPD_KHAN_state {
+    position: absolute;
+    left: 89px;
+    top: 502px;
+}
+
+.value_MPD_BURH {
+    position: absolute;
+    left: 160px;
+    top: 524px;
+}
+
+.value_MPD_BURH_state {
+    position: absolute;
+    left: 89px;
+    top: 525px;
+}
+
+.value_MPD_HARD {
+    position: absolute;
+    left: 171px;
+    top: 547px;
+}
+
+.value_MPD_HARD_state {
+    position: absolute;
+    left: 127px;
+    top: 548px;
+}
+
+.value_MPD_SHIV {
+    position: absolute;
+    left: 511px;
+    top: 2px;
+}
+
+.value_MPD_SHIV_state {
+    position: absolute;
+    left: 455px;
+    top: 3px;
+}
+
+.value_MPD_MORE {
+    position: absolute;
+    left: 511px;
+    top: 25px;
+}
+
+.value_MPD_MORE_state {
+    position: absolute;
+    left: 455px;
+    top: 26px;
+}
+
+.value_MPD_DATI {
+    position: absolute;
+    left: 536px;
+    top: 73px;
+}
+
+.value_MPD_DATI_state {
+    position: absolute;
+    left: 496px;
+    top: 74px;
+}
+
+.value_MPD_TIKA {
+    position: absolute;
+    left: 586px;
+    top: 119px;
+}
+
+.value_MPD_TIKA_state {
+    position: absolute;
+    left: 512px;
+    top: 120px;
+}
+
+.value_MPD_CHHA {
+    position: absolute;
+    left: 638px;
+    top: 142px;
+}
+
+.value_MPD_CHHA_state {
+    position: absolute;
+    left: 563px;
+    top: 143px;
+}
+
+.value_MPD_SATN {
+    position: absolute;
+    left: 675px;
+    top: 190px;
+}
+
+.value_MPD_SATN_state {
+    position: absolute;
+    left: 634px;
+    top: 191px;
+}
+
+
+.value_MPD_SIDH {
+    position: absolute;
+    left: 753px;
+    top: 236px;
+}
+
+.value_MPD_SIDH_state {
+    position: absolute;
+    left: 717px;
+    top: 237px;
+}
+
+
+.value_MPD_DAMO {
+    position: absolute;
+    left: 785px;
+    top: 271px;
+}
+
+.value_MPD_DAMO_state {
+    position: absolute;
+    left: 735px;
+    top: 272px;
+}
+
+
+.value_MPD_KATN {
+    position: absolute;
+    left: 780px;
+    top: 296px;
+}
+
+.value_MPD_KATN_state {
+    position: absolute;
+    left: 739px;
+    top: 297px;
+}
+
+.value_MPD_SHAH {
+    position: absolute;
+    left: 730px;
+    top: 380px;
+}
+
+.value_MPD_SHAH_state {
+    position: absolute;
+    left: 672px;
+    top: 381px;
+}
+
+.value_MPD_ANUP {
+    position: absolute;
+    left: 737px;
+    top: 349px;
+}
+
+.value_MPD_ANUP_state {
+    position: absolute;
+    left: 678px;
+    top: 350px;
+}
+
+.value_MPD_DIND {
+    position: absolute;
+    left: 708px;
+    top: 407px;
+}
+
+.value_MPD_DIND_state {
+    position: absolute;
+    left: 655px;
+    top: 408px;
+}
+
+.value_MPD_BALA {
+    position: absolute;
+    left: 687px;
+    top: 456px;
+}
+
+.value_MPD_BALA_state {
+    position: absolute;
+    left: 626px;
+    top: 457px;
+}
+
+.value_MPD_SEON {
+    position: absolute;
+    left: 634px;
+    top: 506px;
+}
+
+.value_MPD_SEON_state {
+    position: absolute;
+    left: 593px;
+    top: 507px;
+}
+
+.value_MPD_NARS {
+    position: absolute;
+    left: 629px;
+    top: 528px;
+}
+
+.value_MPD_NARS_state {
+    position: absolute;
+    left: 546px;
+    top: 529px;
+}
+
+.value_MPD_SAGA {
+    position: absolute;
+    left: 562px;
+    top: 599px;
+}
+
+.value_MPD_SAGA_state {
+    position: absolute;
+    left: 519px;
+    top: 599px;
+}
+/*MPD Ends*/
+
+
+
+/*ODI*/
+.value_ODI_ODI {
+    left: 641px;
+    top: 284px;
+    position: absolute;
+}
+
+.value_ODI_ODI_state {
+    left: 581px;
+    top: 285px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_KHOR {
+    left: 620px;
+    top: 308px;
+    position: absolute;
+}
+
+.value_ODI_KHOR_state {
+    left: 563px;
+    top: 309px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_CUTT {
+    left: 760px;
+    top: 156px;
+    position: absolute;
+}
+
+.value_ODI_CUTT_state {
+    left: 702px;
+    top: 157px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_PURI {
+    left: 651px;
+    top: 260px;
+    position: absolute;
+}
+
+.value_ODI_PURI_state {
+    left: 618px;
+    top: 261px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_DHEN {
+    left: 791px;
+    top: 62px;
+    position: absolute;
+}
+
+.value_ODI_DHEN_state {
+    left: 709px;
+    top: 63px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_ANGU {
+    left: 785px;
+    top: 40px;
+    position: absolute;
+}
+
+.value_ODI_ANGU_state {
+    left: 741px;
+    top: 41px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_NAYA {
+    left: 602px;
+    top: 332px;
+    position: absolute;
+}
+
+.value_ODI_NAYA_state {
+    left: 538px;
+    top: 333px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_KEND {
+    left: 725px;
+    top: 213px;
+    position: absolute;
+}
+
+.value_ODI_KEND_state {
+    left: 647px;
+    top: 214px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_JAGA {
+    left: 715px;
+    top: 237px;
+    position: absolute;
+}
+
+.value_ODI_JAGA_state {
+    left: 620px;
+    top: 238px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_PARA {
+    left: 762px;
+    top: 179px;
+    position: absolute;
+}
+
+.value_ODI_PARA_state {
+    left: 689px;
+    top: 180px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_SUND {
+    left: 283px;
+    top: -8px;
+    position: absolute;
+}
+
+.value_ODI_SUND_state {
+    left: 203px;
+    top: -7px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_SAMB {
+    left: 251px;
+    top: 67px;
+    position: absolute;
+}
+
+.value_ODI_SAMB_state {
+    left: 174px;
+    top: 68px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_JHAR {
+    left: 247px;
+    top: 18px;
+    position: absolute;
+}
+
+.value_ODI_JHAR_state {
+    left: 162px;
+    top: 19px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_DEOG {
+    left: 240px;
+    top: 43px;
+    position: absolute;
+}
+
+.value_ODI_DEOG_state {
+    left: 176px;
+    top: 44px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_BARG {
+    left: 159px;
+    top: 89px;
+    position: absolute;
+}
+
+.value_ODI_BARG_state {
+    left: 100px;
+    top: 90px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_BOLA {
+    left: 166px;
+    top: 167px;
+    position: absolute;
+}
+
+.value_ODI_BOLA_state {
+    left: 106px;
+    top: 168px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_SONE {
+    left: 180px;
+    top: 113px;
+    position: absolute;
+}
+
+.value_ODI_SONE_state {
+    left: 118px;
+    top: 114px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_KALA {
+    left: 134px;
+    top: 240px;
+    position: absolute;
+}
+
+.value_ODI_KALA_state {
+    left: 63px;
+    top: 242px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_NUAP {
+    left: 161px;
+    top: 137px;
+    position: absolute;
+}
+
+.value_ODI_NUAP_state {
+    left: 93px;
+    top: 138px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_GANJ {
+    left: 566px;
+    top: 356px;
+    position: absolute;
+}
+
+.value_ODI_GANJ_state {
+    left: 514px;
+    top: 357px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_RAYA {
+    left: 462px;
+    top: 405px;
+    position: absolute;
+}
+
+.value_ODI_RAYA_state {
+    left: 393px;
+    top: 406px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_KORA {
+    left: 135px;
+    top: 321px;
+    position: absolute;
+}
+
+.value_ODI_KORA_state {
+    left: 74px;
+    top: 322px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_PHUL {
+    left: 128px;
+    top: 216px;
+    position: absolute;
+}
+
+.value_ODI_PHUL_state {
+    left: 63px;
+    top: 217px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_BOUD {
+    left: 170px;
+    top: 192px;
+    position: absolute;
+}
+
+.value_ODI_BOUD_state {
+    left: 117px;
+    top: 193px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_NAWA {
+    left: 143px;
+    top: 283px;
+    position: absolute;
+}
+
+.value_ODI_NAWA_state {
+    left: 49px;
+    top: 284px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+/*.value_ODI_NAWA {
+    left: 758px;
+    top: 190px;
+    position: absolute;
+}
+
+.value_ODI_NAWA_state {
+    left: 698px;
+    top: 190px;
+    position: absolute;
+    z-index: 0;
+}*/
+
+.value_ODI_MALK {
+    left: 104px;
+    top: 363px;
+    position: absolute;
+}
+
+.value_ODI_MALK_state {
+    left: 30px;
+    top: 364px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_GAJA {
+    left: 528px;
+    top: 380px;
+    position: absolute;
+}
+
+.value_ODI_GAJA_state {
+    left: 473px;
+    top: 381px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_BALS {
+    left: 781px;
+    top: 83px;
+    position: absolute;
+}
+
+.value_ODI_BALS_state {
+    left: 717px;
+    top: 84px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_BHAD {
+    left: 778px;
+    top: 106px;
+    position: absolute;
+}
+
+.value_ODI_BHAD_state {
+    left: 719px;
+    top: 107px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_MAYU {
+    left: 790px;
+    top: 17px;
+    position: absolute;
+}
+
+.value_ODI_MAYU_state {
+    left: 711px;
+    top: 18px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_JAJP {
+    left: 736px;
+    top: 131px;
+    position: absolute;
+}
+
+.value_ODI_JAJP_state {
+    left: 691px;
+    top: 132px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+
+.value_ODI_KEON {
+    left: 788px;
+    top: -7px;
+    position: absolute;
+}
+
+.value_ODI_KEON_state {
+    left: 725px;
+    top: -6px;
+    position: absolute;
+    /*z-index: 0;*/
+}
+/*ODI Ends*/
+
+
+
+/*JAK*/
+.value_JAK {
+    position: absolute;
+    left: 353px;
+    top: 223px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_JKIN {
+    position: absolute;
+    left: 666px;
+    top: 244px;
+}
+
+.value_JAK_JKIN_state {
+    position: absolute;
+    left: 588px;
+    top: 244px;
+    /*z-index: 0;*/
+}
+.value_JAK_JAK {
+    position: absolute;
+    left: 178px;
+    top: 356px;
+}
+
+.value_JAK_JAK_state {
+    position: absolute;
+    left: 121px;
+    top: 357px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_ANAN {
+    position: absolute;
+    left: 666px;
+    top: 221px;
+}
+
+.value_JAK_ANAN_state {
+    position: absolute;
+    left: 599px;
+    top: 222px;
+    /*z-index: 0;*/
+}
+
+
+.value_JAK_BAND {
+    position: absolute;
+    left: 92px;
+    top: 67px;
+}
+
+.value_JAK_BAND_state {
+    position: absolute;
+    left: 19px;
+    top: 68px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_BARA {
+    position: absolute;
+    left: 114px;
+    top: 93px;
+}
+
+.value_JAK_BARA_state {
+    position: absolute;
+    left: 42px;
+    top: 94px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_BUDG {
+    position: absolute;
+    left: 127px;
+    top: 188px;
+}
+
+.value_JAK_BUDG_state {
+    position: absolute;
+    left: 66px;
+    top: 189px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_DODA {
+    position: absolute;
+    left: 510px;
+    top: 336px;
+}
+
+.value_JAK_DODA_state {
+    position: absolute;
+    left: 470px;
+    top: 337px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_GDBL {
+    position: absolute;
+    left: 137px;
+    top: 118px;
+}
+
+.value_JAK_GDBL_state {
+    position: absolute;
+    left: 66px;
+    top: 119px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_JAMM {
+    position: absolute;
+    left: 178px;
+    top: 356px;
+}
+
+/*Nutan:04 jul 2017J&K*/
+.value_JAK_JKIN {
+display: none;
+}
+
+
+.value_JAK_JAMM_state {
+    position: absolute;
+    left: 121px;
+    top: 357px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_KARG {
+    position: absolute;
+    left: 690px;
+    top: 156px;
+}
+
+.value_JAK_KARG_state {
+    position: absolute;
+    left: 647px;
+    top: 157px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_KATH {
+    position: absolute;
+    left: 497px;
+    top: 407px;
+}
+
+.value_JAK_KATH_state {
+    position: absolute;
+    left: 445px;
+    top: 408px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_KISH {
+    position: absolute;
+    left: 519px;
+    top: 359px;
+}
+
+.value_JAK_KISH_state {
+    position: absolute;
+    left: 458px;
+    top: 360px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_KALG {
+    position: absolute;
+    left: 163px;
+    top: 308px;
+}
+
+.value_JAK_KALG_state {
+    position: absolute;
+    left: 108px;
+    top: 309px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_KUPW {
+    position: absolute;
+    left: 130px;
+    top: 142px;
+}
+
+.value_JAK_KUPW_state {
+    position: absolute;
+    left: 64px;
+    top: 143px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_LEH {
+    position: absolute;
+    left: 653px;
+    top: 185px;
+}
+
+.value_JAK_LEH_state {
+    position: absolute;
+    left: 621px;
+    top: 186px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_PULW {
+    position: absolute;
+    left: 129px;
+    top: 166px;
+}
+
+.value_JAK_PULW_state {
+    position: absolute;
+    left: 64px;
+    top: 167px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_RAJO {
+    position: absolute;
+    left: 154px;
+    top: 284px;
+}
+
+.value_JAK_RAJO_state {
+    position: absolute;
+    left: 103px;
+    top: 285px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_RAMB {
+    position: absolute;
+    left: 511px;
+    top: 383px;
+}
+
+.value_JAK_RAMB_state {
+    position: absolute;
+    left: 452px;
+    top: 384px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_RESI {
+    position: absolute;
+    left: 175px;
+    top: 331px;
+}
+
+.value_JAK_RESI_state {
+    position: absolute;
+    left: 134px;
+    top: 332px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_SHPN {
+    position: absolute;
+    left: 144px;
+    top: 260px;
+}
+
+.value_JAK_SHPN_state {
+    position: absolute;
+    left: 85px;
+    top: 261px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_SRIN {
+    position: absolute;
+    left: 709px;
+    top: 132px;
+}
+
+.value_JAK_SRIN_state {
+    position: absolute;
+    left: 650px;
+    top: 133px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_UDHM {
+    position: absolute;
+    left: 192px;
+    top: 382px;
+}
+
+.value_JAK_UDHM_state {
+    position: absolute;
+    left: 120px;
+    top: 383px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_SMBA {
+    position: absolute;
+    left: 171px;
+    top: 406px;
+}
+
+.value_JAK_SMBA_state {
+    position: absolute;
+    left: 120px;
+    top: 407px;
+    /*z-index: 0;*/
+}
+
+.value_JAK_POCH {
+    position: absolute;
+    left: 134px;
+    top: 215px;
+}
+
+.value_JAK_POCH_state {
+    position: absolute;
+    left: 80px;
+    top: 216px;
+    /*z-index: 0;*/
+}
+/*JAK Ends*/
+
+
+
+/*MGA*/
+.value_MGA_MGA {
+    position: absolute;
+    left: 642px;
+    top: 28px;
+}
+
+.value_MGA_MGA_state {
+    position: absolute;
+    left: 567px;
+    top: 29px;
+    /*z-index: 0;*/
+}
+
+.value_MGA_SHI {
+    position: absolute;
+    left: 742px;
+    top: 76px;
+}
+
+.value_MGA_SHI_state {
+    position: absolute;
+    left: 667px;
+    top: 77px;
+    /*z-index: 0;*/
+}
+/*MGA Ends*/
+
+
+
+/*ANI*/
+.value_ANI_ANI {
+    position: absolute;
+    left: 600px;
+    top: 153px;
+}
+
+.value_ANI_ANI_state {
+    left: 429px;
+    position: absolute;
+    top: 154px;
+    /*z-index: 0;*/
+}
+/*ANI Ends*/
+
+
+
+/*SKM*/
+
+.value_sikkim {
+    position: absolute;
+    left: 487px;
+    top: 90px;
+}
+
+.value_sikkim_state {
+    position: absolute;
+    left: 498px;
+    top: 111px;
+    /*/*z-index: 0;*/*/
+}
+
+.value_SKM_SKM {
+    position: absolute;
+    left: 749px;
+    top: 422px;
+}
+
+.value_SKM_SKM_state {
+    left: 669px;
+    position: absolute;
+    top: 423px;
+    /*z-index: 0;*/
+}
+
+.value_SKM_WSIK {
+    position: absolute;
+    left: 149px;
+    top: 286px;
+}
+
+.value_SKM_WSIK_state {
+    left: 62px;
+    position: absolute;
+    top: 287px;
+    /*z-index: 0;*/
+}
+
+.value_SKM_NSIK {
+    position: absolute;
+    left: 705px;
+    top: 176px;
+}
+
+.value_SKM_NSIK_state {
+    left: 618px;
+    position: absolute;
+    top: 177px;
+    /*z-index: 0;*/
+}
+
+.value_SKM_SSIK {
+    position: absolute;
+    left: 127px;
+    top: 418px;
+}
+
+.value_SKM_SSIK_state {
+    left: 37px;
+    position: absolute;
+    top: 419px;
+    /*z-index: 0;*/
+}
+/*SKM Ends*/
+
+
+
+/*ACP:Nutan 04 july 2017*/
+
+
+/*Nutan:4 jul 2017 arunachal state*/
+.value_ACP_ACP {
+    position: absolute;
+    left: 790px;
+    top: 104px;
+    display:none;
+}
+
+.value_ACP_ACP_state {
+    left: 669px;
+    position: absolute;
+    top: 105px;
+    /*z-index: 0;*/
+    display:none;
+}
+
+/*ACP Ends*/
+
+
+
+/*Nutan:Manipur*/
+.value_MIP {
+    position: absolute;
+    left: 371px;
+    top: 239px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_MIP {
+    position: absolute;
+    left: 676px;
+    top: 227px;
+    display:none;
+    
+}
+
+.value_MIP_MIP_state {
+    left: 616px;
+    position: absolute;
+    top: 228px;
+    /*z-index: 0;*/
+    display:none;
+   
+}
+
+/*Imphal East*/
+.value_MIP_IME {
+    position: absolute;
+    left:677px;
+    top:182px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_IME_state {
+    position: absolute;
+    left: 604px;
+    top: 182px;
+    /*z-index: 0;*/
+}
+
+/*Thoubal*/
+.value_MIP_TOBL {
+    position: absolute;
+    left:658px;
+    top:206px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_TOBL_state {
+    position: absolute;
+    left: 604px;
+    top: 206px;
+    /*z-index: 0;*/
+}
+
+
+/*Tengnoupal*/
+.value_MIP_TNPL{
+   position: absolute;
+    left: 653px;
+    top: 257px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_TNPL_state {
+    position: absolute;
+    left: 577px;
+    top: 257px;
+    /*z-index: 0;*/
+}
+
+/*Chandel*/
+.value_MIP_CHDL{
+   position: absolute;
+    left: 602px;
+    top: 323px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_CHDL_state {
+    position: absolute;
+    left: 548px;
+    top: 323px;
+    /*z-index: 0;*/
+}
+
+/*Kakching*/
+.value_MIP_KCHN{
+   position: absolute;
+    left: 606px;
+    top: 354px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_KCHN_state {
+    position: absolute;
+    left: 548px;
+    top: 354px;
+    /*z-index: 0;*/
+}
+
+/*Kamjong*/
+.value_MIP_KMJN {
+    position: absolute;
+    left:661px;
+    top:157px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_KMJN_state {
+    position: absolute;
+    left: 604px;
+    top: 157px;
+    /*z-index: 0;*/
+}
+
+/* Ukhrul*/
+.value_MIP_UKRL {
+    position: absolute;
+    left:648px;
+    top:115px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_UKRL_state {
+    position: absolute;
+    left: 604px;
+    top: 115px;
+    /*z-index: 0;*/
+}
+/*Senapati*/
+
+.value_MIP_SNPT{
+    position: absolute;
+    left: 253px;
+    top: 83px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_SNPT_state {
+    position: absolute;
+    left: 197px;
+    top: 83px;
+    /*z-index: 0;*/
+}
+
+/*Tamenglong*/
+.value_MIP_TMGL{
+    position: absolute;
+    left: 189px;
+    top: 136px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_TMGL_state {
+    position: absolute;
+    left: 109px;
+    top: 135px;
+    /*z-index: 0;*/
+}
+
+
+/*Kangpokpi*/
+
+.value_MIP_KNPO{
+    position: absolute;
+    left: 642px;
+    top: 83px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_KNPO_state {
+    position: absolute;
+    left: 574px;
+    top: 83px;
+    /*z-index: 0;*/
+}
+
+
+/*Imphal West*/
+.value_MIP_IMW {
+    position: absolute;
+    left: 170px;
+    top: 164px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_IMW_state {
+    position: absolute;
+    left: 90px;
+    top: 164px;
+    /*z-index: 0;*/
+}
+
+/*Noney*/
+.value_MIP_NONY{
+   position: absolute;
+    left: 155px;
+    top: 190px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_NONY_state {
+    position: absolute;
+    left: 111px;
+    top: 190px;
+    /*z-index: 0;*/
+}
+
+/*Jiribam*/
+.value_MIP_JRBM{
+   position: absolute;
+    left: 158px;
+    top: 213px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_JRBM_state {
+    position: absolute;
+    left: 111px;
+    top: 213px;
+    /*z-index: 0;*/
+}
+/*Pherzawl*/
+.value_MIP_PHRL{
+   position: absolute;
+    left: 133px;
+    top: 305px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_PHRL_state {
+    position: absolute;
+    left: 73px;
+    top: 305px;
+    /*z-index: 0;*/
+}
+
+/*CCPur*/
+.value_MIP_CPR{
+   position: absolute;
+    left: 74px;
+    top: 334px;
+    /*z-index: 0;*/
+}
+
+.value_MIP_CPR_state {
+    position: absolute;
+    left: 33px;
+    top: 334px;
+    /*z-index: 0;*/
+}
+
+
+/* Bishnupur*/
+
+.value_MIP_BSHN{
+   position: absolute;
+    left: 137px;
+    top: 239px;
+    /*z-index: 0;*/
+}
+.value_MIP_BSHN_state {
+    position: absolute;
+    left: 73px;
+    top: 239px;
+    /*z-index: 0;*/
+}
+
+
+
+
+/*MIP Ends*/
+/*Nutan:arunachal pradesh 4 jul 2017*/
+
+.value_ACP {
+    position: absolute;
+    left: 331px;
+    top: 113px;
+    /*z-index: 0;*/
+}
+
+/*Tawang*/
+.value_ACP_TWNG{
+    position: absolute;
+    left: 50px;
+    top: 171px;
+}
+
+.value_ACP_TWNG_state {
+    position: absolute;
+    left: 2px;
+    top: 171px;
+    /*z-index: 0;*/
+}
+
+/*West Kameng*/
+.value_ACP_WKMN{
+    position: absolute;
+    left: 86px;
+    top: 227px;
+}
+
+.value_ACP_WKMN_state {
+    position: absolute;
+    left: 0px;
+    top: 227px;
+    /*z-index: 0;*/
+}
+
+/*East Kameng*/
+.value_ACP_EKMN{
+    position: absolute;
+    left: 83px;
+    top: 203px;
+}
+
+.value_ACP_EKMN_state {
+    position: absolute;
+    left: 0px;
+    top: 203px;
+    /*z-index: 0;*/
+}
+
+/*Papum Pare*/
+.value_ACP_PMPR{
+    position: absolute;
+    left: 83px;
+    top: 257px;
+}
+
+.value_ACP_PMPR_state {
+    position: absolute;
+    left: 7px;
+    top: 257px;
+    /*z-index: 0;*/
+}
+
+/*Kurung Kumey*/
+.value_ACP_KRNM{
+    position: absolute;
+    left: 161px;
+    top: 109px;
+}
+
+.value_ACP_KRNM_state {
+    position: absolute;
+    left: 67px;
+    top: 109px;
+    /*z-index: 0;*/
+}
+
+/* Kra Daadi*/
+.value_ACP_KRDI{
+    position: absolute;
+    left: 129px;
+    top: 76px;
+}
+
+.value_ACP_KRDI_state {
+    position: absolute;
+    left: 67px;
+    top: 76px;
+    /*z-index: 0;*/
+}
+
+/*Lower Subansiri*/
+.value_ACP_LSBN{
+    position: absolute;
+    left: 155px;
+    top:133px ;
+}
+
+.value_ACP_LSBN_state {
+    position: absolute;
+    left: 54px;
+    top: 133px;
+    /*z-index: 0;*/
+}
+
+/*Upper Subansiri*/
+.value_ACP_USBN{
+    position: absolute;
+    left: 167px;
+    top: 44px;
+}
+
+.value_ACP_USBN_state {
+    position: absolute;
+    left: 67px;
+    top: 44px;
+    /*z-index: 0;*/
+}
+
+/*West Siang*/
+
+.value_ACP_WSNG{
+    position: absolute;
+    left: 238px;
+    top: 22px;
+}
+
+.value_ACP_WSNG_state {
+    position: absolute;
+    left: 166px;
+    top: 22px;
+    /*z-index: 0;*/
+}
+
+/*East Siang*/
+.value_ACP_ESNG{
+    position: absolute;
+    left: 742px;
+    top: 134px;
+
+}
+.value_ACP_ESNG_state {
+    position: absolute;
+    left: 676px;
+    top:134px;
+    /*z-index: 0;*/
+}
+
+/*Lohit*/
+.value_ACP_LOHT{
+    position: absolute;
+    left: 690px;
+    top: 161px;
+
+}
+.value_ACP_LOHT_state {
+    position: absolute;
+    left: 656px;
+    top:161px;
+    /*z-index: 0;*/
+}
+
+/*Changlang*/
+.value_ACP_CHNG{
+    position: absolute;
+    left: 724px;
+    top: 189px;
+
+}
+.value_ACP_CHNG_state {
+    position: absolute;
+    left: 656px;
+    top:189px;
+    /*z-index: 0;*/
+}
+
+/*Tirap*/
+.value_ACP_TRP{
+    position: absolute;
+    left: 690px;
+    top: 220px;
+
+}
+.value_ACP_TRP_state {
+    position: absolute;
+    left: 656px;
+    top:220px;
+    /*z-index: 0;*/
+}
+
+/*Upper Siang*/
+.value_ACP_USNG{
+    position: absolute;
+    left: 281px;
+    top: 0px;
+}
+
+.value_ACP_USNG_state {
+    position: absolute;
+    left: 202px;
+    top: 0px;
+    /*z-index: 0;*/
+}
+
+/*Lower Dibang Valley*/
+.value_ACP_LDNV{
+    position: absolute;
+    left: 724px;
+    top: 27px;
+}
+
+.value_ACP_LDNV_state {
+    position: absolute;
+    left:594px ;
+    top:27px ;
+    /*z-index: 0;*/
+}
+/*Longding*/
+.value_ACP_LNDN {
+    position: absolute;
+    left: 590px;
+    top: 255px;
+
+}
+
+.value_ACP_LNDN_state {
+    position: absolute;
+    left: 527px;
+    top: 255px;
+    /*z-index: 0;*/
+}
+
+/*Namsai District*/
+.value_ACP_NMSI {
+    position: absolute;
+    left: 423px;
+    top: 257px;
+
+}
+
+.value_ACP_NMSI_state {
+    position: absolute;
+    left: 329px;
+    top: 257px;
+    /*z-index: 0;*/
+}
+
+/*Upper dibang valley*/
+.value_ACP_UDNV {
+    position: absolute;
+    left: 717px;
+    top: 0px;
+
+}
+
+.value_ACP_UDNV_state {
+    position: absolute;
+    left: 588px;
+    top: 0px;
+    /*z-index: 0;*/
+}
+
+/*Anjaw*/
+.value_ACP_ANJW {
+    position: absolute;
+    left: 709px;
+    top: 51px;
+
+}
+
+.value_ACP_ANJW_state {
+    position: absolute;
+    left: 669px;
+    top: 51px;
+    /*z-index: 0;*/
+}
+
+
+
+/*TPA*/
+/*.value_TPA_TPA {
+    position: absolute;
+    left: 662px;
+    top: 310px;
+}
+
+.value_TPA_TPA_state {
+    left: 610px;
+    position: absolute;
+    top: 311px;
+    z-index: 0;
+}*/
+
+.value_TPA_TPA {
+    position: absolute;
+    left: 675px;
+    top: 310px;
+}
+
+.value_TPA_TPA_state {
+    left: 622px;
+    position: absolute;
+    top: 311px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_DHAL {
+    position: absolute;
+    left: 698px;
+    top: 255px;
+}
+
+.value_TPA_DHAL_state {
+    left: 649px;
+    position: absolute;
+    top: 256px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_STRI {
+    position: absolute;
+    left: 90px;
+    top: 456px;
+}
+
+.value_TPA_STRI_state {
+    left: 20px;
+    position: absolute;
+    top: 457px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_GOMA {
+    position: absolute;
+    left: 67px;
+    top: 338px;
+}
+
+.value_TPA_GOMA_state {
+    left: 15px;
+    position: absolute;
+    top: 339px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_NTRI {
+    position: absolute;
+    left: 728px;
+    top: 164px;
+}
+
+.value_TPA_NTRI_state {
+    left: 663px;
+    position: absolute;
+    top: 165px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_SIPA {
+    position: absolute;
+    left: 80px;
+    top: 307px;
+}
+
+.value_TPA_SIPA_state {
+    left: 13px;
+    position: absolute;
+    top: 308px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_KHOW {
+    position: absolute;
+    left: 65px;
+    top: 160px;
+}
+
+.value_TPA_KHOW_state {
+    left: 13px;
+    position: absolute;
+    top: 161px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_WTRI {
+    position: absolute;
+    left: 80px;
+    top: 212px;
+}
+
+.value_TPA_WTRI_state {
+    left: 12px;
+    position: absolute;
+    top: 213px;
+    /*z-index: 0;*/
+}
+
+.value_TPA_UNAK {
+    position: absolute;
+    left: 717px;
+    top: 115px;
+}
+
+.value_TPA_UNAK_state {
+    left: 663px;
+    position: absolute;
+    top: 116px;
+    /*z-index: 0;*/
+}
+
+/*TPA Ends*/
+
+
+
+/*MZM*/
+.value_MZM_MZM {
+    position: absolute;
+    left: 649px;
+    top: 254px;
+}
+
+.value_MZM_MZM_state {
+    left: 588px;
+    position: absolute;
+    top: 255px;
+    /*z-index: 0;*/
+}
+/*MZM Ends*/
+
+
+
+/*Nutan:6/6/2017 chandigarh map*/
+/*CHG */
+.value_CHG_CHG {
+    position: absolute;
+    left: 140px;
+    top: 180px;
+}
+
+.value_CHG_CHG_state {
+    position: absolute;
+    left: 64px;
+    top: 180px;
+    /*z-index: 0;*/
+
+}
+/*CHG */

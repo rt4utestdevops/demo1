@@ -1,0 +1,688 @@
+/*  Map View Style */
+.mapview-mask {
+	width: 99.3%;
+	height: 520px;
+	position: absolute;
+	background: #C5C0C0;
+	z-index: 3;
+	opacity: .5;
+}
+
+.button{
+  padding:5px;
+  background-color: #5F6F81;
+  border: 1.5px solid #fff;
+  color:#fff;
+  text-decoration:none;   
+}
+
+.vehicle-show-details-block {
+	font-size: 13px;
+	font-family: 'Open Sas' sans-serif !important;
+	float: left;
+	margin: 6px 4px 0 0;
+	
+}
+
+vehicle-show-details-block-image {
+	font-size: 13px;
+	font-family: 'Open Sas' sans-serif !important;
+	float: left;
+	margin: 5px 4px 0 0;
+	
+}
+
+.vehicle-details-block-header {
+	float: left ;
+	width: 35%;
+	font-size: 12px;
+	font-family: 'Open Sas' sans-serif !important;
+}
+
+.vehicle-details-block-sep {
+	font-size: 12px;
+	font-family: 'Open Sas' sans-serif !important;
+	float: left;
+}
+
+.me-select-label-header {
+	background-color: #E4E4E4;
+	margin-top: 2px;
+	height: 26px;
+	line-height: 24px;
+	color: #000000;
+	font-size: 21px;
+}
+
+.vehicle-details-header {
+	font-size: 19px;
+	font-family: 'Open Sas' sans-serif !important;
+	text-align: center;
+	padding: 20%;
+}
+
+.vehicle-details-block {
+	word-wrap: break-word;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: 'Open Sas' sans-serif !important
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"]+label {
+	color: #5eb9f9;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	float: left;
+}
+
+input[type="checkbox"]+label span {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	margin: 5px 4px 0 0;
+	vertical-align: middle;
+	background: url(/ApplicationImages/ApplicationButtonIcons/uncheckedblue.png) left top
+		no-repeat;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked+label span {
+	background: url(/ApplicationImages/ApplicationButtonIcons/checkedblue.png) 0px top
+		no-repeat;
+}
+
+.searchtextbox {
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	padding: 5px 10px;
+	width: 165px;
+	outline: none;
+	height: 20px;
+	width: 94%;
+}
+
+.combobox {
+	background: white;
+	border: 1px solid #DDD;
+	box-shadow: 0 0 5px #DDD inset;
+	color: #666;
+	width: 13% !important;
+	outline: none;
+	height: 30px;
+	margin-top: 3px;
+	float: right;
+}
+
+}
+.mp-option-showhub {
+	width: 43%;
+	height: 15px;
+	float: left;
+}
+
+.mp-container {
+	background: #f4f4f4;
+	border: 5px solid #fff;
+	width: 61%;
+	height: 465px; /*484px;*/
+	position: relative;
+	margin: auto;
+	right: 4%;
+	-moz-box-shadow: 1px 1px 3px #cac4ab;
+	-webkit-box-shadow: 1px 1px 3px #cac4ab;
+	box-shadow: 1px 1px 3px #cac4ab;
+}
+
+.mp-container-fullscreen {
+	border: none;
+	position: fixed;
+	left: 0px;
+	width: 101%;
+	height: 465px; /*485px;*/
+}
+
+.mp-container-fitscreen {
+	position: fixed;
+	top: 0%;
+	border: 0px solid #ffffff;
+	left: 15.5%;
+	width: 85.5%;
+	height: 465px; /*485px;*/
+}
+
+.list-container-fitscreen {
+	position: fixed;
+	top: 7.1%;
+	border: 5px solid #ffffff;
+	left: 0%;
+	width: 100%;
+	height: 520px;
+}
+
+.me-select {
+	margin: 0 auto;
+	height: 520px;
+	overflow-x: hidden;
+}
+
+.me-select-label {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	font-size: 13px;
+	padding: 7px 0px 10px 10px;
+	vertical-align: top;
+	background: transparent;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+.mp-album-wrapper {
+	width: 490px;
+	height: 390px;
+	margin: 5px;
+	overflow: hidden;
+	float: left;
+	background: #f4f4f4 url(../images/bgalbum.png) no-repeat center center;
+}
+
+.mp-album-outer {
+	margin: 0 auto;
+	width: 474px;
+}
+
+.mp-album a {
+	display: block;
+	float: left;
+	padding: 2px;
+	background: #f4f4f4;
+}
+
+.mp-album a img {
+	display: block;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.mp-album a.current {
+	background: #eb3939;
+}
+
+.mp-album a img:hover,.mp-album a.current img {
+	opacity: 0.8;
+}
+
+.mp-album-overlay {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 502px;
+	height: 400px;
+	background: #f4f4f4;
+}
+
+.mp-album-image-wrapper {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	right: 40px;
+	bottom: 20px;
+	overflow: hidden;
+}
+
+.mp-album-image {
+	width: 422px;
+	height: 360px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mp-album-image img {
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+	-moz-box-shadow: 1px 1px 3px #999;
+	-webkit-box-shadow: 1px 1px 3px #999;
+	box-shadow: 1px 1px 3px #999;
+}
+
+.mp-album-image-zoom {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #000 url(../images/zoom-in.png) no-repeat center center;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -20px;
+	opacity: 0.3;
+	text-indent: -9000px;
+	display: none;
+}
+
+.mp-album-image-zoom:hover {
+	opacity: 0.7;
+}
+
+.mp-album-image-wrapper:hover .mp-album-image-zoom {
+	display: block;
+}
+
+.mp-album-overlay-close,.mp-image-overlay-close {
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	background: transparent url(../images/close.png) no-repeat center center
+		;
+	top: 0px;
+	right: 0px;
+	opacity: 0.3;
+	text-indent: -9000px;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.mp-album-overlay-close:hover,.mp-image-overlay-close {
+	opacity: 0.7;
+}
+
+.mp-image-overlay-close {
+	top: 2px;
+	right: 10px;
+	width: auto;
+	height: 40px;
+	background-color: #000;
+	background-position: 0px 50%;
+	text-indent: 0px;
+	color: #fff;
+	line-height: 42px;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding: 0px 10px 0px 22px;
+}
+
+.mp-image-overlay-close:hover {
+	opacity: 1.0;
+}
+
+.mp-album-nav span {
+	position: absolute;
+	width: 24px;
+	height: 22px;
+	background: transparent url(../images/arrow-left.png) no-repeat top left
+		;
+	top: 50%;
+	left: 10px;
+	margin-top: -11px;
+	cursor: pointer;
+	text-indent: -9000px;
+	opacity: 0.4;
+	z-index: 10;
+}
+
+.mp-album-nav span.mp-album-nav-next {
+	left: auto;
+	right: 10px;
+	background: transparent url(../images/arrow-right.png) no-repeat top
+		left;
+}
+
+.mp-album-nav span:hover {
+	opacity: 0.7;
+}
+
+.mp-image-overlay {
+	position: fixed;
+	z-index: 1000;
+	top: 0px;
+	left: 0px;
+	background: transparent url(../images/black.png) repeat top left;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.mp-image-overlay img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 5px solid #fff;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.mp-image-overlay-desc {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 45px;
+	background: transparent url(../images/black.png) repeat top left;
+}
+
+.mp-map-wrapper {
+	width: 99.5%;
+	height: 430px; /* 450px; */
+	position: absolute;
+}
+
+.mp-vehicle-wrapper {
+	width: 15.5%;
+	height: 520px;
+	float: left;
+	background-color: #ffffff;
+}
+
+.mp-vehicle-details-wrapper {
+	width: 23.5%;
+	height: 521px;
+	float: right;
+	background-color: #ffffff;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.mp-options-wrapper {
+position: absolute;
+background: #FFF;
+bottom: 0px;
+text-align: center;
+width: 100%;
+} 
+
+
+.mp-tabs-wrapper {
+	position: top;
+	height: 31px;
+	background: #FFF;
+	bottom: 0px;
+	text-align: left;
+	width: 100%;
+	
+}
+
+h2.mp-label {
+	font-family: 'Rokkitt', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	line-height: 46px;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.mp-options {
+	position: relative;
+}
+
+.mp-options a {
+	position: absolute;
+	opacity: 0.5;
+	width: 36px;
+	height: 36px;
+	text-indent: -9000px;
+	top: 5px;
+	left: 5px;
+	background: #fff url(../images/back.png) no-repeat center center;
+}
+
+.mp-options a:hover {
+	opacity: 0.8;
+}
+
+.mp-options a.mp-option-fullscreen,.mp-options a.mp-option-normal {
+	background: #fff url(/ApplicationImages/ApplicationButtonIcons/expand.png) no-repeat
+		center center;
+	right: 5px;
+	left: auto;
+}
+
+.mp-option-normal {
+	background-image: url(/ApplicationImages/ApplicationButtonIcons/collapse.png);
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	zoom: 1;
+	cursor: pointer;
+	margin-left: 95%;
+}
+.mp-option-normal1 {
+	background-image: url(/ApplicationImages/ApplicationButtonIcons/collapse.png);
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	zoom: 1;
+	cursor: pointer;
+	margin-left: 50%;
+}
+.mp-option-fullscreenl {
+	background-image: url(/ApplicationImages/ApplicationButtonIcons/expand.png);
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	zoom: 1;
+	cursor: pointer;
+	margin-left: 70%;
+}
+.mp-option-fullscreen2 {
+	background-image: url(/ApplicationImages/ApplicationButtonIcons/expand.png);
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	zoom: 1;
+	cursor: pointer;
+	margin-left: 50%;
+}
+.mp-loading {
+	background: transparent url(../images/ajax-loader.gif) no-repeat center
+		center;
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -24px 0 0 -24px;
+	text-indent: -9000px;
+}
+
+.mp-image-loading-small {
+	background: transparent url(../images/ajax-loader-small.gif) no-repeat
+		center center;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-indent: -9000px;
+	display: none;
+}
+
+/* Vehicle Detailsicon-only trigger (menu item) */
+.gn-menu-main li.gn-trigger {
+	position: relative;
+	width: 60px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'codropsicons';
+	src: url('../fonts/codropsicons/codropsicons.eot');
+	src: url('../fonts/codropsicons/codropsicons.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #34495e;
+}
+
+.container>header,.codrops-top {
+	color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.container>header {
+	margin: 0 auto;
+	padding: 12em 2em;
+	padding-left: 370px;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.container>header a {
+	color: #566473;
+	text-decoration: none;
+	outline: none;
+}
+
+.container>header a:hover {
+	color: #4f7bab;
+}
+
+.container>header a:active {
+	color: #4f7bab;
+}
+
+.container>header h1 {
+	font-size: 3.2em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.container>header span {
+	display: block;
+	font-size: 55%;
+	color: #74818e;
+	padding: 0 0 0.6em 0.1em;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	text-decoration: none;
+	padding: 0 1em;
+	letter-spacing: 0.1em;
+	color: #888;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255, 255, 255, 0.95);
+	color: #333;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.codrops-icon:before {
+	font-family: 'codropsicons';
+	margin: 0 4px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+.codrops-demos {
+	padding-top: 1em;
+	font-size: 0.9em;
+}
+
+.codrops-demos a {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	border: 3px solid #b1aea6;
+	color: #b1aea6;
+	font-weight: 700;
+}
+
+.codrops-demos a:hover,.codrops-demos a.current-demo,.codrops-demos a.current-demo:hover
+	{
+	border-color: #89867e;
+	color: #89867e;
+}
+
+@media screen and (max-width: 1025px) {
+	.container>header {
+		margin: 0 auto;
+		padding: 120px 50px;
+		font-size: 70%;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.codrops-icon span {
+		display: none;
+	}
+}
+
+.checkBoxRegion {
+	margin-left: 20%;
+}
+.checkBoxRegion1 {
+	margin-left: 30%;
+}
+.search
+{
+background: url(/ApplicationImages/ApplicationButtonIcons/search.png) no-repeat;
+background-position-y: 5px;
+padding-left: 18px;
+border: 1px solid #ccc;
+float: right;
+height:25px;
+background-color:#fff;
+background-position-y: 4px;
+background-position:0px 4px;
+
+}

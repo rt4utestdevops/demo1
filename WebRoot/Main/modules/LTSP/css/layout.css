@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #89867e;
+	color: transparent;
+}
+.container>header {
+	padding: 1px 6px;
+	background-color: #f8f8f8;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	height: 36px;
+	border-top: 1px solid #bdbdbd;
+	border-bottom: 1px solid #bdbdbd;
+	box-shadow: 0px 0px 10px #bdbdbd;
+}
+
+.container>header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.container>header span {
+	display: block;
+	font-size: 24px;
+	color: #5eb9f9;
+	padding: 2px 2px;
+}

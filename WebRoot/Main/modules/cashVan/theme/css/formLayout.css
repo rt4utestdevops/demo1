@@ -1,0 +1,28 @@
+
+/**
+* Extjs Table Layout
+**/
+
+ .x-panel-tl
+	{
+		border-bottom: 0px solid !important;
+	}
+	
+  .x-table-layout td {
+		vertical-align: top !important;
+		padding-bottom: 3px !important;
+		padding-top: 4px !important;
+		padding-right: 8px !important;
+		border-color: #110404 !important;
+		border-bottom: 1px solid #DBD3D3 !important; 
+		width: auto !important;
+	}
+
+
+/**
+* Text Field
+**/
+.ext-strict .x-form-text {
+	height: 27px !important;
+	width: 96%;
+}

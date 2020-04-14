@@ -1,0 +1,100 @@
+.detailsBoard {
+      background-color: #f7f7f7 !important;
+      border-radius: 4px;
+      padding: 16px 16px;
+      color: #4a4a4a;
+      opacity: 1;
+      margin-top: 16px;
+	  width:850px !important;
+      z-index: 10000;
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.sweet-alert h2 {
+    
+    font-size: 16px;
+    text-align: center;   
+    line-height: 24px;
+   
+}
+
+.input-s {
+  width: 188px !important;
+}
+
+.maxWidth{
+max-width:24px;
+}
+
+#nav, #contentChild{
+transition:1s;
+-webkit-transition-duration: 0.8s;
+}
+
+.panel-heading{
+	background:#f5f5f5 !important;
+	
+}
+
+#flotTip {
+    padding: 3px 5px;
+    z-index: 100;
+    color: black !important;
+    opacity: .80;
+    filter: alpha(opacity=85);
+}
+ .center-view{
+  top:40%;
+  left:50%;
+  position:fixed;
+  height:200px;
+  width:200px;
+      z-index: 10;
+  }
+ul.multiselect-container { width: fit-content!important; position: relative !important;transform: translate3d(0px, 0px, 0px) !Important; }
+.caret {
+position: absolute;
+left: 90%;
+top: 45%;
+
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.multiselect{
+	text-align:left;
+}
+
+#donutRow{
+	justify-content:center;
+}
+.m-t-smHead{margin-top:10px;}
+
+.dropdown-item{
+	color: #212529 !important
+}
+.navbar-brand img {
+    max-height: none !important;
+    margin-top: -16px !important;
+    vertical-align: middle !important;
+}
+.h7Pad{
+	 padding:16px;
+ }
+ .slim-scroll{
+ 	margin-top:53px !important;
+ }
+ .startDateClass {
+ 	margin-left: -9px !important;
+    padding-left: 4px !important;
+ }
+ .multiselect-clear-filter {
+	height: 33px !important;
+}
+.multiselect-filter{
+	margin-right: 8px !important;
+}
+.routeLabelClass {
+	margin-top: 6px !important;
+}

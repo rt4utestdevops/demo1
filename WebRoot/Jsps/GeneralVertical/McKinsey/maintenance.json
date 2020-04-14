@@ -1,0 +1,82 @@
+[
+   {
+      "vehicleNo":"HR55AC1793",
+      "vehicleDesc":"TATA PRIMA 2518 (32ft MXL DC)",
+      "vehicleScore":"3",
+      "vehicleScoreStatus":"red",
+      "change":"0.8",
+      "changeStatus":"red"
+   },
+   {
+      "vehicleNo":"HR55AC6287",
+      "vehicleDesc":"BENZ 1617 24ft SXL DC",
+      "vehicleScore":"2",
+      "vehicleScoreStatus":"red",
+      "change":"0.8",
+      "changeStatus":" red "
+   },
+   {
+      "vehicleNo":"HR55AD1121",
+      "vehicleDesc":"BENZ 1617 24ft SXL DC",
+      "vehicleScore":"2",
+      "vehicleScoreStatus":"red",
+      "change":"0.5",
+      "changeStatus":"red"
+   },
+   {
+      "vehicleNo":"HR55AD113",
+      "vehicleDesc":"TATA ULTRA 1518 24ft SXL DC",
+      "vehicleScore":"6",
+      "vehicleScoreStatus":"orange",
+      "change":"1.6",
+      "changeStatus":"green"
+   },
+   {
+      "vehicleNo":"HR55AD1718",
+      "vehicleDesc":"TATA PRIMA 2518 32ft MXL DC",
+      "vehicleScore":"8",
+      "vehicleScoreStatus":"green",
+      "change":"0.7",
+      "changeStatus":"red"
+   },
+   {
+      "vehicleNo":"HR55AD4024",
+      "vehicleDesc":"TATA PRIMA 2518 32ft MXL DC",
+      "vehicleScore":"3",
+      "vehicleScoreStatus":"red",
+      "change":"1.1",
+      "changeStatus":"green"
+   },
+   {
+      "vehicleNo":"HR55AD5730",
+      "vehicleDesc":"TATA ULTRA 1518 24ft SXL DC",
+      "vehicleScore":"3",
+      "vehicleScoreStatus":"red",
+      "change":"1.3",
+      "changeStatus":"green"
+   },
+   {
+      "vehicleNo":"HR55AD8501",
+      "vehicleDesc":"BENZ 1617 24ft SXL DC",
+      "vehicleScore":"6",
+      "vehicleScoreStatus":"orange",
+      "change":"0.6",
+      "changeStatus":"red"
+   },
+   {
+      "vehicleNo":"MH04JK1944",
+      "vehicleDesc":"BENZ 1617 24ft SXL DC",
+      "vehicleScore":"3",
+      "vehicleScoreStatus":"red",
+      "change":"1.1",
+      "changeStatus":"green"
+   },
+   {
+      "vehicleNo":"HR55AC3919",
+      "vehicleDesc":"TATA PRIMA 2518 24ft SXL DC",
+      "vehicleScore":"3",
+      "vehicleScoreStatus":"red",
+      "change":"1.1",
+      "changeStatus":"green"
+   }
+]

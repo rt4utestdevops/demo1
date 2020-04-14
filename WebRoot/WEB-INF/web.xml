@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+ <!-- <web-app version="3.0"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://java.sun.com/xml/ns/javaee
+    http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"> -->
+ <distributable/>
+ <filter>
+  <filter-name>GzipFilter</filter-name>
+  <filter-class>net.sf.packtag.filter.GzipFilter</filter-class>
+ </filter>
+ <filter-mapping>
+  <filter-name>GzipFilter</filter-name>
+  <url-pattern>*.jsp</url-pattern>
+ </filter-mapping>
+ <filter-mapping>
+  <filter-name>GzipFilter</filter-name>
+  <url-pattern>*.do</url-pattern>
+ </filter-mapping>
+ <filter>
+  <filter-name>UTF8Filter</filter-name>
+	<filter-class>filters.UTF8Filter</filter-class>
+</filter>
+<filter-mapping>
+	<filter-name>UTF8Filter</filter-name>
+	<url-pattern>/*</url-pattern>
+</filter-mapping>
+ <listener>
+  <listener-class>t4u.common.ApplicationListener</listener-class>
+ </listener>
+ <servlet>
+  <description>This is the servlet needed for cache.type servlet, returns the packed resources</description>
+  <display-name>PackServlet</display-name>
+  <servlet-name>PackServlet</servlet-name>
+  <servlet-class>net.sf.packtag.servlet.PackServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>action</servlet-name>
+  <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+  <init-param>
+   <param-name>config</param-name>
+   <param-value>/WEB-INF/struts-config.xml</param-value>
+  </init-param>
+  <init-param>
+   <param-name>debug</param-name>
+   <param-value>3</param-value>
+  </init-param>
+  <init-param>
+   <param-name>detail</param-name>
+   <param-value>3</param-value>
+  </init-param>
+  <load-on-startup>0</load-on-startup>
+ </servlet>
+ <servlet>
+ <servlet-name>AssetEnrollmentPdfReport</servlet-name>
+ <servlet-class>t4u.ironMining.PdfForAssetEnrollment</servlet-class>
+ </servlet>
+ <servlet>
+ <servlet-name>AssetAcknowledgementPdfReport</servlet-name>
+ <servlet-class>t4u.ironMining.PdfForAssetAcknowledgement</servlet-class>
+ </servlet>
+ <servlet>
+ <servlet-name>tripSheetPdfReport</servlet-name>
+ <servlet-class>t4u.ironMining.PdfForTripSheet</servlet-class>
+ </servlet>
+ <servlet>
+ <servlet-name>FileDownloader</servlet-name>
+ <servlet-class>t4u.functions.FileDownloader</servlet-class>
+ </servlet>
+  <servlet>
+ <servlet-name>QRCODEPdfReport</servlet-name>
+ <servlet-class>t4u.cashvanmanagement.QRCodeGenerationForPdf</servlet-class>
+ </servlet>
+ <servlet>
+ <servlet-name>tripSheetPdfReportForBarge</servlet-name>
+ <servlet-class>t4u.ironMining.PdfForBargeTripSheet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>DailyStatusReport</servlet-name>
+  <servlet-class>t4u.employeetracking.DailyStatusReport</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ActionLogReport</servlet-name>
+  <servlet-class>t4u.automotivelogistics.LogisticsDailyStatusReportAction</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>HistoricalTripReport</servlet-name>
+  <servlet-class>t4u.automotivelogistics.HistoricalTripReportAction</servlet-class>
+ </servlet>
+  <servlet>
+  <servlet-name>ActionLogDetailsReport</servlet-name>
+  <servlet-class>t4u.automotivelogistics.LogisticsDailyStatusReportActionNew</servlet-class>
+ </servlet>
+  <servlet>
+  <servlet-name>Sand_Inward_Permit_PDF</servlet-name>
+  <servlet-class>t4u.sandmining.Sand_Inward_PDF</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>Sand_Mining_MDP_Generation_PDF</servlet-name>
+  <servlet-class>t4u.sandmining.Sand_Mining_PDF_For_MDP</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>DailyMonitoringReportPdf</servlet-name>
+  <servlet-class>t4u.sandmining.DailyMonitoringReportPDF</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>DailyMonitoringReportEXCEL</servlet-name>
+  <servlet-class>t4u.sandmining.DailyMonitoringReportExcel</servlet-class>
+ </servlet>
+  <servlet>
+  <servlet-name>ShiftWiseTripSummaryReportPDF</servlet-name>
+  <servlet-class>t4u.staffTransportationSolution.ShiftWiseTripSummaryReportPDF</servlet-class>
+ </servlet> 
+ <servlet>
+  <servlet-name>SpeedingReportPDF</servlet-name>
+  <servlet-class>t4u.staffTransportationSolution.SpeedingReportPDF</servlet-class>
+ </servlet> 
+  <servlet>
+    <servlet-name>PDFForMining</servlet-name>
+    <servlet-class>t4u.ironMining.PDFForMining</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>PermitPDF</servlet-name>
+    <servlet-class>t4u.ironMining.PermitPDF</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>TemperatureServlet</servlet-name>
+    <servlet-class>t4u.GeneralVertical.TemperatureServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>UploadImage</servlet-name>
+    <servlet-class>t4u.CarRental.UploadImage</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>ChallanPDF</servlet-name>
+    <servlet-class>t4u.ironMining.ChallanPDF</servlet-class>
+  </servlet>
+  
+<servlet>
+  <servlet-name>TicketConfirmationPdf</servlet-name>
+  <servlet-class>t4u.passengerbustransportation.TicketConfirmationPDF</servlet-class>
+ </servlet>
+ 
+ <servlet>
+  <servlet-name>Sand_Daily_PDF</servlet-name>
+  <servlet-class>t4u.sandmining.SandDailyPDF</servlet-class>
+ </servlet>
+ 
+  <servlet>
+  <servlet-name>Sand_Monthly_PDF</servlet-name>
+  <servlet-class>t4u.sandmining.SandMonthlyPDF</servlet-class>
+ </servlet>
+<servlet>
+<servlet-name>VaultLedger</servlet-name>
+<servlet-class>t4u.cashvanmanagement.PdfForVaultLedger</servlet-class>
+</servlet>
+  <servlet>
+  <servlet-name>QuotationMasterEXCEL</servlet-name>
+  <servlet-class>t4u.cashvanmanagement.ViewAttachment</servlet-class>
+ </servlet>
+  
+  <servlet>
+  <servlet-name>PdfForTrader</servlet-name>
+  <servlet-class>t4u.ironMining.PdfForTrader</servlet-class>
+  </servlet>
+ 
+  <servlet>
+	<servlet-name>viewInvoicePT</servlet-name>
+	<servlet-class>t4u.containercargomanagement.ViewInvoicePT</servlet-class>
+  </servlet>
+  
+  <servlet>
+	<servlet-name>viewAddExpDocumentPT</servlet-name>
+	<servlet-class>t4u.containercargomanagement.ViewAdditionalExpenseInvoicePT</servlet-class>
+  </servlet>
+
+  <servlet>
+	<servlet-name>vehUtilization</servlet-name>
+	<servlet-class>t4u.staffTransportationSolution.PdfForVehicleUtilizationReport</servlet-class>
+  </servlet>
+  
+  <servlet>
+	<servlet-name>stoppageLocationExcel</servlet-name>
+	<servlet-class>t4u.CarRental.StoppageLocationExcel</servlet-class>
+  </servlet>
+   <servlet>
+	<servlet-name>TripWiseHubArrivalAndDepartureExcel</servlet-name>
+	<servlet-class>t4u.common.TripWiseHubArrivalAndDepartureExcel</servlet-class>
+  </servlet>
+   <servlet>
+	<servlet-name>DoorSensorAnalysisExcel</servlet-name>
+	<servlet-class>t4u.common.DoorSensorAnalysisExcel</servlet-class>
+  </servlet>
+  <servlet>
+  <servlet-name>pdfForReconcile</servlet-name>
+  <servlet-class>t4u.cashvanmanagement.PdfForReconciliation</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>pdfForSuspenseReprint</servlet-name>
+  	<servlet-class>t4u.cashvanmanagement.PdfForSuspenseReprint</servlet-class>
+  </servlet>
+ <servlet>
+ <servlet-name>pdfForVaultInventory</servlet-name>
+ <servlet-class>t4u.cashvanmanagement.PdfForVaultInventory</servlet-class>
+ </servlet>
+ 
+ <servlet>
+ 	<servlet-name>pdfForSummaryInvoice</servlet-name>
+ 	<servlet-class>t4u.containercargomanagement.PdfForSummaryInvoice</servlet-class>	
+ </servlet>
+ 
+  <servlet>
+  <servlet-name>sandConsumerReciept</servlet-name>
+  <servlet-class>t4u.sandmining.Sand_Consumer_Reciept_PDF</servlet-class>
+ </servlet>
+ 
+ <servlet>
+  <servlet-name>AllChallansOrPermitsExcel</servlet-name>
+  <servlet-class>t4u.ironMining.AllChallansOrPermitsExcel</servlet-class>
+ </servlet>
+ 
+ <servlet>
+  <servlet-name>ChallanReport</servlet-name>
+  <servlet-class>t4u.ironMining.ChallanReport</servlet-class>
+ </servlet>
+ 
+ <servlet>
+  <servlet-name>DayWiseProductionExcel</servlet-name>
+  <servlet-class>t4u.ironMining.DayWiseProductionExcel</servlet-class>
+ </servlet>
+ 
+  <servlet>
+   <servlet-name>Sand_Mining_ILMS_MDP_Generation_PDF</servlet-name>
+   <servlet-class>t4u.sandmining.Sand_Mining_ILMS_PDF_For_MDP</servlet-class>
+  </servlet>
+  
+  <servlet>
+ <servlet-name>TripSummaryPDF</servlet-name>
+ <servlet-class>t4u.GeneralVertical.TripSummaryPDF</servlet-class>
+</servlet>
+
+  <servlet>
+ <servlet-name>TripSummaryPDFCustom</servlet-name>
+ <servlet-class>t4u.GeneralVertical.TripSummaryPDFCustom</servlet-class>
+</servlet>
+
+ <servlet>
+ <servlet-name>RouteMapPDF</servlet-name>
+ <servlet-class>t4u.GeneralVertical.RouteMapPDF</servlet-class>
+</servlet>
+
+  <servlet>
+   <servlet-name>Sand_Mining_MDP_Reprint_PDF</servlet-name>
+   <servlet-class>t4u.sandmining.Sand_Mining_MDP_Reprint_PDF</servlet-class>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>sandConsumerCreditReciept</servlet-name>
+  <servlet-class>t4u.sandmining.Sand_Consumer_Credit_Reciept_Pdf</servlet-class>
+ </servlet>
+ 
+ <servlet>
+  <servlet-name>sandWeighBridgeReciept</servlet-name>
+  <servlet-class>t4u.sandminingTsmdc.Sand_Weigh_Bridge_Reciept_PDF</servlet-class>
+ </servlet>
+ 
+  <servlet>
+  <servlet-name>SmartHubWeeklyReport</servlet-name>
+  <servlet-class>t4u.GeneralVertical.SmartHubWeeklyReport</servlet-class>
+ </servlet>
+ 
+  <servlet>
+    <servlet-name>AnalyticsServlet</servlet-name>
+    <servlet-class>t4u.GeneralVertical.AnalyticsServlet</servlet-class>
+  </servlet>
+  
+ <servlet-mapping>
+  <servlet-name>PackServlet</servlet-name>
+  <url-pattern>*.pack</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>action</servlet-name>
+  <url-pattern>*.do</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet-mapping>
+  <servlet-name>vehUtilization</servlet-name>
+  <url-pattern>/vehUtilization</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>DailyStatusReport</servlet-name>
+  <url-pattern>/DailyStatusReport</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>ActionLogReport</servlet-name>
+  <url-pattern>/ActionLogReport</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>HistoricalTripReport</servlet-name>
+  <url-pattern>/HistoricalTripReport</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>ActionLogDetailsReport</servlet-name>
+  <url-pattern>/ActionLogDetailsReport</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DailyMonitoringReportPdf</servlet-name>
+  <url-pattern>/DailyMonitoringReportPdf</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DailyMonitoringReportEXCEL</servlet-name>
+  <url-pattern>/DailyMonitoringReportExcel</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>ShiftWiseTripSummaryReportPDF</servlet-name>
+  <url-pattern>/ShiftWiseTripSummaryReportPDF</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>SpeedingReportPDF</servlet-name>
+  <url-pattern>/SpeedingReportPDF</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>Sand_Inward_Permit_PDF</servlet-name>
+  <url-pattern>/Sand_Inward_Permit</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>Sand_Mining_MDP_Generation_PDF</servlet-name>
+  <url-pattern>/Sand_Mining_MDP</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ <servlet-name>AssetEnrollmentPdfReport</servlet-name>
+ <url-pattern>/AssetEnrollmentPdf</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ <servlet-name>FileDownloader</servlet-name>
+ <url-pattern>/FileDownloader</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ <servlet-name>AssetAcknowledgementPdfReport</servlet-name>
+ <url-pattern>/AssetAcknowledgementPdf</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ <servlet-name>tripSheetPdfReport</servlet-name>
+ <url-pattern>/tripSheetPdf</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+ <servlet-name>QRCODEPdfReport</servlet-name>
+ <url-pattern>/generateQRCodePdfReport</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ <servlet-name>tripSheetPdfReportForBarge</servlet-name>
+ <url-pattern>/tripSheetPdfForBarge</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PDFForMining</servlet-name>
+    <url-pattern>/PDFForMining</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>PermitPDF</servlet-name>
+    <url-pattern>/PermitPDF</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>TemperatureServlet</servlet-name>
+    <url-pattern>/TemperatureServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UploadImage</servlet-name>
+    <url-pattern>/UploadImage</url-pattern>
+  </servlet-mapping>
+  
+  <context-param> 
+    <description>Location to store uploaded file</description> 
+    <param-name>file-path</param-name> 
+    <param-value>C:\GPSTamperedDetails</param-value> 
+</context-param>
+
+   <servlet-mapping>
+    <servlet-name>ChallanPDF</servlet-name>
+    <url-pattern>/ChallanPDF</url-pattern>
+  </servlet-mapping>
+  
+ <servlet-mapping>
+ <servlet-name>TicketConfirmationPdf</servlet-name>
+ <url-pattern>/TicketConfirmationPdf</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>Sand_Daily_PDF</servlet-name>
+  <url-pattern>/SandDailyPDF</url-pattern>
+ </servlet-mapping>
+  
+  <servlet-mapping>
+ <servlet-name>Sand_Monthly_PDF</servlet-name>
+ <url-pattern>/SandMonthlyPDF</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>VaultLedger</servlet-name>
+<url-pattern>/exportLedger</url-pattern>
+</servlet-mapping>	
+   <servlet-mapping>
+  <servlet-name>QuotationMasterEXCEL</servlet-name>
+  <url-pattern>/QuotationMasterExcel</url-pattern>
+ </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>PdfForTrader</servlet-name>
+  <url-pattern>/PdfForTrader</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+	 <servlet-name>viewInvoicePT</servlet-name>
+	 <url-pattern>/viewInvoicePT</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+	 <servlet-name>viewAddExpDocumentPT</servlet-name>
+	 <url-pattern>/viewAddExpDocumentPT</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+	 <servlet-name>stoppageLocationExcel</servlet-name>
+	 <url-pattern>/stoppageLocationExcel</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+	 <servlet-name>TripWiseHubArrivalAndDepartureExcel</servlet-name>
+	 <url-pattern>/tripWiseHubArrivalAndDepartureExcel</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping>
+	 <servlet-name>DoorSensorAnalysisExcel</servlet-name>
+	 <url-pattern>/DoorSensorAnalysisExcelServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>pdfForReconcile</servlet-name>
+	<url-pattern>/pdfForReconcile</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>pdfForSuspenseReprint</servlet-name>
+	<url-pattern>/pdfForSuspenseReprint</url-pattern>
+</servlet-mapping>	
+<servlet-mapping>
+<servlet-name>pdfForVaultInventory</servlet-name>
+<url-pattern>/pdfForVaultInventory</url-pattern>
+</servlet-mapping> 
+
+<servlet-mapping>
+	<servlet-name>pdfForSummaryInvoice</servlet-name>
+	<url-pattern>/pdfForSummaryInvoice</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>sandConsumerReciept</servlet-name>
+  <url-pattern>/Sand_Consumer_Reciept</url-pattern>
+ </servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>AllChallansOrPermitsExcel</servlet-name>
+  <url-pattern>/AllChallansOrPermitsExcel</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>ChallanReport</servlet-name>
+  <url-pattern>/ChallanReport</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>DayWiseProductionExcel</servlet-name>
+  <url-pattern>/DayWiseProductionExcel</url-pattern>
+ </servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Sand_Mining_ILMS_MDP_Generation_PDF</servlet-name>
+  <url-pattern>/Sand_Mining_ILMS_MDP</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>sandConsumerCreditReciept</servlet-name>
+  <url-pattern>/Sand_Consumer_Credit_Reciept</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>ExcelForHBAnalysisGraph</servlet-name>
+ 	<servlet-class>t4u.CarRental.ExcelForHBAnalysisGraph</servlet-class>
+ </servlet>
+ 
+  <servlet>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>t4u.trip.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadCreateTripImage</servlet-name>
+    <servlet-class>t4u.GeneralVertical.UploadCreateTripImage</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadExcelToDB</servlet-name>
+    <servlet-class>t4u.GeneralVertical.SupervisorSchedule.UploadExcelToDB</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadTemplateExcelToDB</servlet-name>
+    <servlet-class>t4u.GeneralVertical.UploadTemplateExcelToDB</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LegDetailsExport</servlet-name>
+    <servlet-class>t4u.GeneralVertical.LegDetailsExport</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HelpDocumentServlet</servlet-name>
+    <servlet-class>t4u.GeneralVertical.HelpDocumentServlet</servlet-class>
+  </servlet>
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CTExecutiveTemplateSevlet</servlet-name>
+    <servlet-class>t4u.GeneralVertical.CTExecutiveTemplateSevlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  
+ <servlet-mapping>
+ 	<servlet-name>ExcelForHBAnalysisGraph</servlet-name>
+ 	<url-pattern>/ExcelForHBAnalysisGraph</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+ <servlet-name> TripSummaryPDF</servlet-name>
+ <url-pattern>/TripSummaryPDF</url-pattern>
+</servlet-mapping>
+
+ <servlet-mapping>
+ <servlet-name> TripSummaryPDFCustom</servlet-name>
+ <url-pattern>/TripSummaryPDFCustom</url-pattern>
+</servlet-mapping>
+
+ <servlet-mapping>
+ <servlet-name> RouteMapPDF</servlet-name>
+ <url-pattern>/RouteMapPDF</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>Sand_Mining_MDP_Reprint_PDF</servlet-name>
+  <url-pattern>/Sand_Mining_MDP_Reprint_PDF</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadCreateTripImage</servlet-name>
+    <url-pattern>/UploadCreateTripImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadExcelToDB</servlet-name>
+    <url-pattern>/UploadExcelToDB</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadTemplateExcelToDB</servlet-name>
+    <url-pattern>/UploadTemplateExcelToDB</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LegDetailsExport</servlet-name>
+    <url-pattern>/LegDetailsExport</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelpDocumentServlet</servlet-name>
+    <url-pattern>/HelpDocumentServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>sandWeighBridgeReciept</servlet-name>
+  <url-pattern>/Sand_Weigh_Bridge_Reciept</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+  <servlet-name>SmartHubWeeklyReport</servlet-name>
+  <url-pattern>/SmartHubWeeklyReport</url-pattern>
+ </servlet-mapping>
+ 
+   <servlet-mapping>
+    <servlet-name>CTExecutiveTemplateSevlet</servlet-name>
+    <url-pattern>/CTExecutiveTemplateSevlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>AnalyticsServlet</servlet-name>
+    <url-pattern>/AnalyticsServlet</url-pattern>
+  </servlet-mapping>
+  
+ <session-config>
+  <session-timeout>60</session-timeout>
+ </session-config>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <error-page>
+  <error-code>401</error-code>
+  <location>/Jsps/Common/401Error.html</location>
+ </error-page>
+ <error-page>
+  <error-code>403</error-code>
+  <location>/Jsps/Common/403Error.html</location>
+ </error-page>
+ <error-page>
+  <error-code>404</error-code>
+  <location>/Jsps/Common/404Error.html</location>
+ </error-page>
+ <error-page>
+  <error-code>500</error-code>
+  <location>/Jsps/Common/SessionDestroy.html</location>
+ </error-page>
+ <error-page>
+  <error-code>503</error-code>
+  <location>/Jsps/Common/503Error.html</location>
+ </error-page>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

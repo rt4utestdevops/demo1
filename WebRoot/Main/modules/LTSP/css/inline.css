@@ -1,0 +1,366 @@
+@CHARSET "ISO-8859-1";
+.content_wrapper {
+	width: 100%;
+	margin: 40px auto;
+	padding-left: 7px;
+}
+#inner-content_wrapper {
+	width:90%; 
+	margin:0 70px 0 0; 
+	padding:0; 
+    display:table;
+}
+.courier_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/courier_logistics_operations_management.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+	
+}
+.courier_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/courier_logistics_operations_management.jpg) no-repeat ;
+	background-color: #0EC1BE;
+	width: 850px;
+	height: 80px;
+	
+}
+.courier_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/courier_logistics_operations_management.jpg) no-repeat ;
+	background-color: #7BC00F;
+	width: 850px;
+	height: 80px;
+	
+}
+.courier_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/courier_logistics_operations_management.jpg) no-repeat ;
+	background-color: #C0590E;
+	width: 850px;
+	height: 80px;
+	
+}
+.employee_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/employee_transport_operations_managemen.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+	
+}
+.employee_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/employee_transport_operations_managemen.jpg) no-repeat ;
+	background-color: #0EC1BE;
+	width: 850px;
+	height: 80px;
+	
+}
+.employee_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/employee_transport_operations_managemen.jpg) no-repeat ;
+	background-color: #7BC00F;
+	width: 850px;
+	height: 80px;
+	
+}
+.employee_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/employee_transport_operations_managemen.jpg) no-repeat ;
+	background-color: #C0590E;
+	width: 850px;
+	height: 80px;
+	
+}
+.child_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/child_safety_assurance_system.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+}
+.child_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/child_safety_assurance_system.jpg) no-repeat ;
+	background-color: #0EC1BE;
+	width: 850px;
+	height: 80px;
+}
+.child_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/child_safety_assurance_system.jpg) no-repeat ;
+	background-color: #7BC00F;
+	width: 850px;
+	height: 80px;
+}
+.child_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/child_safety_assurance_system.jpg) no-repeat ;
+	background-color: #C0590E;
+	width: 850px;
+	height: 80px;
+}
+.cash_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/cash-logistics-management.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;	
+}
+.cash_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/cash-logistics-management.jpg) no-repeat ;
+	background-color: #0EC1BE;
+	width: 850px;
+	height: 80px;	
+}
+.cash_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/cash-logistics-management.jpg) no-repeat ;
+	background-color: #7BC00F;
+	width: 850px;
+	height: 80px;	
+}
+.cash_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/cash-logistics-management.jpg) no-repeat ;
+	background-color: #C0590E;
+	width: 850px;
+	height: 80px;	
+}
+.sand_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/sand_mining_transportation_regulation.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+}
+.sand_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/sand_mining_transportation_regulation.jpg) no-repeat ;
+	background-color: #0EC1BE;
+	width: 850px;
+	height: 80px;
+}
+.sand_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/sand_mining_transportation_regulation.jpg) no-repeat ;
+	background-color: #7BC00F;
+	width: 850px;
+	height: 80px;
+}
+.sand_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/sand_mining_transportation_regulation.jpg) no-repeat ;
+	background-color: #C0590E;
+	width: 850px;
+	height: 80px;
+}
+
+.cement_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/cement_logistics_solutions.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+}
+.cement_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/cement_logistics_solutions.jpg) no-repeat ;
+	background-color: #0EC1BE;
+	width: 850px;
+	height: 80px;
+}
+.cement_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/cement_logistics_solutions.jpg) no-repeat ;
+	background-color: #7BC00F;
+	width: 850px;
+	height: 80px;
+}
+.cement_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/cement_logistics_solutions.jpg) no-repeat ;
+	background-color: #C0590E;
+	width: 850px;
+	height: 80px;
+}
+.tracker_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/personal_tracker_management.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+}
+.tracker_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/personal_tracker_management.jpg) no-repeat ;
+	background-color: #0EC1BE;
+	width: 850px;
+	height: 80px;
+}
+.tracker_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/personal_tracker_management.jpg) no-repeat ;
+	background-color: #7BC00F;
+	width: 850px;
+	height: 80px;
+}
+.tracker_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/personal_tracker_management.jpg) no-repeat ;
+	background-color: #C0590E;
+	width: 850px;
+	height: 80px;
+}
+.consignment_header_banner1{
+	background: url(/ApplicationImages/HomeScreen/consignment_management_solution.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+	
+}
+.consignment_header_banner2{
+	background: url(/ApplicationImages/HomeScreen/consignment_management_solution.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+	
+}
+.consignment_header_banner3{
+	background: url(/ApplicationImages/HomeScreen/consignment_management_solution.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+	
+}
+.consignment_header_banner4{
+	background: url(/ApplicationImages/HomeScreen/consignment_management_solution.jpg) no-repeat ;
+	background-color: #3A97D2;
+	width: 850px;
+	height: 80px;
+	
+}
+.banner_heading h3{
+	text-align: center;
+	color: #FFFFFF;
+	padding: 28px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.inner-banner-courier {
+	background: url(/ApplicationImages/HomeScreen/courier_logistics_banner.jpg) no-repeat;
+	width: 100%;
+	height: 68px;
+	padding: 230px 0 0 0;
+}
+.inner-banner-employee{
+	background:url(/ApplicationImages/HomeScreen/employee_transport_banner.jpg) no-repeat;
+	width:100%;
+	height:68px;
+	padding:230px 0 0 0;
+}
+.inner-banner-child{
+	background:url(/ApplicationImages/HomeScreen/child_safety_banner.jpg) no-repeat;
+	width:100%;
+	height:68px;
+	padding:230px 0 0 0;
+}
+.inner-banner-cashvan{
+	background:url(/ApplicationImages/HomeScreen/cash_logistics_banner.jpg) no-repeat;
+	width:100%;
+	height:68px;
+	padding:230px 0 0 0;
+}
+.inner-banner-sand{
+	background:url(/ApplicationImages/HomeScreen/sand_mining_banner.jpg) no-repeat;
+	width:100%;
+	height:68px;
+	padding:230px 0 0 0;
+}
+.inner-banner-cement{
+	background:url(/ApplicationImages/HomeScreen/cement-logistics-banner.jpg) no-repeat;
+	width:100%;
+	height:68px;
+	padding:230px 0 0 0;
+}
+.inner-banner-tracker{
+	background:url(/ApplicationImages/HomeScreen/personal_tracker_banner.jpg) no-repeat;
+	width:100%;
+	height:68px;
+	padding:230px 0 0 0;
+}
+.inner-banner-consignment{
+	background:url(/ApplicationImages/HomeScreen/consignment_management_banner.jpg) no-repeat;
+	width:100%;
+	height:68px;
+	padding:230px 0 0 0;
+}
+.inner-banner {
+	margin: 0;
+	padding: 0;
+	width: 850px;
+}
+.contentarea {
+	margin: 0;
+	padding: 15px 0;
+	width: 820px;
+	display: block;
+	overflow: hidden;
+}
+.contentarea h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #02acd7;
+	border-bottom: 1px solid #02acd7;
+	font-weight: 500;
+	padding: 5px 0 5px 0px;
+	margin: 0px;
+	clear: both;
+}
+.inner-banner h4 {
+	background: rgb(0, 0, 0);
+	background: transparent\9;
+	background: rgba(0, 0, 0, 0.6);
+	filter: progid : DXImageTransform.Microsoft.gradient ( startColorstr = #66000000, endColorstr = #66000000 );
+	zoom: 1;
+	padding: 8px 0 8px 20px;
+	margin: 0px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	line-height: 22px;
+	font-style: italic;
+	text-align: left;
+	font-weight: 500;
+}
+.check-ul {
+	float: left;
+	margin: 0 0 15px 0;
+	padding: 5px;
+	list-style: none;
+	width: 48%;
+}
+.check-ul li {
+	background: url(/ApplicationImages/HomeScreen/check.png) no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	list-style: none outside none;
+	margin: 3px 0;
+	padding: 2px 2px 2px 25px;
+}
+.arrow-ul{
+	float:left;
+	margin:0 0 15px 0;
+	padding:5px;
+	list-style:none;
+	width:45%;
+}
+.arrow-ul li{
+	background: url(/ApplicationImages/HomeScreen/arrow-blue.png) no-repeat scroll 0 6px rgba(0, 0, 0, 0);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    line-height:22px;
+    list-style: none outside none;
+    margin: 3px 0;
+    padding: 2px 2px 2px 25px;
+}
+.line {
+    background: url(/ApplicationImages/HomeScreen/line.jpg) repeat-x scroll left center transparent;
+    clear: both;
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+}
+.phead{
+	margin:0;
+	padding:0;
+	float:left !important;
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.contentarea p{
+	text-align:justify;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height:22px;
+	
+}

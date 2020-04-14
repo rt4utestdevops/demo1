@@ -1,0 +1,213 @@
+body,html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	color: #89867e;
+	background: #f9f9f9;	
+}
+/*
+.container{
+	width: 100%;
+	height:530;
+	background-image:url(/ApplicationImages/DashBoard/DashBoardBackground.png) !important;
+} */
+.customerlabstyle{
+	color:#FFFFFF;
+	font-size: 12px;
+	font-family: 'Open Sas' sans-serif !important;	
+	text-align: center;
+}
+.grid-content{
+	position: absolute;
+	float: left;
+	width:49.5%;
+}
+.mp-container{	
+	float: right;
+	background: #f4f4f4;
+	border: 5px solid #fff;	
+	left:49.5%;
+	width:49%;
+	height: 520px;
+	position: absolute;
+	margin: auto;
+	-moz-box-shadow: 1px 1px 3px #cac4ab;
+	-webkit-box-shadow: 1px 1px 3px #cac4ab;
+	box-shadow: 1px 1px 3px #cac4ab;
+	overflow: hidden;
+	
+}
+.mp-map-wrapper{
+	width: 99%;
+	height: 488px;
+	position: absolute;
+}
+.mp-options-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 31px;
+	background: #FFFFFF;
+	bottom: 0px;
+	text-align: center;
+	padding-top: 4px;
+}
+.mp-option-normal {
+	background-image: url(/ApplicationImages/ApplicationButtonIcons/collapse.png);
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	zoom: 1;
+	cursor: pointer;
+	margin-left: 95%;
+	/* position: absolute; */
+}
+
+.mp-option-fullscreen{
+	background-image: url(/ApplicationImages/ApplicationButtonIcons/expand.png);
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	zoom: 1;
+	cursor: pointer;
+	margin-left: 86%;
+}
+.mp-container-fitscreen {
+	position: fixed;
+	border: 5px solid #ffffff;
+	left: 49.5%;
+	width:100%;
+	height: 527px;
+}
+.mp-container-fullscreen {
+	position: fixed;
+	border: none;
+	left: 0px;
+	width:100%;
+	height: 527px;
+}
+#pac-input {
+    background-color: #fff;
+    padding: 0 11px 0 13px;
+    width: 200px;
+    font-family: 'Open Sas' sans-serif !important;
+    font-size: 12px;
+    font-weight: 300;
+    text-overflow: 'Open Sas' sans-serif !important;
+      }
+      
+.controls {
+    margin-top: 6px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 22px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+ }
+ .asset_marker{
+	float:left;
+	margin-left: 5px;
+	margin-top: -4px;
+	font-size: 11px;
+	font-family: 'Open Sas' sans-serif !important;
+}
+
+.asset_marker_label{
+	float:left;
+	font-size: 11px;
+	font-family: 'Open Sas' sans-serif !important;
+	margin-left: 4px;
+	margin-top: -1px;
+}
+.dashboardColdChainLogisticsHeaderLabelStyle {
+	text-align: left !important;
+	display: block !important;
+	width: 100%;
+	color: #746B6B;
+	font-size: 150%;
+	font-family: 'Open Sans', sans-serif;
+	height: 100px;
+}
+
+.assetOnHearderDiv
+{
+	height: 65px;
+	text-align: center;
+	background-color: #9ED43E;
+	color: #fff;
+	font-size:48px;
+	font-family: Open Sans, Light;
+}
+.assetOffHearderLabelDiv
+{
+	height: 65px;
+	text-align: center;
+	background-color:#1DDEB2;
+	color: #fff;
+	font-size:48px;
+	font-family: Open Sans, Light;
+}
+.movingHearderLabelDiv
+{
+	height: 65px;
+	text-align: center;
+	background-color:#F6CC2A;
+	color: #fff;
+	font-size:48px;
+	font-family: Open Sans, Light;
+}
+
+.alertHearderLabelDiv
+{
+	height: 65px;
+	text-align: center;
+	background-color:#E1915C;
+	color: #fff;
+	font-size: 200%;
+	font-family: Open Sans, Light;
+}
+
+.assetOnHearderCountDiv
+{
+	height: 100%;
+	text-align: center;
+	background-color: #9ED43E;
+	color: #fff;
+	font-size: 60%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.assetOffHeaderCountDiv
+{
+	height: 100%;
+	text-align: center;
+	background-color: #1DDEB2;
+	color: #fff;
+	font-size: 60%;
+	font-family: 'Open Sans', sans-serif;
+}
+.movingHeaderCountDiv
+{
+	height: 100%;
+	text-align: center;
+	background-color: #F6CC2A;
+	color: #fff;
+	font-size: 60%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.alertHeaderCountDiv
+{
+	height: 100%;
+	text-align: center;
+	background-color: #E1915C;
+	color: #fff;
+	font-size: 60%;
+	font-family: 'Open Sans', sans-serif;
+}

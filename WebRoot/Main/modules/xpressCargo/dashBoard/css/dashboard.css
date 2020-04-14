@@ -1,0 +1,255 @@
+.container {
+	width:100%;
+	height:500px;
+}
+
+.combodiv{
+	width:100%;
+	height:80px;
+	background-color: #ececec;
+	}
+	
+.elementsdiv{
+	width:100%;
+	height:500px;
+	background-color: #ececec;
+	}	
+
+.container>header span {
+	display: block;
+	font-size: 24px;
+	font-weight: 300;
+	color: #5eb9f9;
+	padding: 2px 2px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	}
+
+.container>header {
+	font-size:22px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px 6px ;
+	background-color: #5f6f81;
+	height: 30px;
+}
+
+.labelstyle{
+	width:100%; 
+	height:100px;
+	}
+	
+.dashboardmain{
+	height:150px;
+	padding-left: 14em;
+	padding-top: 2%;
+	}	
+	
+.onschedulediv{
+	float: left;
+   width: 20%;
+   height: 125px;
+   margin: 4px;	   
+   background: rgb(2, 147, 26);
+   position: relative;
+   z-index: 200;
+   }	
+   
+ .totalassetdiv{
+   float: left;
+   width: 20%;
+   height: 125px;
+   text-align: center;
+   margin: 4px;	
+   background:rgb(22, 145, 190);
+   position: relative;
+   }	
+   
+ .nogpsdiv{
+   float: left;
+   width: 20%;
+   height: 125px;
+   text-align: center;
+   margin: 4px;	
+   background: rgb(22, 107, 162);
+   position: relative;
+   }	
+   
+   .communicatingdiv{
+	float: left;
+   width: 20%;
+   height: 125px;
+   text-align: center;
+   margin: 4px;	
+   background:rgb(208, 101, 3);
+   position: relative;
+   }		
+   
+.span{
+        margin-top: 3px;
+		font-size: 17px;
+		padding-top:2em;
+		text-align: center;
+		color: #FFFFFF;
+	   font-family: 'Open Sans', sans-serif;
+   }
+		
+.icon {
+	 font-size: 50px;
+	 font-family: 'Open Sans', sans-serif;
+	 padding-top: 8px;
+	 text-align: center;
+	 padding-right: 4em;
+	 padding-left: 85px;
+	 color: #FFFFFF;
+	}
+	
+.totalasseticon {
+	 font-size: 50px;
+	 font-family: 'Open Sans', sans-serif;
+	 padding-top: 8px;
+	 text-align: center;
+	 padding-right: 4em;
+	 padding-left: 80px;
+	 color: #FFFFFF;
+	}
+	
+.iconon {
+	 font-size: 50px;
+	 font-family: 'Open Sans', sans-serif;
+	 padding-top: 8px;
+	 text-align: center;
+	 padding-right: 4em;
+	 padding-left: 85px;
+	 color: #FFFFFF;
+	}
+	
+
+.bsvactionreqdiv{
+	float: left;
+   width: 40.5%;
+   height: 125px;
+   text-align: center;
+   margin: 4px;	
+   background:rgb(258, 48, 48);
+   position: relative;
+   }
+   
+ .bsvunderobsdiv{
+	float: left;
+   width: 41%;
+   height: 125px;
+   text-align: center;
+   margin: 4px;	
+   background:rgb(233, 147, 26);
+   position: relative;
+   }
+  
+  .icon1 {
+     font-family: 'Open Sans', sans-serif;
+	 font-size: 50px;
+     padding-top: 8px;
+     color: #FFFFFF;
+	} 
+    
+.spanon{
+        margin-top: 3px;
+		font-size: 17px;
+		padding-top:4em;
+		text-align: center;
+		padding-left: 24px;
+		font-family: 'Open Sans', sans-serif;
+		color: #FFFFFF;
+	} 
+      
+ .span1{
+        font-size: 17px;
+		float: left;
+        padding-left: 74px;
+        font-family: 'Open Sans', sans-serif;
+        color: #FFFFFF;
+        margin-right: 56px;
+        padding-top: 5%;
+	}
+	
+.span2{
+        font-size: 17px;
+		float: left;
+        padding-left: 76px;
+        font-family: 'Open Sans', sans-serif;
+        color: #FFFFFF;
+        margin-right: 56px;
+        padding-top: 5%;
+	}
+.onscheduledetails {
+width: 10%;
+background-color: transparent;
+bottom: 0px;
+position: absolute;
+right: 0%;
+border-top: 20px solid rgba(173, 72, 72, 0);
+border-right:20px solid #375E0E;
+cursor:pointer;
+z-index: 100;
+height:2px;
+}
+
+.totalassetsdetails {
+width: 10%;
+background-color: transparent;
+bottom: 0px;
+position: absolute;
+right: 0%;
+border-top: 20px solid rgba(173, 72, 72, 0);
+border-right: 20px solid #27338A;
+cursor:pointer;
+height:2px;
+}
+.nogpsdetails {
+width: 10%;
+background-color: transparent;
+bottom: 0px;
+position: absolute;
+right: 0%;
+border-top: 20px solid rgba(173, 72, 72, 0);
+border-right:20px solid #030422;
+cursor:pointer;
+height:2px;
+}
+
+.noncommdetails {
+width: 10%;
+background-color: transparent;
+bottom: 0px;
+position: absolute;
+right: 0%;
+border-top: 20px solid rgba(173, 72, 72, 0);
+border-right: 20px solid #972F07;
+cursor:pointer;
+height:2px;
+}
+
+.bsvactionreqdetails {
+width: 10%;
+background-color: transparent;
+bottom: 0px;
+position: absolute;
+right: 0%;
+border-top: 20px solid rgba(173, 72, 72, 0);
+border-right:20px solid #992730;
+cursor:pointer;
+height:2px;
+}
+
+.bsvunderobvdetails {
+width: 10%;
+background-color: transparent;
+bottom: 0px;
+position: absolute;
+right: 0%;
+border-top: 20px solid rgba(173, 72, 72, 0);
+border-right: 20px solid #972F07;
+cursor:pointer;
+height:2px;
+}
+.iconspace{
+height:15px;
+}

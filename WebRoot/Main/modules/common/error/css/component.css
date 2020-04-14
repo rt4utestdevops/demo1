@@ -1,0 +1,269 @@
+/* ==================================================
+* telematics4u
+* Copyright 2014, Bharath
+================================================== */
+	/* Basic Element Styles
+================================================== */
+body {
+	background: #fff url(../img/white01.png);
+	font: 14px/ 21px "Open Sans", "HelveticaNeue", "Helvetica Neue",
+		Helvetica, Arial, sans-serif;
+	color: #666;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+a {
+	color: #f4407f;
+	outline: 0 none;
+	text-decoration: none;
+	transition: all 0.25s ease-in-out 0s;
+	-webkit-transition: all 0.25s ease-in-out 0s;
+	-moz-transition: all 0.25s ease-in-out 0s;
+	-ms-transition: all 0.25s ease-in-out 0s;
+	-o-transition: all 0.25s ease-in-out 0s;
+}
+
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #333;
+	font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica,
+		Arial, sans-serif;
+	margin: 10px 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 46px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 35px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 34px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 21px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 17px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+h6 {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+
+/* Clearing
+================================================== */
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix { *
+	zoom: 1;
+}
+
+.add-top {
+	padding-top: 20px;
+}
+
+/* Browser Specific
+================================================== */
+::-moz-selection {
+	color: #fff;
+	background: #40c9b2;
+	text-shadow: none;
+}
+
+::selection {
+	color: #fff;
+	background: #40c9b2;
+	text-shadow: none;
+}
+
+::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+/* Objects Styles
+================================================== */ /* header section
+-------------------------- */
+#header {
+	
+}
+
+/* branding */
+#branding {
+	border-bottom: 1px solid #e4e4e4;
+	margin-top: 0px;
+	padding-bottom: 20px;
+}
+
+.tagline {
+	font-size: 12px;
+	text-align: center;
+	color: #999;
+}
+
+.error401 {
+	text-align: center;
+	font-size: 140px;
+	line-height: 150px;
+	font-weight: 800;
+	color: #40c9b2;
+	margin-bottom: 0;
+}
+
+.error403 {
+	text-align: center;
+	font-size: 140px;
+	line-height: 150px;
+	font-weight: 800;
+	color: #0c74a9;
+	margin-bottom: 0;
+}
+
+.error404 {
+	text-align: center;
+	font-size: 140px;
+	line-height: 150px;
+	font-weight: 800;
+	color: #f4407f;
+	margin-bottom: 0;
+}
+
+.error500 {
+	text-align: center;
+	font-size: 140px;
+	line-height: 150px;
+	font-weight: 800;
+	color: #fb5859;
+	margin-bottom: 0;
+}
+
+.error503 {
+	text-align: center;
+	font-size: 140px;
+	line-height: 150px;
+	font-weight: 800;
+	color: #5fb189;
+	margin-bottom: 0;
+}
+
+.errorSeessionDestroy {
+    text-align: center;
+    font-size: 30px;
+    line-height: 150px;
+    font-weight: 800;
+    color: #0c74a9;
+    margin-bottom: 0;
+}
+
+.browserSupport {
+    text-align: center;
+    font-size: 40px;
+    line-height: 150px;
+    font-weight: 100;
+    color: #0c74a9;
+    margin-bottom: 0;
+}
+
+.error-message {
+	
+}
+
+.error-message p {
+	text-align: center;
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: bold;
+	color: #333;
+}
+
+.error-human {
+	margin-top: 40px;
+}
+
+.error-human p {
+	text-align: center;
+}
+
+.copyright {
+	border-top: 1px solid #e4e4e4;
+	padding-top: 20px;
+}
+
+.copyright p {
+	font-size: 12px;
+	text-align: center;
+}
+
+/* Layout Base 960
+================================================== */
+.container {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container .half {
+	width: 470px;
+	float: left;
+	display: inline;
+}
+
+.row {
+	margin-bottom: 0px;
+}
+
+.error401Color {
+	color: #40c9b2;
+}
+
+.error403Color {
+	color: #0c74a9;
+}
+
+.error404Color {
+	color: #f4407f;
+}
+
+.error500Color {
+	color: #fb5859;
+}
+
+.error4503Color {
+	color: #5fb189;
+}
+
+.errorSessionDestroyColor {
+    color: #0c74a9;
+}

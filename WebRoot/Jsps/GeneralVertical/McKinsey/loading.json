@@ -1,0 +1,98 @@
+[
+   {
+      "locationName":"AMZ_MAAD",
+      "locationDesc":"THIRUMAZHISAI, TAMIL NADU , INDIA",
+      "locScore":"5",
+      "locScoreStatus":"orange",
+      "change":"1.1",
+      "changeStatus":"green"
+   },
+   {
+      "locationName":"AMZ_SXVD",
+      "locationDesc":"SALEM, TAMIL NADU , INDIA",
+      "locScore":"5",
+      "locScoreStatus":"orange",
+      "change":"1.1",
+      "changeStatus":" green "
+   },
+   {
+      "locationName":"KND1",
+      "locationDesc":"MUMBAI, MAHARASHTRA , INDIA",
+      "locScore":"6",
+      "locScoreStatus":"orange",
+      "change":"0.5",
+      "changeStatus":"red"
+   },
+   {
+      "locationName":"UDR_03",
+      "locationDesc":"AMDARI, RAJASTHAN , INDIA",
+      "locScore":"8",
+      "locScoreStatus":"green",
+      "change":"1.6",
+      "changeStatus":"green"
+   },
+   {
+      "locationName":"ADH1",
+      "locationDesc":"MUMBAI, MAHARASHTRA , INDIA",
+      "locScore":"4",
+      "locScoreStatus":"orange",
+      "change":"0.7",
+      "changeStatus":"red"
+   },
+   {
+      "locationName":"BLR1",
+      "locationDesc":"BENGALURU, KARNATAKA , INDIA",
+      "locScore":"6",
+      "locScoreStatus":"orange",
+      "change":"1.1",
+      "changeStatus":"green"
+   },
+   {
+      "locationName":"AMB1",
+      "locationDesc":"MOHRA, HARYANA , INDIA",
+      "locScore":"9",
+      "locScoreStatus":"green",
+      "change":"1.3",
+      "changeStatus":"green"
+   },
+   {
+      "locationName":"HYD1",
+      "locationDesc":"SECUNDERABAD,Telangana, INDIA",
+      "locScore":"3",
+      "locScoreStatus":"red",
+      "change":"0.6",
+      "changeStatus":"red"
+   },
+   {
+      "locationName":"MHP1",
+      "locationDesc":"NEW DELHI,Delhi, INDIA",
+      "locScore":"7",
+      "locScoreStatus":"green",
+      "change":"1.1",
+      "changeStatus":"green"
+   },
+   {
+      "locationName":"BHI1",
+      "locationDesc":"BHIWANDI,MAHARASHTRA, INDIA",
+      "locScore":"7",
+      "locScoreStatus":"green",
+      "change":"1.1",
+      "changeStatus":"green"
+   },
+   {
+      "locationName":"ITG1",
+      "locationDesc":"NEW DELHI, DELHI , INDIA",
+      "locScore":"7",
+      "locScoreStatus":"green",
+      "change":"1.1",
+      "changeStatus":"green"
+   },
+   {
+      "locationName":"AMZ_COKE",
+      "locationDesc":", PANAYIKULAM, KERALA , INDIA",
+      "locScore":"7",
+      "locScoreStatus":"green",
+      "change":"1.1",
+      "changeStatus":"green"
+   }
+]

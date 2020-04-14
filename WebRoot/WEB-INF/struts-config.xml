@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+
+		<form-bean name="ExportForm" type="t4u.beans.ExportForm" />
+		<form-bean name="ExportForm1" type="t4u.beans.ExportForm1" />
+
+	</form-beans>
+	<global-exceptions />
+	<global-forwards />
+	<action-mappings>
+		<action path="/CustomerAction" scope="request" type="t4u.admin.CustomerAction" />
+
+		<action path="/CommonAction" scope="request" type="t4u.common.CommonAction" />
+		
+		
+		<action path="/BillBoardBookingApprovalAction" scope="request"
+		type="t4u.OutdoorHoardings.BillBoardBookingApprovalAction" />	 
+		
+		<action path="/billBoardBookingDetailsAction" scope="request"
+		type="t4u.OutdoorHoardings.BillBoardBookingAction" />	
+			
+		<action path="/ObservationDashboardAction" scope="request"  
+		type="t4u.OutdoorHoardings.ObservationDashBoardAction" />
+		
+		<action path="/MiningTareWeightMasterAction" scope="request"  
+		type="t4u.ironMining.MiningTareWeightMasterAction" />
+		
+		<action path="/MiningMineMasterAction" scope="request"  
+		type="t4u.ironMining.MiningMineMasterAction" />
+		
+		<action path="/AccountsHeadMasterAction" scope="request"  
+		type="t4u.ironMining.AccountsHeadMasterAction" />
+		
+		<action path="/PlantFeedDetailsAction" scope="request"  
+		type="t4u.ironMining.PlantFeedDetailsAction" />
+		
+		<action path="/TripSheetGenerationAction" scope="request"  
+		type="t4u.ironMining.TripSheetGenerationAction" />
+		
+		<action path="/MiningAssetEnrollment" scope="request"  
+		type="t4u.ironMining.MiningAssetEnrollmentAction" />
+		
+		<action path="/MiningOverSpeed" scope="request"  
+		type="t4u.ironMining.MiningOverSpeedAction" />
+		
+		<action path="/BusinessDetails" scope="request"  
+		type="t4u.cashvanmanagement.BusinessDetailsAction" />
+		
+		<action path="/TripSheetReportAction" scope="request"  
+		type="t4u.ironMining.TripSheetReportAction" />
+		
+		<action path="/SchoolHolidayListAction" scope="request"  
+		type="t4u.school.SchoolHolidayListAction" />
+		
+		<action path="/SendSchoolSmsAction" scope="request"  
+		type="t4u.school.SendSchoolSmsAction" />
+		
+		<action path="/SchoolRouteStudentDetailsAction" scope="request"  
+		type="t4u.school.SchoolRouteStudentDetailsAction" />
+		
+		<action path="/SchoolRouteAllocationAction" scope="request"  
+		type="t4u.school.SchoolRouteAllocationAction" />
+		
+		<action path="/SchoolBranchMasterAction" scope="request"  
+		type="t4u.school.SchoolBranchMasterAction" />
+		
+		<action path="/UnitDetailsAction" scope="request"
+			type="t4u.admin.UnitDetailsAction" />
+		
+		<action path="/SimDetailsAction" scope="request"
+			type="t4u.admin.SimDetailsAction" />
+		
+		<action path="/AssetGroupAction" scope="request"
+			type="t4u.admin.AssetGroupAction" />
+
+		<action path="/UserManagementAction" scope="request"
+			type="t4u.admin.UserManagementAction" />
+
+		<action path="/TraderAction" scope="request"
+			type="t4u.wastemanagement.TraderAction" />
+
+		<action path="/AssetRegistrationAction" scope="request"
+			type="t4u.admin.AssetRegistrationAction" />
+
+		<action path="/AssetAssociationAction" scope="request"
+			type="t4u.admin.AssetAssociationAction" />
+
+		<action path="/CustomerSettingAction" scope="request"
+			type="t4u.admin.CustomerSettingAction" />
+
+		<action path="/DailyAttendanceReportAction" scope="request"
+			type="t4u.wastemanagement.DailyAttendanceReportAction" />
+
+		<action path="/EmployeeTrackingAction" scope="request"
+			type="t4u.employeetracking.EmployeeTrackingAction" />
+
+		<action path="/AppsDownloadAction" scope="request"
+			type="t4u.admin.AppsDownloadAction" />
+
+		<action path="/UserFeatureAction" scope="request"
+			type="t4u.admin.UserFeatureDeatchmentAction" />
+
+		<action path="/CargoManagementAction" scope="request"
+			type="t4u.cargomanagement.CargoManagementAction" />
+			
+		<action path="/AssignVehiclesAction" scope="request"
+			type="t4u.containercargomanagement.AssignVehiclesAction" />
+			
+		<action path="/ExpenseApprovalRejectAction" scope="request"
+			type="t4u.containercargomanagement.ExpenseApprovalRejectAction" />
+			
+		<action path="/DetentionReportAction" scope="request"
+			type="t4u.containercargomanagement.DetentionReportAction" />	
+
+		<action path="/AssetGroupHubAssociationAction" scope="request"
+			type="t4u.democar.AssetGroupHubAssociationAction" />
+
+		<action path="/DailyAssetUtilizationReportAction" scope="request"
+			type="t4u.democar.DailyAssetUtilizationReportAction" />
+
+		<action path="/MonthlyAssetUtilizationReportAction" scope="request"
+			type="t4u.democar.MonthlyAssetUtilizationReportAction" />
+
+		<action path="/ColumnChartAction" scope="request"
+			type="t4u.democar.ColumnChartAction" />
+
+		<action path="/RMCAction" scope="request" type="t4u.RMC.RMCAction" />
+
+		<action path="/SandMiningAction" scope="request"
+			type="t4u.sandmining.SandMiningAction" />
+			
+		<action path="/SandBoatAssociationAction" scope="request"
+			type="t4u.sandmining.SandBoatAssociationAction" />
+			
+		<action path="/FuelConsolidatedReportAction" scope="request"
+			type="t4u.FCIS.FuelConsolidatedReportAction" />
+
+		<action path="/FuelAnalysisReportAction" scope="request"
+			type="t4u.FCIS.FuelAnalysisReportAction" />
+
+		<action path="/ProductFeaturesAction" scope="request"
+			type="t4u.admin.ProductFeaturesAction" />
+
+		<action path="/DashBoard" scope="request"
+			type="t4u.employeetracking.DashBoardAction" />
+		
+		<action path="/AddCustomerAction" scope="request" 
+			type="t4u.FFM.AddCustomerAction"/>
+			
+		<action path="/CustomerVisitHistoryAction" scope="request"
+			type="t4u.FFM.CustomerVisitHistoryAction"/>	
+		
+		<action path="/FFMDashBoardAction" scope="request" 
+			type="t4u.FFM.DashBoardAction"/>	
+
+		<action path="/FFMCustomerAppointmentAction" scope="request" 
+			type="t4u.FFM.FFMCustomerAppointmentAction"/>
+			
+		<action path="/CVSStatusDashboardAction" scope="request"
+			type="t4u.cashvanmanagement.CVSStatusDashboardAction" />
+
+		<action path="/FuelMileage" scope="request"
+			type="t4u.cashvanmanagement.FuelMileageAction" />
+
+		<action path="/AccidentAnalysis" scope="request"
+			type="t4u.accidentAnalysis.AccidentAnalysisAction" />
+
+		<action path="/MarineVessel" scope="request"
+			type="t4u.marineVessel.MarineVesselAction" />
+
+		<action path="/DocumentManagement" scope="request"
+			type="t4u.documentmanagement.DocumentManagementAction" />
+
+		<action path="/TripCreation" scope="request"
+			type="t4u.cashvanmanagement.TripCreationAction" />
+
+		<action path="/TripCreationReportAction" scope="request"
+			type="t4u.cashvanmanagement.TripCreationReportAction" />
+
+		<action path="/CalibrationstatusAction" scope="request"
+			type="t4u.FCIS.CalibrationstatusAction" />
+
+
+		<action path="/PreventiveMaintenanceAction" scope="request"
+			type="t4u.PreventiveMaintenance.PreventiveMaintenanceAction" />
+
+		<action path="/WasteManagementReportAction" scope="request"
+			type="t4u.wastemanagement.WasteManagementReportAction" />
+			
+		<action path="/UtilizationReportsAction" scope="request" 
+			type="t4u.Utilization.UtilizationReportsAction"/>
+		
+        <action path="/OilAndGasAction" scope="request" 
+			type="t4u.OilAndGas.OilAndGasAction"/>
+			
+		<action path="/PreferencesAction" scope="request" 
+			type="t4u.Preferences.PreferencesAction"/>
+
+
+         <action path="/CrewMasterDataAction" scope="request" 
+			type="t4u.cashvanmanagement.CrewMasterDataAction"/>
+
+          <action path="/CMSDashBoardAction" scope="request" 
+			type="t4u.cashvanmanagement.CMSDashBoardAction"/>
+         
+         <action path="/SandBlockManagementAction" scope="request"
+			type="t4u.sandmining.SandBlockManagementAction" />
+			
+		<action path="/RouteMasterActions" scope="request"
+            type="t4u.cashvanmanagement.RouteMasterAction" />
+            		
+		<action path="/ShiftMasterActions" scope="request"
+            type="t4u.staffTransportationSolution.ShiftMasterAction" />
+         
+         <action path="/StaffActivitySummaryAction" scope="request"
+            type="t4u.staffTransportationSolution.StaffActivitySummaryAction" />
+           
+         <action path="/SpeedingReportAction" scope="request"
+            type="t4u.staffTransportationSolution.SpeedingReportAction" />
+           
+         <action path="/VehicleShiftAssociationAction" scope="request"
+            type="t4u.staffTransportationSolution.VehicleShiftAssociationAction" />
+            
+             <action path="/VehicleTripSummaryAction" scope="request"
+            type="t4u.staffTransportationSolution.VehicleTripSummaryAction" />
+            
+          <action path="/ManageAssetAction" scope="request" 
+			type="t4u.admin.ManageAssetAction"/>
+
+         <action path="/AddNewFeatureAction" scope="request" 
+			type="t4u.admin.AddNewFeatureAction"/>
+
+        <action path="/UserAssetGroupAssociationAction" scope="request" 
+			type="t4u.admin.UserAssetGroupAssociationAction"/>
+
+       <action path="/OwnerMasterAction" scope="request" 
+			type="t4u.admin.OwnerMasterAction"/>
+       
+       <action path="/SelfDriveCustomerMasterAction" scope="request" 
+			type="t4u.SelfDrive.SelfDriveCustomerMasterAction"/>
+       
+       <action path="/BillingAction" scope="request" 
+			type="t4u.Billing.BillingAction"/>
+       
+       <action path="/VehicleGroupingForBilling" scope="request" 
+			type="t4u.Billing.VehicleGroupingForBilling"/>
+			
+    	<action path="/DashboardElementAction" scope="request"
+			type="t4u.sandmining.DashBoardAction" />
+			
+		<action path="/DayWiseReprocessAction" scope="request"
+			type="t4u.admin.DayWiseReprocessAction" />
+			
+		<action path="/TSPAction" scope="request"
+			type="t4u.admin.TSPAction" />
+
+		<action path="/AlertComponent" scope="request" type="t4u.common.AlertAction" />
+
+		<action path="/MapView" scope="request" type="t4u.mapView.MapViewAction" />
+
+
+ 	<action path="/export" attribute="ExportForm" type="t4u.export.ExportAction"
+		name="ExportForm" scope="request">
+	</action> 
+	<action path="/livevisionexport" attribute="ExportForm" type="t4u.export.LiveVisionExportAction" name="ExportForm" scope="request"></action> 
+	
+	<action path="/exportBilling" attribute="ExportForm1"
+		type="t4u.export.ExportActionForBillingMatrix" name="ExportForm1"
+		scope="request">
+	</action>
+		
+	<action path="/exportDriver" attribute="ExportForm"
+		type="t4u.export.ExportActionForDriverPerformanceReport" name="ExportForm"
+		scope="request">
+	</action>
+		<action path="/LogOut" type="t4u.common.LogOutAction" scope="request">
+		</action>
+		
+		<action path="/routeAction" type="t4u.trip.RouteAction" scope="request">
+		</action>
+		
+		<action path="/IronDashboardAction" scope="request"
+			type="t4u.ironMining.IronMiningAction" />
+			
+			
+			<action path="/BookingCustomerAction" scope="request"
+			type="t4u.consignment.BookingCustomerAction" />
+			
+			<action path="/ClassInformationAction" scope="request"
+			type="t4u.school.ClassInformationAction" />
+
+        <action path="/ManageRouteAction" scope="request"
+			type="t4u.employeetracking.ManageRouteAction" />
+			
+		<action path="/EmployeeInformationAction" scope="request"
+			type="t4u.employeetracking.EmployeeInformationAction" />
+			
+		<action  path="/CustomerRouteMasterAction" scope ="request" 
+		type = "t4u.trip.CustomerRouteMasterAction"></action>
+		
+		<action  path="/LTSPAction" scope ="request" 
+		type = "t4u.LTSP.LTSPAction"></action>
+		
+		<action  path="/BookingGraphAction" scope ="request" 
+		type = "t4u.containercargomanagement.BookingGraphAction"/>
+		
+		 <action path="/KLERequestAction" scope="request" 
+			type="t4u.democar.KLERequestAction"/>
+			
+		<action path="/RouteVehicleAssociationAction" scope="request" 
+			type="t4u.trip.RouteVehicleAssociationAction"/>
+			
+		<action path="/ConsumerMDPGeneratorAction" scope="request" 
+		type="t4u.sandmining.ConsumerMDPGeneratorAction"/>
+		
+		<action path="/MDPGeneratorNewAction" scope="request" 
+		type="t4u.sandmining.MDPGeneratorNewAction"/>
+		
+		<action path="/OutdoorHoardingsAction" scope="request" 
+		type="t4u.OutdoorHoardings.OutdoorHoardingsAction"/>
+		
+		<action path="/VehiclesWithInCompleteOrder" scope="request" 
+		type="t4u.AppOnline.VehiclesWithIncompleteOrderDetailsAction"/>
+		
+		<action path="/SameVehicleSameDestination" scope="request" 
+		type="t4u.AppOnline.SameVehicleSameDestinationAction"/>
+		
+		<action path="/MultipleVehicleSameDestination" scope="request" 
+		type="t4u.AppOnline.MultipleVehicleSameDestinationAction"/>
+		
+		<action path="/ExcessHalting" scope="request" 
+		type="t4u.AppOnline.ExcessHalting"/>
+		
+		<action path="/RouteDeviation" scope="request" 
+		type="t4u.AppOnline.RouteDeviationAction"/>
+		
+		<action path="/NoOfewayBillsVsVisits" scope="request" 
+		type="t4u.AppOnline.NoOfewayBillsVsVisitsAction"/>
+		
+		<action path="/TamparingOrTurnOff" scope="request" 
+		type="t4u.AppOnline.TamparingOrTurnOffAction"/>
+		
+		<action path="/IdleTimeReport" scope="request" 
+		type="t4u.AppOnline.IdleTimeReportAction"/>
+		
+		<action path="/CrossBorderReport" scope="request" 
+		type="t4u.AppOnline.CrossBorderReportAction"/>
+		
+		<action path="/DashBoardAction" scope="request" 
+		type="t4u.AppOnline.DashBoardAction"/>
+		
+		<action path="/TerminalMasterAction" scope="request" 
+		type="t4u.passengerbustransportation.TerminalMasterAction"/>
+		
+		<action path="/VehicleOperationWindowAction" scope="request"
+			type="t4u.wastemanagement.VehicleOperationWindowAction" />
+		
+		<action path="/PenaltySystemAction" scope="request" 
+				type="t4u.wastemanagement.PenaltySystemAction"/>
+		
+		<action path="/LoginAction" scope="request" type="t4u.common.LoginAction"></action>	
+		
+		
+	 	<action path="/VerticalSummaryAction" scope="request" 
+				type="t4u.admin.VerticalSummaryAction"/>      
+				
+	   <action path="/CustomerMasterReportAction" scope="request" 
+				type="t4u.admin.CustomerMasterReportAction"/>    
+			
+		<action path="/SMSReportAction" scope="request" 
+				type="t4u.school.SMSReportAction"/>
+
+	   <action path="/MiningGradeMasterAction" scope="request"
+				type="t4u.ironMining.MiningGradeMasterAction" />
+   
+	    <action path="/MiningTCMasterAction" scope="request"
+			type="t4u.ironMining.MiningTCMasterAction" />  
+		
+		<action path="/MonthlyReturnsAction" scope="request"
+			type="t4u.ironMining.MonthlyReturnsAction" /> 
+					
+		<action path="/SandMiningSummaryAction" scope="request" 
+				type="t4u.admin.SandMiningSummaryAction"/> 
+				
+		<action path="/FleetMaintanceAction" scope="request" 
+				type="t4u.fleetmaintance.FleetMaintanceAction"/> 
+			
+		<action path="/RetailerMasterAction" scope="request"
+			type="t4u.coldchainlogistics.RetailerMasterAction" />
+			
+		<action path="/AssetAssociationActionColdchain" scope="request"
+			type="t4u.coldchainlogistics.RetailerAssetAssociationAction" />
+			
+		<action path="/TerminalRouteMasterAction" scope="request"
+			type="t4u.passengerbustransportation.TerminalRouteMasterAction" />
+			
+	   <action path="/PrepaidCardMaster" scope="request"
+			type="t4u.passengerbustransportation.PrepaidCardMasterAction" />
+			
+		<action path="/PassengerRateMasterAction" scope="request"
+			type="t4u.passengerbustransportation.RateMasterAction" />	
+			
+		<action path="/TripPlannerAction" scope="request"
+			type="t4u.passengerbustransportation.TripPlannerAction" />
+			
+				<action path="/PaymnetDetailsAction" scope="request"
+			type="t4u.passengerbustransportation.PassangerPaymnetDetailsAction" />				
+		
+		<action path="/TicketSummaryReportAction" scope="request"
+			type="t4u.passengerbustransportation.TicketSummaryReportAction" />				
+			
+			
+		<action path="/BillBoardObservationAction" scope="request"
+			type="t4u.OutdoorHoardings.BillBoardObservationAction" />
+				
+		<action path="/SeatingStructureAction" scope="request"
+			type="t4u.passengerbustransportation.SeatingStructureAction" />
+		
+		<action path="/RouteMasterAction" scope="request"
+			type="t4u.cargomanagement.RouteMasterAction" />	
+			
+		<action path="/ServiceVehicleAssociation" scope="request"
+			type="t4u.passengerbustransportation.ServiceVehicleAssociationAction" />
+		
+		<action path="/DashboardAction" scope="request"
+			type="t4u.coldchainlogistics.DashboardAction" />
+		
+		<action path="/MonitoringDashboardAction" scope="request"
+			type="t4u.automotivelogistics.MonitoringDashboardAction"/>
+			
+		<action path="/peakOrNonPeakReport" scope="request"
+			type="t4u.coldchainlogistics.PeakOrNonPeakHrsReportAction" />
+			
+		<action path="/SeatSelectionAction" scope="request"
+			type="t4u.passengerbustransportation.SeatSelectionAction" />
+			
+		<action path="/CancelTicketAction" scope="request"
+			type="t4u.passengerbustransportation.CancelTicketAction" />
+			<action path="/PasswordRecoveryByEmailAction" scope="request"
+			type="t4u.admin.PasswordRecoveryByEmailAction" />
+			<action path="/UpdateTripDetailsAction" scope="request"
+			type="t4u.passengerbustransportation.UpdateTripDetailsAction" />	
+			
+			<action path="/OpenTicketAction" scope="request"
+			type="t4u.passengerbustransportation.OpenTicketAction" />	
+			
+			<action path="/OutdoorHoardingsMasterAction" scope="request"
+			type="t4u.OutdoorHoardings.OutdoorHoardingsMasterAction" />	
+			
+			<action path="/ChallanDetailsAction" scope="request"
+			type="t4u.ironMining.ChallanDetailsAction" />	
+			
+			<action path="/PermitDetailsAction" scope="request"
+			type="t4u.ironMining.PermitDetailsAction" />
+			
+			<action path="/UserSettingAction" scope="request"
+			type="t4u.ironMining.UserSettingAction" />
+			
+			<action path="/UserTcAssociationAction" scope="request"
+			type="t4u.ironMining.UserTcAssociationAction" />
+			
+			<action path="/HubMaintenanceAction" scope="request"
+			type="t4u.SelfDrive.HubMaintenanceAction" />
+									
+		    <action path="/drivarPerformanceAction" scope="request"
+			type="t4u.admin.DrivarPerformanceAction" />	
+			
+			<action path="/ReconcilationAction" scope="request"
+			type="t4u.ironMining.ReconcilationAction" />	
+			
+			<action path="/SummaryDetailsAction" scope="request"
+			type="t4u.ironMining.SummaryDetailsAction" />	
+			
+			<action path="/MonthlyReturnsReportsAction" scope="request"
+			type="t4u.ironMining.MonthlyReturnsReportsAction" />	
+			
+			  <action path="/PenaltyMasterAction" scope="request"
+		    type="t4u.SelfDrive.PenaltyMasterAction" />	  
+		    
+		     <action path="/PromoCodeManagementAction" scope="request"
+		     type="t4u.SelfDrive.PromoCodeManagementAction" />	
+		     
+		     <action path="/DashboardChartsAction" scope="request"
+			type="t4u.passengerbustransportation.DashboardChartsAction" />
+			
+			<action path="/TicketDetailsAction" scope="request"
+			type="t4u.passengerbustransportation.TicketDetailsAction" />
+				
+			<action path="/InterswitchTransactionDetailsAction" scope="request"
+			type="t4u.passengerbustransportation.InterswitchTransactionDetailsAction" />
+			
+			<action path="/TransactionRequeryAction" scope="request"
+			type="t4u.passengerbustransportation.TransactionRequeryAction" />	
+			
+			<action path="/ProfitAndLossReportAction" scope="request"
+			type="t4u.passengerbustransportation.ProfitAndLossReportAction" />		
+			
+			<action path="/webVideoStreamAction" scope="request" 
+			type="t4u.sandmining.WebVideoStreamAction"/>	
+			
+			<action path="/CreateTripAction" scope="request"
+			type="t4u.cashvanmanagement.CreateTripAction" />				
+		  
+		  <action path="/RouteDetailsAction" scope="request"
+			type="t4u.cashvanmanagement.RouteDetailsAction" />
+			
+			<action path="/DriverTripDetailsAction" scope="request"
+			type="t4u.democar.DriverTripDetailsAction" />
+			
+		  <action path="/TripFeedDetailsAction" scope="request"
+			type="t4u.ironMining.TripFeedDetailsAction" />	
+			
+		  <action path="/StockYardMasterAction" scope="request"
+			type="t4u.ironMining.StockYardMasterAction" />
+			
+		  <action path="/TripSheetGenerationActionForBarge" scope="request"  
+			type="t4u.ironMining.TripSheetGenerationActionForBarge" />
+			
+	      <action path="/TripSheetGenerationForTruckAction" scope="request"  
+			type="t4u.ironMining.TripSheetGenerationForTruckAction" />
+			
+		  <action path="/MiningOrganizationMasterAction" scope="request"
+			type="t4u.ironMining.MiningOrganizationMasterAction" />	
+			
+			<action path="/HistoryAnalysisAction" scope="request"  
+			type="t4u.common.HistoryAnalysisAction" />
+			
+			<action path="/CarRentalAction" scope="request"
+			type="t4u.CarRental.CarRentalAction" />
+			
+			<action path="/FieldTamperingAction" scope="request"  
+			type="t4u.CarRental.FieldTamperingAction" />
+			
+			<action path="/MiningTraderMasterAction" scope="request"  
+			type="t4u.ironMining.MiningTraderMasterAction" />
+		    
+		    <action path="/jfTripExceptionReportAction" scope="request"
+			type="t4u.CarRental.jfTripExceptionReportAction" />
+			
+			<action path="/JetFleetTripDetailsAction" scope="request"  
+			type="t4u.CarRental.JetFleetTripDetailsAction" />
+			
+			<action path="/PlantMasterAction" scope="request"  
+			type="t4u.ironMining.PlantMasterAction" />
+		     		     
+		     <action path="/CustomerMasterAction" scope="request"
+            type="t4u.cashvanmanagement.CustomerMasterAction" />
+            
+               <action path="/QuotationMasterHistoryAction" scope="request"
+            type="t4u.cashvanmanagement.QuotationMasterHistoryAction" />
+              
+              <action path="/StationaryMasterAction" scope="request"
+            type="t4u.cashvanmanagement.StationaryMasterAction" /> 
+            
+              <action path="/CashInwardAction" scope="request"
+            type="t4u.cashvanmanagement.CashInwardAction" /> 
+            
+            
+            	<action path="/quotation" type="org.apache.struts.actions.ForwardAction" parameter="/Jsps/CashVanManagement/QuotationMaster.jsp"/>
+		     		<action path="/quoteFor" scope="request" type="t4u.cashvanmanagement.QuotationAction" />
+		     		
+		     <action path="/WeighbridgeMasterAction" scope="request"  
+		 	type="t4u.ironMining.WeighbridgeMasterAction" />
+			
+			<action path="/DMGDashBoardAction" scope="request"
+			type="t4u.ironMining.DMGDashBoardAction" />		
+			
+		     <action path="/VehicleZoneAssociation" scope="request" 
+            type="t4u.distributionlogistics.VehicleZoneAssociationAction" />
+            
+            <action path="/serviceStnMakeAssocAction" scope="request"  
+			type="t4u.CarRental.serviceStnMakeAssocAction" />
+			
+			<action path="/MiningTimes" scope="request"
+			type="t4u.ironMining.MiningTimeSettingAction" />	
+			
+			<action path="/StoppageReportAction" scope="request"
+			type="t4u.distributiveLogistics.StoppageReportAction" />	
+			
+			<action path="/PTFuelLogAction" scope="request"
+			type="t4u.containercargomanagement.PTFuelLogAction" />
+						
+			<action path="/PermitWiseTripSheets" scope="request"
+			type="t4u.ironMining.PermitWiseTripSheetsAction" />	
+			
+			<action path="/VehicleStatusAction" scope="request"
+			type="t4u.ironMining.VehicleStatusAction" />	
+			
+			<action path="/VehicleDeletionReregistration" scope="request"
+			type="t4u.admin.VehicleDeletionReregistration" />	
+			
+			<action path="/MiningReportsAction" scope="request"
+			type="t4u.ironMining.MiningReportsAction" />				
+			
+			<action path="/TripHistoryAction" scope="request"
+			type="t4u.containercargomanagement.TripHistoryAction" />	     
+		    
+		    <action path="/ArmoryAction" scope="request" 
+		    type="t4u.cashvanmanagement.ArmoryMasterAction" />	
+		    
+		    <action path="/profitAndLossPath" scope="request"
+		    type="t4u.containercargomanagement.ProfitAndLossAction"/>  
+		    
+		    <action path="/CashBookAction" scope="request"
+			type="t4u.containercargomanagement.CashBookAction" />
+			
+			<action path="/StationaryAction" scope="request"
+			type="t4u.cashvanmanagement.StationaryIssuanceAction" />
+			
+			<action path="/VehicleLedgerAction" scope="request"
+			type="t4u.containercargomanagement.VehicleLedgerAction" />
+			
+			<action path="/cashBookReportAction" scope="request"
+			type="t4u.containercargomanagement.CashBookReportAction" />
+			
+			<action path="/PowerConnectionReportAction" scope="request"
+			type="t4u.CarRental.PowerConnectionReportAction" />
+			
+			<action path="/cashDispenseAction" scope="request"
+			type="t4u.cashvanmanagement.CashDispenseAction"/>
+			
+			<action path="/GpsTamperedCrossBorderAction" scope="request"
+			type="t4u.CarRental.GpsTamperedCrossBorderAction" />
+			
+			<action path="/VesselMasterAction" scope="request"  
+			type="t4u.ironMining.VesselMasterAction" />
+			
+			<!--			<action path="/ReprocessActivityAction" scope="request"-->
+<!--			type="t4u.admin.ReprocessActivityAction"/>-->
+
+			<action path="/createLandmarkAction" scope="request"
+			type="t4u.common.CreateLandmarkAction"/>
+			
+			<action path="/VehicleStatusReportsAction" scope="request"
+			type="t4u.automotivelogistics.VehicleStatusReportsAction"/>	
+			
+			<action path="/MiningRouteMasterAction" scope="request"
+			type="t4u.ironMining.MiningRouteMasterAction"/>
+			
+			<action path="/CashBookAppRejAction" scope="request"
+			type="t4u.containercargomanagement.CashBookApproveRejectAction" />
+			
+			<action path="/AdwiseManagement" scope="request"
+			type="t4u.admin.AdwiseManagementAction" />
+			
+			<action path="/masterApproveRejectAction" scope="request"
+			type="t4u.containercargomanagement.MasterApproveRejectAction"/>
+			
+			<action path="/LotMasterAction" scope="request"
+			type="t4u.ironMining.LotMasterAction"/>
+			
+			<action path="/UserAuthorityAction" scope="request"
+			type="t4u.cashvanmanagement.UserAuthorityAction"/>
+			
+			<action path="/editLandmarkAction" scope="request"
+			type="t4u.common.EditLandmarkAction"/>
+			
+			<action path="/PermitReportAction" scope="request"
+			type="t4u.ironMining.PermitReportAction"/>
+			
+			<action path="/milkDistributionAction" scope="request"
+			type="t4u.MilkDistributionAction.MilkDitributionAction" />
+			
+			<action path="/ProcessingFeeMaster" scope="request"
+			type="t4u.ironMining.ProcessingFeeMaster"/>
+			
+			<action path="/TripSheetSummaryAction" scope="request"
+			type="t4u.ironMining.TripSheetSummaryAction"/>
+						
+			<action path="/sumarrtInvoicePTAction" scope="request"
+			type="t4u.containercargomanagement.SumarryInvoicePTAction"/>
+			
+			<action path="/OverSpeedDebarringAction" scope="request"
+			type="t4u.ironMining.OverSpeedDebarringAction"/>
+			
+			<action path="/MotherRouteMasterAction" scope="request"
+			type="t4u.ironMining.MotherRouteMasterAction"/>
+			
+			<action path="/MiningDMFAction" scope="request"
+			type="t4u.ironMining.MiningDMFAction"/>
+			
+			<action path="/RouteDensityAction" scope="request"
+			type="t4u.ironMining.RouteDensityAction"/>
+			
+			<action path="/OBDAction" scope="request"
+			type = "t4u.obd.OBDActions"/>
+						
+			<action path="/SccAction" scope="request" 
+			  type="t4u.admin.SccAction"/>
+			
+			<action path="/ProductionMasterAction" scope="request"
+			type="t4u.ironMining.ProductionMasterAction"/>
+			
+			<action path="/ILMSDayWiseDataCapturingAction" scope="request"
+			type="t4u.sandmining.ILMSDayWiseDataCapturingAction" />
+			
+			<action path="/ILMS_MDP_GenetationAction" scope="request" 
+			type="t4u.sandmining.ILMS_MDP_GenetationAction"/>
+
+			<action path="/hubArrivalDep" scope="request" 
+			type="t4u.common.TripWiseHubArrivalAndDepartureAction"/>
+			
+			<action path="/RakeShiftBookingAction" scope="request"
+			type="t4u.containercargomanagement.RakeShiftBookingAction"/>
+			
+			<action path="/RakeExpenseMasterAction" scope="request"
+			type="t4u.containercargomanagement.RakeExpenseMasterAction" />
+			
+			<action path="/RakeTripCreationAction" scope="request"
+			type="t4u.containercargomanagement.RakeTripCreationAction"/>
+			
+			<action path="/FMSDashBoardAction" scope="request"
+			type="t4u.fleetmaintance.FMSDashBoardAction" />
+			
+			<action path="/HBAnalysisGraphAction" scope="request"
+			type="t4u.CarRental.MileageandHBAnalyticAction" />
+			
+			<action path="/HubSummaryReportAction" scope="request"
+			type="t4u.HubReport.HubArrivalDepartureReportAction" />
+			
+			<action path="/Sand_TP_Report_Action" scope="request" 
+			type="t4u.sandmining.Sand_Mining_Yearly_Report_Action"/>
+			
+			<action path="/LTSP_Subscription_Payment_Action" scope="request"
+			type="t4u.admin.LTSP_Subscription_Payment_Action" />
+			
+			<action path ="/FMSExtJobCardSettingsAction" scope="request"
+			type="t4u.fleetmaintance.FMSExtJobCardSettingsAction" />
+			
+			<action path="/VehicleSubscriptionAction" scope="request" 
+			type="t4u.sandmining.VehicleSubscriptionAction"/>
+			
+			<action path="/TripCreatAction" scope="request"
+			type="t4u.trip.TripCreatAction"/>	
+			
+			<action path="/routeCreationAction" scope="request"
+			type="t4u.common.RouteCreationAction"/>
+			
+			<action path="/tripDashBoardAction" scope="request" 
+			type="t4u.GeneralVertical.TripDashBoardAction"/>
+			
+			<action path="/khimjiTripCreationAction" scope="request" 
+			type="t4u.LoadAndRoutePlanner.LoadAndTripPlannerAction"/>
+			
+			<action path="/TPOwnerAssetAssociationAction" scope="request" 
+			type="t4u.sandmining.TPOwnerAssetAssociationAction"/>
+							
+			<action path="/VehicleHealthEngineAction" scope="request"
+			type="t4u.VehicleHealthEngine.VehicleHealthEngineAction"/>
+			
+			<action path="/vehicleHealthParameterSettingAction" scope="request"
+			type="t4u.common.VehicleHealthParameterSettingAction"/>
+			
+			<action path="/SandMDPTimeSettingAction" scope="request"
+			type="t4u.sandmining.SandMDPTimeSettingAction"/>
+			
+			<action path="/rs232AssociationAction" scope="request"
+			type="t4u.GeneralVertical.RS232AssociationAction"/>
+			
+			<action path="/SandExcavationReportAction" scope="request"
+			type="t4u.sandmining.SandExcavationReportAction"/>
+			
+			<action path="/SandBoatReconciliationReportAction" scope="request"
+			type="t4u.sandmining.SandBoatReconciliationReportAction"/>
+			
+			<action path="/Issue_MDP_ReprintAction" scope="request"
+			type="t4u.sandmining.Issue_MDP_ReprintAction"/>
+			
+			<action path="/IndentMasterDetails" scope="request" 
+			type="t4u.distributionlogistics.IndentMasterDetails"/>
+			
+			<action path="/MiddleMileDashboardAction" scope="request"
+			type="t4u.distributionlogistics.MiddleMileDashboardAction"/>
+			
+			<action path="/DriverScoreParameterSettingAction" scope="request"
+			type="t4u.GeneralVertical.DriverScoreParameterSettingAction"/>
+			
+			<action path="/TripMasterDetails" scope="request" 
+			type="t4u.GeneralVertical.TripMasterDetails"/>
+			
+			<action path="/LegCreationAction" scope="request" 
+			type="t4u.GeneralVertical.LegCreationAction"/>
+			
+<!--			<action path="/EESL/PublicView1" type="org.apache.struts.actions.ForwardAction" parameter="/Jsps/EESL/EVehicleDashboard1.jsp"/>-->
+<!--			<action path="/EESL/PublicView2" type="org.apache.struts.actions.ForwardAction" parameter="/Jsps/EESL/EVehicleDashboard2.jsp"/>-->
+			<action path="/EESL/PublicView" type="org.apache.struts.actions.ForwardAction" parameter="/Jsps/EESL/EVehicleDashboard3.jsp"/>
+			<action path="/PublicViewAction" type="t4u.PublicView.PublicViewAction" scope="request"/>
+
+        	<action path="/UserCustomerAssociationAction" scope="request" 
+			type="t4u.GeneralVertical.UserCustomerAssociationAction"/>
+			
+			<action path="/VehicleMaintenanceAction" scope="request" 
+			type="t4u.GeneralVertical.VehicleMaintenanceAction"/>
+			
+			<action path="/LegDetailsExportAction" scope="request" 
+			type="t4u.trip.LegDetailsExportAction"/>
+        
+        	<action path="/ReportBuilderAction" scope="request" 
+			type="t4u.GeneralVertical.ReportBuilderAction"/>
+			
+			<action path="/VehiclePauseTimeAction" scope="request" 
+			type="t4u.sandmining.VehiclePauseTimeAction"/>
+			
+			<action path="/UnitMessageUnionAction" scope="request" 
+			type="t4u.admin.UnitMessageUnionAction"/>
+			
+			<action path="/CashVanReportAction" scope="request" 
+			type="t4u.cashvanmanagement.CashVanReportAction"/>
+			
+			<action path="/MobileyeActivityAction" scope="request" 
+			type="t4u.CarRental.MobileyeAction"/>
+			
+			<action path="/MaterialMasterAction" scope="request" 
+            type="t4u.GeneralVertical.MaterialMasterAction"/>
+            
+            <action path="/TemperatureReportAction" scope="request" 
+            type="t4u.GeneralVertical.TemperatureReportAction"/>
+            
+            <action path="/QTPAction" scope="request" 
+            type="t4u.GeneralVertical.QTPAction"/>
+                       
+            <action path="/SandTSMDCAction" scope ="request"
+           	type="t4u.sandminingTsmdc.SandTSMDCAction"/>
+           	
+           	 <action path="/GeneralVerticalDashboardAction" scope ="request"
+           	type="t4u.GeneralVertical.DashboardAction"/>
+           	
+           	<action path="/TripBasedReportAction" scope ="request"
+           	type="t4u.GeneralVertical.TripBasedReportAction"/>
+           	
+           	<action path="/SensorHealthDashboardAction" scope ="request"
+           	type="t4u.GeneralVertical.SensorHealthDashboardAction"/>
+           	
+           	<action path="/DTSReportsAction" scope ="request"
+           	type="t4u.GeneralVertical.DTSReportsAction"/>
+           	
+           	           	
+           	<action path="/SmartHubDashboardAction" scope ="request"
+           	type="t4u.GeneralVertical.SmartHubDashboardAction"/>
+           	
+           	<action path="/SemiAutoTripAction" scope ="request"
+           	type="t4u.semiautomatedtrip.SemiAutoTripAction"/>
+           	
+           	<action path="/CTDashboardAction" scope ="request"
+           	type="t4u.GeneralVertical.CTDashboardAction"/>
+           	
+           	<action path="/IButtonReportAction" scope ="request"
+           	type="t4u.GeneralVertical.IButtonReportAction"/>
+           	
+           	<action path="/TripDetailSummaryAction" scope ="request"
+           	type="t4u.GeneralVertical.TripDetailSummaryAction"/>
+           	
+           	
+           	<action path="/JSMDCDashboardAction" scope ="request"
+           	type="t4u.sandmining.JSMDCDashboardAction"/>
+           	
+           	<action path="/SelfDriveCarDashboardAction" scope ="request"
+           	type="t4u.selfDriveCars.SelfDriveCarDashboardAction"/>
+        	
+	</action-mappings>
+
+	<message-resources parameter="com.t4u.struts.ApplicationResources" />
+</struts-config>
+

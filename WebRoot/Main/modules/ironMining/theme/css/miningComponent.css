@@ -1,0 +1,35 @@
+.labelstylenew {
+spacing: 10px;
+height: 20px;
+width: 150 px !important;
+min-width: 150px !important;
+margin-bottom: 5px !important;
+margin-left: 5px !important;
+font-size: 15px;
+font-family: sans-serif;
+}
+
+.selectstylePerfectnew{
+listwidth: 120px !important;
+max-listwidth: 120px !important;
+min-listwidth: 120px !important;
+margin: 0px 0px 5px 5px !important;
+font-size: 14px !  important;
+}
+
+.my-fieldset .x-fieldset-header {
+    font-size: 14px
+}
+.ext-strict .x-form-text 
+ 	{
+  width: 180px
+   }
+.x-window-tl .x-window-header {
+   height: 30px !important;
+   padding-top: 12px;
+   font-size: 15px;
+}
+.x-window-header-text {
+   font-size: 16px;
+}
+

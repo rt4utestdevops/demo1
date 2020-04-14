@@ -1,0 +1,566 @@
+#wrapper {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+#leftcolumn {
+    float: left;
+    color: white;
+    width: 600px;
+    background-color: white;
+    margin-left: 135px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 25px;
+}
+#rightcolumn {
+    float: right;
+    color: black;
+    width: 250px;
+    background-color: white;
+    border-style: solid black;
+    border-width: 1px;
+    text-align: left;
+    margin-right: 190px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 30px;
+}
+
+@media(max-width:1024px) {
+	#rightcolumn{
+	float: right;
+    color: black;
+    width: 250px;
+    background-color: white;
+    border-style: solid black;
+    border-width: 1px;
+    text-align: left;
+    margin-right: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 30px;	
+	}
+	#leftcolumn{
+	float: left;
+    color: white;
+    width: 600px;
+    background-color: white;
+    margin-left: 0px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 25px;	
+	}
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+    width: 150px;
+}
+ul#menu li {
+    height: 70px;
+    width: 150px;
+    background-color: white;
+}
+ul#menu li a {
+    mrgin-top: 20px;
+    width: 160px;
+    background-color: #e24648;
+    padding: 18px 25px 20px 20px;
+    margin-left: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    text-align: center;
+}
+ul#menu li a:hover {
+    color: white;
+    background-color: #d0100c;
+}
+.validation {
+    background-color: #eee;
+    width: 280px;
+    min-height: 30px;
+    padding: 10px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    border-radius: 2px;
+}
+.firstHeading {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 16px;
+    color: white;
+    background-color: #e24648;
+    height: 10px;
+    text-align: left;
+    text-outline: thickness blur color;
+    padding-top: 10px;
+}
+.istructions {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 12px;
+    outline: none;
+    color: white;
+    background-color: #e24648;
+    height: 16px;
+    text-align: right;
+    padding-right: 100px;
+    border-bottom: solid #e24648;
+}
+.journeydetailsHeading {
+    background-color: #337ab7;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 16px;
+    outline: none;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.journeydetailsHeading:hover {
+    color: white;
+    background-color: #337ab7;
+}
+.onwardAndBackwardJoudetails {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 12px;
+    outline: none;
+    color: black;
+    text-decoration: underline;
+}
+.onwardAndBackwardJoudetails:hover {
+    background-color: white;
+}
+.textcolors {
+    color: black;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    text-align: left;
+}
+.textcolor {
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 2px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+}
+.inavalidcouponclass {
+    color: red;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 2px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+}
+.phonecolor {
+    color: black;
+    margin-right: 8px;
+    margin-left: 10px;
+    box-shadow: 2px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+}
+.nameboxsize {
+    height: 40px;
+    border-width: 1px;
+    border-color: #337ab7;
+    border-style: solid;
+    width: 186px;
+    margin-right: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    background-color: #F8F8F8;
+}
+.nameboxsize:focus {
+    border-color: #337ab7;
+    box-shadow: 0px 0px 10px #337ab7;
+}
+.genderadiosize {
+    height: 10px;
+    width: 30px;
+    margin-right: 15px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    margin-bottom: 20px;
+}
+.genderadiosize:focus {
+    border-color: #337ab7;
+    box-shadow: 0px 0px 10px #337ab7;
+}
+.ageboxsize {
+    height: 40px;
+    font-size: 12px;
+    width: 100px;
+    margin-right: 15px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    border-width: 1px;
+    margin-bottom: 20px;
+    border-color: #337ab7;
+    border-style: solid;
+    background-color: #F8F8F8;
+}
+.ageboxsize:focus {
+    border-color: #337ab7;
+    box-shadow: 0px 0px 10px #337ab7;
+}
+.phoneboxsize {
+    height: 40px;
+    width: 134px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    border-color: #337ab7;
+    margin-right: 20px;
+    background-color: #F8F8F8;
+}
+.phoneboxsize:focus {
+    border-color: #337ab7;
+    box-shadow: 0px 0px 10px #337ab7;
+}
+.emailboxsize {
+    height: 40px;
+    width: 193px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    margin-right: 16px;
+    border-color: #337ab7;
+    background-color: #F8F8F8;
+}
+.emailboxsize:focus {
+    border-color: #337ab7;
+    box-shadow: 0px 0px 10px #337ab7;
+}
+.countrycodesize {
+    height: 40px;
+    font-size: 12px;
+    width: 69px;
+    margin-right: 10px;
+    border-width: 1px 1px 1px 1px;
+    margin-bottom: 20px;
+    border-color: #337ab7;
+    border-style: solid;
+    background-color: #F8F8F8;
+}
+countrycodesize:focus {
+    border-color: #337ab7;
+    box-shadow: 0px 0px 10px #337ab7;
+}
+.Paymentdetails {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 16px;
+    color: #337ab7;
+    background-color: white;
+    height: 17px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    margin-left: 20px;
+}
+.Paymentdetails:hover {
+    color: black;
+}
+.grandtotal {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 16px;
+    color: white;
+    background-color: #337ab7;
+    height: 35px;
+    text-align: center;
+    align: center;
+    padding: 15px 4px 4px 4px;
+    width: 392px;
+    margin-top: 7px;
+}
+.grandtotal:hover {
+    background-color: #337ab7;
+    color: white;
+}
+.innerleftcolumn {
+    color: black;
+    background-color: white;
+    margin-left: 12px;
+    float: left;
+    width: 100px;
+    padding: 25px 1px 1px 1px;
+}
+.innerrightcolumn {
+    color: black;
+    background-color: #F8F8F8;
+    width: 400px;
+    float: right;
+    margin-right: 17px;
+}
+.creditcardlabel {
+    padding-right: 11px;
+}
+.debitcardlabel {
+    padding-right: 10px;
+}
+.cashboxlabel {
+    padding-right: 2px;
+}
+.directcashlabel {
+    padding-right: 26px;
+    padding-left: 24px;
+}
+.netbankinglabel {
+    padding-right: 7px;
+}
+.couponcodeboxsize {
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    border-width: 1px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    border-color: #337ab7;
+    border-style: solid;
+    background-color: #F8F8F8;
+}
+.couponcodeboxsize:focus {
+    border-color: #337ab7;
+    box-shadow: 0px 0px 10px #337ab7;
+}
+.couponcodelabel {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    color: black;
+    margin-right: 42px;
+    margin-left: 0px;
+    box-shadow: 2px;
+    font-size: 12px;
+}
+.emailidlabel {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    color: black;
+    margin-right: 10px;
+    margin-left: 4px;
+    box-shadow: 2px;
+    font-size: 12px;
+    padding-right: 57px;
+}
+.selectcardtypelabel {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    color: black;
+    text-align: left;
+    box-shadow: 2px;
+    font-size: 12px;
+    padding-right: 45px;
+}
+.firsttypelogo {
+    text-align: left;
+    margin-left: 10px;
+}
+.cashcouponOk {
+    width: 100px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-width: 3px;
+    border-color: #e24648;
+    background-color: #e24648;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 12px;
+}
+.cashcouponNo {
+    width: 100px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-width: 3px;
+    color: white;
+    border-color: #e24648;
+    background-color: #e24648;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    font-size: 12px;
+}
+.cashcouponNo:hover {
+    background-color: #d0100c;
+    color: white;
+}
+.cashcouponOk:hover {
+    background-color: #d0100c;
+    color: white;
+}
+.paymentModeIstructions {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    color: #337ab7;
+    box-shadow: 2px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.paymentModeIstructions:hover {
+    color: grey;
+}
+.required {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+.timer {
+    color: black;
+}
+.textcolorinvalid {
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 2px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+}
+.mandatory {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+.nameboxsize:hover {
+    border-color: #337ab7;
+    background-color: white;
+}
+.ageboxsize:hover {
+    border-color: #337ab7;
+    background-color: white;
+}
+.phoneboxsize:hover {
+    border-color: #337ab7;
+    background-color: white;
+}
+.emailboxsize:hover {
+    border-color: #337ab7;
+    background-color: white;
+}
+.countrycodesize:hover {
+    border-color: #337ab7;
+    background-color: white;
+}
+.couponcodeboxsize:hover {
+    border-color: #337ab7;
+    background-color: white;
+}
+.checkboxcss {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+}
+.couponcodelabelbox {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sas', sans-serif !important;
+    color: black;
+    margin-right: 37px;
+    margin-left: 0px;
+    box-shadow: 2px;
+    font-size: 12px;
+}
+#loadingMessage {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: #fff;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    line-height: 670px;
+    text-align: center;
+    opacity: .5;
+    background-image: url(/ApplicationImages/ApplicationButtonIcons/loader.gif) !important;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-position: 100% 100%;
+}
+#myDialogText {
+    font-size: 16 px;
+    font-family: 'Open Sas' sans-serif !important;
+}
+.ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #337ab7;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.ui-state-default {
+    border: 1px solid #d3d3d3 !Important;
+    font-weight: normal !Important;
+    color: #fff !Important;
+    background: #e24648 !Important;
+}
+.ui-state-hover {
+    background-color: #d0100c !Important;
+    color: #fff !Important;
+}

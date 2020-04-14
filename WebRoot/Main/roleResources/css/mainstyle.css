@@ -1,0 +1,298 @@
+html, body, header, .view {
+	height: 100%;
+}
+
+body {
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+}
+
+.rightEnd {
+	float: right;
+}
+
+@media ( max-width : 740px) {
+	html, body, header, .view {
+		height: 1000px;
+	}
+}
+
+@media ( min-width : 800px) and (max-width: 850px) {
+	html, body, header, .view {
+		height: 650px;
+	}
+}
+
+@media ( min-width : 800px) and (max-width: 850px) {
+	.navbar
+	:not
+	 
+	(
+	.top-nav-collapse
+	 
+	)
+	{
+	background
+	:
+	 
+	#1C2331
+	 
+	!
+	important
+	;
+	
+	
+}
+
+}
+.form-elegant .font-small {
+	font-size: 0.8rem;
+}
+
+.form-elegant .z-depth-1a {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0
+		rgba(121, 155, 254, 0.25);
+	box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0
+		rgba(121, 155, 254, 0.25);
+}
+
+.form-elegant .z-depth-1-half, .form-elegant .btn:hover {
+	-webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0
+		rgba(36, 133, 255, 0.15);
+	box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0
+		rgba(36, 133, 255, 0.15);
+}
+
+.form-elegant .modal-header {
+	border-bottom: 1px solid;
+	padding: 8px 24px;
+}
+
+.form-elegant .modal-title {
+	margin: 0px !important;
+	color: white !important;
+}
+
+.modal-dialog .form-elegant .btn .fab {
+	color: #2196f3 !important;
+}
+
+.form-elegant .modal-body, .form-elegant .modal-footer {
+	font-weight: 400;
+}
+
+.form-elegant .green-gradient {
+	background: linear-gradient(40deg, #2BBBAD, #00C851) !important;
+	width: 250px !important;
+}
+
+.saveBtn {
+	display: flex;
+	justify-content: center;
+}
+
+.modal-content {
+	border-radius: 8px !important;
+}
+
+.modal-dialog {
+	max-width: 88% !important;
+	border-radius: 4px !Important
+}
+
+.saveModal {
+	color: white;
+	padding-top: 4px;
+	cursor: pointer;
+}
+
+.closeModal {
+	color: red;
+	padding-top: 4px;
+	padding-left: 16px;
+	cursor: pointer;
+}
+
+label.myLabel input[type="file"] {
+	position: absolute;
+	top: -1000px;
+}
+
+/***** Example custom styling *****/
+.myLabel {
+	background: none;
+	display: inline-block;
+	position: absolute;
+	right: 56px;
+	cursor: pointer;
+}
+
+.downloadClass {
+	position: absolute;
+	right: 16px;
+	color: white;
+	cursor: pointer;
+}
+
+.required {
+	color: red;
+}
+
+.modal-header {
+	background: #5873a0;
+	border-top-left-radius: 8px !important;
+	border-top-right-radius: 8px !important;
+}
+
+select {
+	display: block !important;
+	width: 100% !important;
+	border-radius: 4px !important;
+	height: 28px !important;
+	margin-top: 4px !important;
+}
+
+.select2-container, .select2-container.select2-dropdown-open {
+	width: 100% !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 8px
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 8px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.whiteIcon {
+	color: white;
+}
+
+.pad16 {
+	padding-left: 16px;
+}
+
+.md-form {
+	margin-top: 0.5rem !important;
+	margin-bottom: 0rem !important
+}
+
+.pb-3 {
+	padding-bottom: 0px !important;
+	height: 60px !important;
+}
+
+.select2-selection, select {
+	border-top: 0px !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	border-radius: 0px !important;
+	margin-bottom: -24px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container--default .select2-selection--multiple .select2-selection__rendered
+	{
+	padding-left: 0px !important;
+	color: #757579 !important;
+}
+
+.hrActive {
+	border: 1px solid red;
+}
+
+.dispNone {
+	display: none !important;
+}
+
+.modWidth {
+	width: 250px !important
+}
+
+.colorStatusActive {
+	color: #D32F2F;
+	cursor: pointer;
+	padding-left: 16px;
+}
+
+.colorStatusInactive {
+	color: grey;
+	cursor: pointer;
+	padding-left: 16px;
+}
+
+.visibilityNone {
+	visibility: hidden;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button
+	{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+
+.profDiv {
+	position: fixed;
+	border-radius: 4px;
+	background: white;
+	right: 16px;
+	width: 200px;
+	height: 80px;
+	padding: 16px;
+	top: 56px;
+	z-index: 1000;
+}
+
+.toggleDivColor {
+	color: #212529 !important;
+}
+
+.edit, .delete {
+	padding: 8px 16px;
+}
+
+.greenBorder {
+	border: 1px solid #22968A;
+}
+
+.dt-buttons {
+	float: left;
+}
+
+.fa-2x-custom {
+	font-size: 1.5em !important;
+}
+
+.iconTable {
+	color: #3F51B5;
+	cursor: pointer;
+	margin-right: 8px;
+	float: right;
+}
+.iconTableInfo {
+	color: #3F51B5;
+	cursor: pointer;
+	float: right;
+}
+
+.highlight {
+  background: #ef7f7f !important;
+  color:white !important;
+}
+
