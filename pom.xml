@@ -240,7 +240,7 @@
 <dependency>
 	<groupId>struts</groupId>
 	<artifactId>struts</artifactId>
-	<version>1.0</version>
+	<version>1.2.9</version>
 	<scope>system</scope>
 	<systemPath>${project.basedir}/WebRoot/WEB-INF/lib/struts.jar</systemPath>
 </dependency>
